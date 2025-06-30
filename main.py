@@ -9,7 +9,7 @@ def use_escape(s: str) -> str:
     return repr(s)[1:-1]
 
 
-def main() -> str | None:
+def build() -> tuple[str, dict[str, int], list[dict]]:
     constants: dict[str, int] = {}
     controls: list[dict] = []
 
@@ -22,9 +22,15 @@ def main() -> str | None:
         elif isinstance(attr, int):
             constants[attr_name] = attr
 
+    return use_escape(ansi.ANSIControl.CSI), constants, controls
+
+
+def main() -> str | None:
+    control_sequence_introducer, constants, controls = build()
+
     print(f"{len(constants)} constants and {len(controls)} controls")
     export = {
-        "control_sequence_introducer": use_escape(ansi.ANSIControl.CSI),
+        "control_sequence_introducer": control_sequence_introducer,
         "constants": constants,
         "controls": controls
     }
