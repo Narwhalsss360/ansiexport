@@ -1,0 +1,184 @@
+{
+    "control_sequence_introducer": "\\x1b[",
+    "constants": {
+        "BACKGROND_BLACK": 40,
+        "BACKGROND_BLUE": 44,
+        "BACKGROND_CYAN": 46,
+        "BACKGROND_DEFAULT": 48,
+        "BACKGROND_GREEN": 42,
+        "BACKGROND_MAGENTA": 45,
+        "BACKGROND_RED": 41,
+        "BACKGROND_WHITE": 47,
+        "BACKGROND_YELLOW": 43,
+        "ERASE_IN_DISPLAY_ALL": 2,
+        "ERASE_IN_DISPLAY_TO_BEGINNING": 1,
+        "ERASE_IN_DISPLAY_TO_END": 0,
+        "ERASE_IN_LINE_ALL": 2,
+        "ERASE_IN_LINE_BEGINNING": 1,
+        "ERASE_IN_LINE_END": 0,
+        "FOREGROND_BLACK": 30,
+        "FOREGROND_BLUE": 34,
+        "FOREGROND_CYAN": 36,
+        "FOREGROND_DEFAULT": 38,
+        "FOREGROND_GREEN": 32,
+        "FOREGROND_MAGENTA": 35,
+        "FOREGROND_RED": 31,
+        "FOREGROND_WHITE": 37,
+        "FOREGROND_YELLOW": 33,
+        "SCR_RESET": 0,
+        "SET_BLINKING_MODE": 5,
+        "SET_BOLD_MODE": 1,
+        "SET_DIM_MODE": 2,
+        "SET_INVERSE_MODE": 7,
+        "SET_INVISIBLE_MODE": 8,
+        "SET_ITALIC_MODE": 3,
+        "SET_STRIKETHROUGH_MODE": 9,
+        "SET_UNDERLINE_MODE": 4
+    },
+    "controls": [
+        {
+            "name": "AUX_PORT_OFF",
+            "sequence": "4i",
+            "no_of_arguments": 0,
+            "no_of_default_arguments": 0
+        },
+        {
+            "name": "AUX_PORT_ON",
+            "sequence": "5i",
+            "no_of_arguments": 0,
+            "no_of_default_arguments": 0
+        },
+        {
+            "name": "CURSOR_BACK",
+            "sequence": "D",
+            "no_of_arguments": 1,
+            "no_of_default_arguments": 1
+        },
+        {
+            "name": "CURSOR_DOWN",
+            "sequence": "B",
+            "no_of_arguments": 1,
+            "no_of_default_arguments": 1
+        },
+        {
+            "name": "CURSOR_FORWARD",
+            "sequence": "C",
+            "no_of_arguments": 1,
+            "no_of_default_arguments": 1
+        },
+        {
+            "name": "CURSOR_HORIZONTAL_ABSOLUTE",
+            "sequence": "G",
+            "no_of_arguments": 1,
+            "no_of_default_arguments": 1
+        },
+        {
+            "name": "CURSOR_NEXT_LINE",
+            "sequence": "E",
+            "no_of_arguments": 1,
+            "no_of_default_arguments": 1
+        },
+        {
+            "name": "CURSOR_POSITION",
+            "sequence": "H",
+            "no_of_arguments": 2,
+            "no_of_default_arguments": 0
+        },
+        {
+            "name": "CURSOR_PREVIOUS_LINE",
+            "sequence": "F",
+            "no_of_arguments": 1,
+            "no_of_default_arguments": 1
+        },
+        {
+            "name": "CURSOR_UP",
+            "sequence": "A",
+            "no_of_arguments": 1,
+            "no_of_default_arguments": 1
+        },
+        {
+            "name": "DEVICE_STATUS_REPORT",
+            "sequence": "6n",
+            "no_of_arguments": 0,
+            "no_of_default_arguments": 0
+        },
+        {
+            "name": "ERASE_IN_DISPLAY",
+            "sequence": "J",
+            "no_of_arguments": 1,
+            "no_of_default_arguments": 1
+        },
+        {
+            "name": "ERASE_IN_LINE",
+            "sequence": "K",
+            "no_of_arguments": 1,
+            "no_of_default_arguments": 1
+        },
+        {
+            "name": "HIDE_CURSOR",
+            "sequence": "?25l",
+            "no_of_arguments": 0,
+            "no_of_default_arguments": 0
+        },
+        {
+            "name": "HORIZONTAL_VERTICAL_POSITION",
+            "sequence": "f",
+            "no_of_arguments": 2,
+            "no_of_default_arguments": 0
+        },
+        {
+            "name": "INSERT_NEW_LINE",
+            "sequence": "L",
+            "no_of_arguments": 0,
+            "no_of_default_arguments": 0
+        },
+        {
+            "name": "REMOVE_CHARACTER",
+            "sequence": "P",
+            "no_of_arguments": 0,
+            "no_of_default_arguments": 0
+        },
+        {
+            "name": "REMOVE_LINE",
+            "sequence": "M",
+            "no_of_arguments": 0,
+            "no_of_default_arguments": 0
+        },
+        {
+            "name": "RESTORE_SAVED_CURRENT_CURSOR_POSITION",
+            "sequence": "u",
+            "no_of_arguments": 0,
+            "no_of_default_arguments": 0
+        },
+        {
+            "name": "SAVE_CURRENT_CURSOR_POSITION",
+            "sequence": "s",
+            "no_of_arguments": 0,
+            "no_of_default_arguments": 0
+        },
+        {
+            "name": "SCROLL_DOWN",
+            "sequence": "S",
+            "no_of_arguments": 1,
+            "no_of_default_arguments": 1
+        },
+        {
+            "name": "SCROLL_UP",
+            "sequence": "T",
+            "no_of_arguments": 1,
+            "no_of_default_arguments": 1
+        },
+        {
+            "name": "SELECT_CHARACTER_RENDITION",
+            "sequence": "m",
+            "no_of_arguments": 3,
+            "no_of_default_arguments": 3
+        },
+        {
+            "name": "SHOW_CURSOR",
+            "sequence": "?25h",
+            "no_of_arguments": 0,
+            "no_of_default_arguments": 0
+        }
+    ]
+}
