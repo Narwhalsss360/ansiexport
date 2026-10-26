@@ -1,184 +1,2227 @@
-{
-    "control_sequence_introducer": "\\x1b[",
+[
+  {
+    "col": 0,
+    "row": 0,
+    "abbreviation": "NUL",
+    "name": "NULL",
+    "description": "Used as a fill character for time delay or to represent an empty position.",
+    "argument_count": 0,
+    "default_arguments": null,
+    "set": "C0"
+  },
+  {
+    "col": 0,
+    "row": 1,
+    "abbreviation": "SOH",
+    "name": "START OF HEADING",
+    "description": "Indicates the beginning of a sequence of characters containing an address or routing information.",
+    "argument_count": 0,
+    "default_arguments": null,
+    "set": "C0"
+  },
+  {
+    "col": 0,
+    "row": 2,
+    "abbreviation": "STX",
+    "name": "START OF TEXT",
+    "description": "Indicates the beginning of a text and terminates a heading.",
+    "argument_count": 0,
+    "default_arguments": null,
+    "set": "C0"
+  },
+  {
+    "col": 0,
+    "row": 3,
+    "abbreviation": "ETX",
+    "name": "END OF TEXT",
+    "description": "Indicates the end of a text started by STX.",
+    "argument_count": 0,
+    "default_arguments": null,
+    "set": "C0"
+  },
+  {
+    "col": 0,
+    "row": 4,
+    "abbreviation": "EOT",
+    "name": "END OF TRANSMISSION",
+    "description": "Indicates the conclusion of a transmission, which may have included one or more texts.",
+    "argument_count": 0,
+    "default_arguments": null,
+    "set": "C0"
+  },
+  {
+    "col": 0,
+    "row": 5,
+    "abbreviation": "ENQ",
+    "name": "ENQUIRY",
+    "description": "A request for a response from a remote station, often to identify itself.",
+    "argument_count": 0,
+    "default_arguments": null,
+    "set": "C0"
+  },
+  {
+    "col": 0,
+    "row": 6,
+    "abbreviation": "ACK",
+    "name": "ACKNOWLEDGE",
+    "description": "Transmitted by a receiver as an affirmative response to a sender.",
+    "argument_count": 0,
+    "default_arguments": null,
+    "set": "C0"
+  },
+  {
+    "col": 0,
+    "row": 7,
+    "abbreviation": "BEL",
+    "name": "BELL",
+    "description": "Triggers an acoustic or attention-getting signal.",
+    "argument_count": 0,
+    "default_arguments": null,
+    "set": "C0"
+  },
+  {
+    "col": 0,
+    "row": 8,
+    "abbreviation": "BS",
+    "name": "BACKSPACE",
+    "description": "Moves the active position one character position backwards along the line.",
+    "argument_count": 0,
+    "default_arguments": null,
+    "set": "C0"
+  },
+  {
+    "col": 0,
+    "row": 9,
+    "abbreviation": "HT",
+    "name": "CHARACTER TABULATION",
+    "description": "Moves the active position to the next preset character tabulation stop.",
+    "argument_count": 0,
+    "default_arguments": null,
+    "set": "C0"
+  },
+  {
+    "col": 0,
+    "row": 10,
+    "abbreviation": "LF",
+    "name": "LINE FEED",
+    "description": "Moves the active position to the corresponding character position of the next line.",
+    "argument_count": 0,
+    "default_arguments": null,
+    "set": "C0"
+  },
+  {
+    "col": 0,
+    "row": 11,
+    "abbreviation": "VT",
+    "name": "LINE TABULATION",
+    "description": "Moves the active position to the corresponding character position of the next preset line tabulation stop.",
+    "argument_count": 0,
+    "default_arguments": null,
+    "set": "C0"
+  },
+  {
+    "col": 0,
+    "row": 12,
+    "abbreviation": "FF",
+    "name": "FORM FEED",
+    "description": "Moves the active position to the corresponding character position of the line at the top of the next page or form.",
+    "argument_count": 0,
+    "default_arguments": null,
+    "set": "C0"
+  },
+  {
+    "col": 0,
+    "row": 13,
+    "abbreviation": "CR",
+    "name": "CARRIAGE RETURN",
+    "description": "Moves the active position to the first character position of the same line.",
+    "argument_count": 0,
+    "default_arguments": null,
+    "set": "C0"
+  },
+  {
+    "col": 0,
+    "row": 14,
+    "abbreviation": "LS0",
+    "name": "LOCKING-SHIFT ZERO",
+    "description": "LS0 is used for code extension purposes. It causes the meanings of the bit combinations following it in the data stream to be changed.",
+    "argument_count": 0,
+    "default_arguments": null,
+    "set": "C0"
+  },
+  {
+    "col": 0,
+    "row": 14,
+    "abbreviation": "SO",
+    "name": "SHIFT-OUT",
+    "description": "SO is used for code extension purposes. It causes the meanings of the bit combinations following it in the data stream to be changed.",
+    "argument_count": 0,
+    "default_arguments": null,
+    "set": "C0"
+  },
+  {
+    "col": 0,
+    "row": 15,
+    "abbreviation": "LS1",
+    "name": "LOCKING-SHIFT ONE",
+    "description": "LS1 is used for code extension purposes. It causes the meanings of the bit combinations following it in the data stream to be changed.",
+    "argument_count": 0,
+    "default_arguments": null,
+    "set": "C0"
+  },
+  {
+    "col": 0,
+    "row": 15,
+    "abbreviation": "SI",
+    "name": "SHIFT-IN",
+    "description": "SI is used for code extension purposes. It causes the meanings of the bit combinations following it in the data stream to be changed.",
+    "argument_count": 0,
+    "default_arguments": null,
+    "set": "C0"
+  },
+  {
+    "col": 1,
+    "row": 0,
+    "abbreviation": "DLE",
+    "name": "DATA LINK ESCAPE",
+    "description": "Changes the meaning of a limited number of continuously following bit combinations.",
+    "argument_count": 0,
+    "default_arguments": null,
+    "set": "C0"
+  },
+  {
+    "col": 1,
+    "row": 1,
+    "abbreviation": "DC1",
+    "name": "DEVICE CONTROL ONE",
+    "description": "A device control character primarily intended for turning on or starting an ancillary device.",
+    "argument_count": 0,
+    "default_arguments": null,
+    "set": "C0"
+  },
+  {
+    "col": 1,
+    "row": 2,
+    "abbreviation": "DC2",
+    "name": "DEVICE CONTROL TWO",
+    "description": "A device control character for starting or putting an ancillary device into a special mode.",
+    "argument_count": 0,
+    "default_arguments": null,
+    "set": "C0"
+  },
+  {
+    "col": 1,
+    "row": 3,
+    "abbreviation": "DC3",
+    "name": "DEVICE CONTROL THREE",
+    "description": "A device control character primarily intended for turning off or stopping an ancillary device.",
+    "argument_count": 0,
+    "default_arguments": null,
+    "set": "C0"
+  },
+  {
+    "col": 1,
+    "row": 4,
+    "abbreviation": "DC4",
+    "name": "DEVICE CONTROL FOUR",
+    "description": "A device control character for stopping or interrupting an ancillary device function.",
+    "argument_count": 0,
+    "default_arguments": null,
+    "set": "C0"
+  },
+  {
+    "col": 1,
+    "row": 5,
+    "abbreviation": "NAK",
+    "name": "NEGATIVE ACKNOWLEDGE",
+    "description": "Transmitted by a receiver as a negative response to a sender.",
+    "argument_count": 0,
+    "default_arguments": null,
+    "set": "C0"
+  },
+  {
+    "col": 1,
+    "row": 6,
+    "abbreviation": "SYN",
+    "name": "SYNCHRONOUS IDLE",
+    "description": "Used by a synchronous transmission system in the absence of any other character to provide a signal.",
+    "argument_count": 0,
+    "default_arguments": null,
+    "set": "C0"
+  },
+  {
+    "col": 1,
+    "row": 7,
+    "abbreviation": "ETB",
+    "name": "END OF TRANSMISSION BLOCK",
+    "description": "Indicates the end of a block of data where data is divided into blocks for transmission purposes.",
+    "argument_count": 0,
+    "default_arguments": null,
+    "set": "C0"
+  },
+  {
+    "col": 1,
+    "row": 8,
+    "abbreviation": "CAN",
+    "name": "CANCEL",
+    "description": "Indicates that the data with which it is sent is in error or is to be disregarded.",
+    "argument_count": 0,
+    "default_arguments": null,
+    "set": "C0"
+  },
+  {
+    "col": 1,
+    "row": 9,
+    "abbreviation": "EM",
+    "name": "END OF MEDIUM",
+    "description": "Indicates the physical end of a medium or the end of the used portion of a medium.",
+    "argument_count": 0,
+    "default_arguments": null,
+    "set": "C0"
+  },
+  {
+    "col": 1,
+    "row": 10,
+    "abbreviation": "SUB",
+    "name": "SUBSTITUTE",
+    "description": "Used in place of a character that has been determined to be invalid or erroneous.",
+    "argument_count": 0,
+    "default_arguments": null,
+    "set": "C0"
+  },
+  {
+    "col": 1,
+    "row": 11,
+    "abbreviation": "ESC",
+    "name": "ESCAPE",
+    "description": "A code extension character used to provide an escape sequence for additional control functions.",
+    "argument_count": 0,
+    "default_arguments": null,
+    "set": "C0"
+  },
+  {
+    "col": 1,
+    "row": 12,
+    "abbreviation": "IS4",
+    "name": "INFORMATION SEPARATOR FOUR",
+    "description": "Used to separate and qualify data logically; delimits a file boundary.",
+    "argument_count": 0,
+    "default_arguments": null,
+    "set": "C0"
+  },
+  {
+    "col": 1,
+    "row": 13,
+    "abbreviation": "IS3",
+    "name": "INFORMATION SEPARATOR THREE",
+    "description": "Used to separate and qualify data logically; delimits a group boundary.",
+    "argument_count": 0,
+    "default_arguments": null,
+    "set": "C0"
+  },
+  {
+    "col": 1,
+    "row": 14,
+    "abbreviation": "IS2",
+    "name": "INFORMATION SEPARATOR TWO",
+    "description": "Used to separate and qualify data logically; delimits a record boundary.",
+    "argument_count": 0,
+    "default_arguments": null,
+    "set": "C0"
+  },
+  {
+    "col": 1,
+    "row": 15,
+    "abbreviation": "IS1",
+    "name": "INFORMATION SEPARATOR ONE",
+    "description": "Used to separate and qualify data logically; delimits a unit boundary.",
+    "argument_count": 0,
+    "default_arguments": null,
+    "set": "C0"
+  },
+  {
+    "col": 4,
+    "row": 2,
+    "abbreviation": "BPH",
+    "name": "BREAK PERMITTED HERE",
+    "description": "Indicates a point where a line break may occur during text layout processing.",
+    "argument_count": 0,
+    "default_arguments": null,
+    "set": "C1"
+  },
+  {
+    "col": 4,
+    "row": 3,
+    "abbreviation": "NBH",
+    "name": "NO BREAK HERE",
+    "description": "Indicates a point where a line break must not occur during text layout processing.",
+    "argument_count": 0,
+    "default_arguments": null,
+    "set": "C1"
+  },
+  {
+    "col": 4,
+    "row": 5,
+    "abbreviation": "NEL",
+    "name": "NEXT LINE",
+    "description": "Moves the active position to the first character position of the next line.",
+    "argument_count": 0,
+    "default_arguments": null,
+    "set": "C1"
+  },
+  {
+    "col": 4,
+    "row": 6,
+    "abbreviation": "SSA",
+    "name": "START OF SELECTED AREA",
+    "description": "Indicates the beginning of a block of characters intended to be selected or transmitted.",
+    "argument_count": 0,
+    "default_arguments": null,
+    "set": "C1"
+  },
+  {
+    "col": 4,
+    "row": 7,
+    "abbreviation": "ESA",
+    "name": "END OF SELECTED AREA",
+    "description": "Indicates the end of a block of characters started by SSA.",
+    "argument_count": 0,
+    "default_arguments": null,
+    "set": "C1"
+  },
+  {
+    "col": 4,
+    "row": 8,
+    "abbreviation": "HTS",
+    "name": "CHARACTER TABULATION SET",
+    "description": "Sets a character tabulation stop at the current active position.",
+    "argument_count": 0,
+    "default_arguments": null,
+    "set": "C1"
+  },
+  {
+    "col": 4,
+    "row": 9,
+    "abbreviation": "HTJ",
+    "name": "CHARACTER TABULATION WITH JUSTIFICATION",
+    "description": "Advances the active position to the next tab stop and flushes the intervening text to the right.",
+    "argument_count": 0,
+    "default_arguments": null,
+    "set": "C1"
+  },
+  {
+    "col": 4,
+    "row": 10,
+    "abbreviation": "VTS",
+    "name": "LINE TABULATION SET",
+    "description": "Sets a line tabulation stop at the line containing the current active position.",
+    "argument_count": 0,
+    "default_arguments": null,
+    "set": "C1"
+  },
+  {
+    "col": 4,
+    "row": 11,
+    "abbreviation": "PLD",
+    "name": "PARTIAL LINE DOWN",
+    "description": "Moves the active position down by an offset (typically half a line) for subscript printing.",
+    "argument_count": 0,
+    "default_arguments": null,
+    "set": "C1"
+  },
+  {
+    "col": 4,
+    "row": 12,
+    "abbreviation": "PLU",
+    "name": "PARTIAL LINE UP",
+    "description": "Moves the active position up by an offset (typically half a line) for superscript printing.",
+    "argument_count": 0,
+    "default_arguments": null,
+    "set": "C1"
+  },
+  {
+    "col": 4,
+    "row": 13,
+    "abbreviation": "RI",
+    "name": "REVERSE LINE FEED",
+    "description": "Moves the active position to the corresponding character position of the preceding line.",
+    "argument_count": 0,
+    "default_arguments": null,
+    "set": "C1"
+  },
+  {
+    "col": 4,
+    "row": 14,
+    "abbreviation": "SS2",
+    "name": "SINGLE-SHIFT TWO",
+    "description": "Designates the next single character from the G2 graphic set.",
+    "argument_count": 0,
+    "default_arguments": null,
+    "set": "C1"
+  },
+  {
+    "col": 4,
+    "row": 15,
+    "abbreviation": "SS3",
+    "name": "SINGLE-SHIFT THREE",
+    "description": "Designates the next single character from the G3 graphic set.",
+    "argument_count": 0,
+    "default_arguments": null,
+    "set": "C1"
+  },
+  {
+    "col": 5,
+    "row": 0,
+    "abbreviation": "DCS",
+    "name": "DEVICE CONTROL STRING",
+    "description": "Opening delimiter for a device control string terminated by ST.",
+    "argument_count": 0,
+    "default_arguments": null,
+    "set": "C1"
+  },
+  {
+    "col": 5,
+    "row": 1,
+    "abbreviation": "PU1",
+    "name": "PRIVATE USE ONE",
+    "description": "Reserved for a function determined by user application agreements.",
+    "argument_count": 0,
+    "default_arguments": null,
+    "set": "C1"
+  },
+  {
+    "col": 5,
+    "row": 2,
+    "abbreviation": "PU2",
+    "name": "PRIVATE USE TWO",
+    "description": "Reserved for a function determined by user application agreements.",
+    "argument_count": 0,
+    "default_arguments": null,
+    "set": "C1"
+  },
+  {
+    "col": 5,
+    "row": 3,
+    "abbreviation": "STS",
+    "name": "SET TRANSMIT STATE",
+    "description": "Establishes a condition where data communication can occur or parameters are frozen.",
+    "argument_count": 0,
+    "default_arguments": null,
+    "set": "C1"
+  },
+  {
+    "col": 5,
+    "row": 4,
+    "abbreviation": "CCH",
+    "name": "CANCEL CHARACTER",
+    "description": "Indicates that the immediately preceding graphic character in the data stream is to be ignored.",
+    "argument_count": 0,
+    "default_arguments": null,
+    "set": "C1"
+  },
+  {
+    "col": 5,
+    "row": 5,
+    "abbreviation": "MW",
+    "name": "MESSAGE WAITING",
+    "description": "Triggers a visual or acoustic message indicator on a receiving terminal.",
+    "argument_count": 0,
+    "default_arguments": null,
+    "set": "C1"
+  },
+  {
+    "col": 5,
+    "row": 6,
+    "abbreviation": "SPA",
+    "name": "START OF PROTECTED AREA",
+    "description": "Indicates the beginning of a block of characters protected against erasure or modification.",
+    "argument_count": 0,
+    "default_arguments": null,
+    "set": "C1"
+  },
+  {
+    "col": 5,
+    "row": 7,
+    "abbreviation": "EPA",
+    "name": "END OF PROTECTED AREA",
+    "description": "Indicates the end of a block of characters started by SPA.",
+    "argument_count": 0,
+    "default_arguments": null,
+    "set": "C1"
+  },
+  {
+    "col": 5,
+    "row": 8,
+    "abbreviation": "SOS",
+    "name": "START OF STRING",
+    "description": "Opening delimiter for a character string containing data that should not be parsed as standard controls.",
+    "argument_count": 0,
+    "default_arguments": null,
+    "set": "C1"
+  },
+  {
+    "col": 5,
+    "row": 10,
+    "abbreviation": "SCI",
+    "name": "SINGLE GRAPHIC CHARACTER INTRODUCER",
+    "description": "Indicates that the following character is an exceptional escape graphic representation.",
+    "argument_count": 0,
+    "default_arguments": null,
+    "set": "C1"
+  },
+  {
+    "col": 5,
+    "row": 11,
+    "abbreviation": "CSI",
+    "name": "CONTROL SEQUENCE INTRODUCER",
+    "description": "Opening delimiter for a control sequence containing numeric or selective parameters.",
+    "argument_count": 0,
+    "default_arguments": null,
+    "set": "C1"
+  },
+  {
+    "col": 5,
+    "row": 12,
+    "abbreviation": "ST",
+    "name": "STRING TERMINATOR",
+    "description": "Closing delimiter terminating a control string sequence started by DCS, SOS, OSC, PM, or APC.",
+    "argument_count": 0,
+    "default_arguments": null,
+    "set": "C1"
+  },
+  {
+    "col": 5,
+    "row": 13,
+    "abbreviation": "OSC",
+    "name": "OPERATING SYSTEM COMMAND",
+    "description": "Opening delimiter for a control string containing operating system instructions.",
+    "argument_count": 0,
+    "default_arguments": null,
+    "set": "C1"
+  },
+  {
+    "col": 5,
+    "row": 14,
+    "abbreviation": "PM",
+    "name": "PRIVACY MESSAGE",
+    "description": "Opening delimiter for a control string containing data meant for private processing.",
+    "argument_count": 0,
+    "default_arguments": null,
+    "set": "C1"
+  },
+  {
+    "col": 5,
+    "row": 15,
+    "abbreviation": "APC",
+    "name": "APPLICATION PROGRAM COMMAND",
+    "description": "Opening delimiter for a control string containing application execution directives.",
+    "argument_count": 0,
+    "default_arguments": null,
+    "set": "C1"
+  },
+  {
+    "col": 6,
+    "row": 0,
+    "abbreviation": "DMI",
+    "name": "DISABLE MANUAL INPUT",
+    "description": "Disables the terminal's keyboard or alternative input configurations to prevent manual entries.",
+    "argument_count": 0,
+    "default_arguments": null,
+    "set": "Fs"
+  },
+  {
+    "col": 6,
+    "row": 1,
+    "abbreviation": "INT",
+    "name": "INTERRUPT",
+    "description": "INT is used to indicate to the receiving device that the current process is to be interrupted and an agreed procedure is to be initiated. This control function is applicable to either direction of transmission.",
+    "argument_count": 0,
+    "default_arguments": null,
+    "set": "Fs"
+  },
+  {
+    "col": 6,
+    "row": 2,
+    "abbreviation": "EMI",
+    "name": "ENABLE MANUAL INPUT",
+    "description": "Enables the terminal's keyboard or alternative input configurations following a DMI restriction.",
+    "argument_count": 0,
+    "default_arguments": null,
+    "set": "Fs"
+  },
+  {
+    "col": 6,
+    "row": 3,
+    "abbreviation": "RIS",
+    "name": "RESET TO INITIAL STATE",
+    "description": "Resets the terminal or processing device back to its baseline default configuration and state parameters.",
+    "argument_count": 0,
+    "default_arguments": null,
+    "set": "Fs"
+  },
+  {
+    "col": 6,
+    "row": 4,
+    "abbreviation": "CMD",
+    "name": "CODING METHOD DELIMITER",
+    "description": "CMD is used as the delimiter of a string of data coded according to Standard ECMA-35 and to switch to a general level of control. The use of CMD is not mandatory if the higher level protocol defines means of delimiting the string, for instance, by specifying the length of the string.",
+    "argument_count": 0,
+    "default_arguments": null,
+    "set": "Fs"
+  },
+  {
+    "col": 6,
+    "row": 14,
+    "abbreviation": "LS2",
+    "name": "LOCKING-SHIFT TWO",
+    "description": "LS2 is used for code extension purposes. It causes the meanings of the bit combinations following it in the data stream to be changed.",
+    "argument_count": 0,
+    "default_arguments": null,
+    "set": "Fs"
+  },
+  {
+    "col": 6,
+    "row": 15,
+    "abbreviation": "LS3",
+    "name": "LOCKING-SHIFT THREE",
+    "description": "LS3 is used for code extension purposes. It causes the meanings of the bit combinations following it in the data stream to be changed.",
+    "argument_count": 0,
+    "default_arguments": null,
+    "set": "Fs"
+  },
+  {
+    "col": 7,
+    "row": 12,
+    "abbreviation": "LS3R",
+    "name": "LOCKING-SHIFT THREE RIGHT",
+    "description": "LS3R is used for code extension purposes. It causes the meanings of the bit combinations following it in the data stream to be changed.",
+    "argument_count": 0,
+    "default_arguments": null,
+    "set": "Fs"
+  },
+  {
+    "col": 7,
+    "row": 13,
+    "abbreviation": "LS2R",
+    "name": "LOCKING-SHIFT TWO RIGHT",
+    "description": "LS2R is used for code extension purposes. It causes the meanings of the bit combinations following it in the data stream to be changed.",
+    "argument_count": 0,
+    "default_arguments": null,
+    "set": "Fs"
+  },
+  {
+    "col": 7,
+    "row": 14,
+    "abbreviation": "LS1R",
+    "name": "LOCKING-SHIFT ONE RIGHT",
+    "description": "LS1R is used for code extension purposes. It causes the meanings of the bit combinations following it in the data stream to be changed.",
+    "argument_count": 0,
+    "default_arguments": null,
+    "set": "Fs"
+  },
+  {
+    "col": 4,
+    "row": 0,
+    "abbreviation": "ICH",
+    "name": "INSERT CHARACTER",
+    "argument_count": 1,
+    "default_arguments": [
+      1
+    ],
+    "description": "Inserts one or more erased characters at the active position, shifting remaining characters right.",
+    "set": "Cs",
+    "has_intermediate_byte": false
+  },
+  {
+    "col": 4,
+    "row": 1,
+    "abbreviation": "CUU",
+    "name": "CURSOR UP",
+    "argument_count": 1,
+    "default_arguments": [
+      1
+    ],
+    "description": "Moves the active position upwards by a specified number of lines.",
+    "set": "Cs",
+    "has_intermediate_byte": false
+  },
+  {
+    "col": 4,
+    "row": 2,
+    "abbreviation": "CUD",
+    "name": "CURSOR DOWN",
+    "argument_count": 1,
+    "default_arguments": [
+      1
+    ],
+    "description": "Moves the active position downwards by a specified number of lines.",
+    "set": "Cs",
+    "has_intermediate_byte": false
+  },
+  {
+    "col": 4,
+    "row": 3,
+    "abbreviation": "CUF",
+    "name": "CURSOR FORWARD",
+    "argument_count": 1,
+    "default_arguments": [
+      1
+    ],
+    "description": "Moves the active position forward (right) along the line by a specified number of character positions.",
+    "set": "Cs",
+    "has_intermediate_byte": false
+  },
+  {
+    "col": 4,
+    "row": 4,
+    "abbreviation": "CUB",
+    "name": "CURSOR BACKWARD",
+    "argument_count": 1,
+    "default_arguments": [
+      1
+    ],
+    "description": "Moves the active position backward (left) along the line by a specified number of character positions.",
+    "set": "Cs",
+    "has_intermediate_byte": false
+  },
+  {
+    "col": 4,
+    "row": 5,
+    "abbreviation": "CNL",
+    "name": "CURSOR NEXT LINE",
+    "argument_count": 1,
+    "default_arguments": [
+      1
+    ],
+    "description": "Moves the active position to the first position of a specified number of lines downward.",
+    "set": "Cs",
+    "has_intermediate_byte": false
+  },
+  {
+    "col": 4,
+    "row": 6,
+    "abbreviation": "CPL",
+    "name": "CURSOR PRECEDING LINE",
+    "argument_count": 1,
+    "default_arguments": [
+      1
+    ],
+    "description": "Moves the active position to the first position of a specified number of lines upward.",
+    "set": "Cs",
+    "has_intermediate_byte": false
+  },
+  {
+    "col": 4,
+    "row": 7,
+    "abbreviation": "CHA",
+    "name": "CURSOR CHARACTER ABSOLUTE",
+    "argument_count": 1,
+    "default_arguments": [
+      1
+    ],
+    "description": "Moves the active position to a specified character position within the current line.",
+    "set": "Cs",
+    "has_intermediate_byte": false
+  },
+  {
+    "col": 4,
+    "row": 8,
+    "abbreviation": "CUP",
+    "name": "CURSOR POSITION",
+    "argument_count": 2,
+    "default_arguments": [
+      1,
+      1
+    ],
+    "description": "Moves the active position to a specific line and column coordinate.",
+    "set": "Cs",
+    "has_intermediate_byte": false
+  },
+  {
+    "col": 4,
+    "row": 9,
+    "abbreviation": "CHT",
+    "name": "CURSOR FORWARD TABULATION",
+    "argument_count": 1,
+    "default_arguments": [
+      1
+    ],
+    "description": "Advances the active position by a specified number of character tabulation stops.",
+    "set": "Cs",
+    "has_intermediate_byte": false
+  },
+  {
+    "col": 4,
+    "row": 10,
+    "abbreviation": "ED",
+    "name": "ERASE IN PAGE",
+    "argument_count": 1,
+    "default_arguments": [
+      0
+    ],
+    "description": "Erases some or all characters in the active display page based on parameters (0: cursor to end, 1: start to cursor, 2: complete page).",
     "constants": {
-        "BACKGROND_BLACK": 40,
-        "BACKGROND_BLUE": 44,
-        "BACKGROND_CYAN": 46,
-        "BACKGROND_DEFAULT": 48,
-        "BACKGROND_GREEN": 42,
-        "BACKGROND_MAGENTA": 45,
-        "BACKGROND_RED": 41,
-        "BACKGROND_WHITE": 47,
-        "BACKGROND_YELLOW": 43,
-        "ERASE_IN_DISPLAY_ALL": 2,
-        "ERASE_IN_DISPLAY_TO_BEGINNING": 1,
-        "ERASE_IN_DISPLAY_TO_END": 0,
-        "ERASE_IN_LINE_ALL": 2,
-        "ERASE_IN_LINE_BEGINNING": 1,
-        "ERASE_IN_LINE_END": 0,
-        "FOREGROND_BLACK": 30,
-        "FOREGROND_BLUE": 34,
-        "FOREGROND_CYAN": 36,
-        "FOREGROND_DEFAULT": 38,
-        "FOREGROND_GREEN": 32,
-        "FOREGROND_MAGENTA": 35,
-        "FOREGROND_RED": 31,
-        "FOREGROND_WHITE": 37,
-        "FOREGROND_YELLOW": 33,
-        "SCR_RESET": 0,
-        "SET_BLINKING_MODE": 5,
-        "SET_BOLD_MODE": 1,
-        "SET_DIM_MODE": 2,
-        "SET_INVERSE_MODE": 7,
-        "SET_INVISIBLE_MODE": 8,
-        "SET_ITALIC_MODE": 3,
-        "SET_STRIKETHROUGH_MODE": 9,
-        "SET_UNDERLINE_MODE": 4
+      "DCSM_PRESENTATION_MODE_TO_END_OF_PAGE": 0,
+      "DCSM_PRESENTATION_MODE_FROM_BEGINNING_OF_PAGE": 1,
+      "DCSM_PRESENTATION_MODE_ALL": 2,
+      "DCSM_DATA_MODE_TO_END_OF_PAGE": 0,
+      "DCSM_DATA_MODE_FROM_BEGINNING_OF_PAGE": 1,
+      "DCSM_DATA_MODE_ALL": 2
     },
-    "controls": [
-        {
-            "name": "AUX_PORT_OFF",
-            "sequence": "4i",
-            "no_of_arguments": 0,
-            "no_of_default_arguments": 0
-        },
-        {
-            "name": "AUX_PORT_ON",
-            "sequence": "5i",
-            "no_of_arguments": 0,
-            "no_of_default_arguments": 0
-        },
-        {
-            "name": "CURSOR_BACK",
-            "sequence": "D",
-            "no_of_arguments": 1,
-            "no_of_default_arguments": 1
-        },
-        {
-            "name": "CURSOR_DOWN",
-            "sequence": "B",
-            "no_of_arguments": 1,
-            "no_of_default_arguments": 1
-        },
-        {
-            "name": "CURSOR_FORWARD",
-            "sequence": "C",
-            "no_of_arguments": 1,
-            "no_of_default_arguments": 1
-        },
-        {
-            "name": "CURSOR_HORIZONTAL_ABSOLUTE",
-            "sequence": "G",
-            "no_of_arguments": 1,
-            "no_of_default_arguments": 1
-        },
-        {
-            "name": "CURSOR_NEXT_LINE",
-            "sequence": "E",
-            "no_of_arguments": 1,
-            "no_of_default_arguments": 1
-        },
-        {
-            "name": "CURSOR_POSITION",
-            "sequence": "H",
-            "no_of_arguments": 2,
-            "no_of_default_arguments": 0
-        },
-        {
-            "name": "CURSOR_PREVIOUS_LINE",
-            "sequence": "F",
-            "no_of_arguments": 1,
-            "no_of_default_arguments": 1
-        },
-        {
-            "name": "CURSOR_UP",
-            "sequence": "A",
-            "no_of_arguments": 1,
-            "no_of_default_arguments": 1
-        },
-        {
-            "name": "DEVICE_STATUS_REPORT",
-            "sequence": "6n",
-            "no_of_arguments": 0,
-            "no_of_default_arguments": 0
-        },
-        {
-            "name": "ERASE_IN_DISPLAY",
-            "sequence": "J",
-            "no_of_arguments": 1,
-            "no_of_default_arguments": 1
-        },
-        {
-            "name": "ERASE_IN_LINE",
-            "sequence": "K",
-            "no_of_arguments": 1,
-            "no_of_default_arguments": 1
-        },
-        {
-            "name": "HIDE_CURSOR",
-            "sequence": "?25l",
-            "no_of_arguments": 0,
-            "no_of_default_arguments": 0
-        },
-        {
-            "name": "HORIZONTAL_VERTICAL_POSITION",
-            "sequence": "f",
-            "no_of_arguments": 2,
-            "no_of_default_arguments": 0
-        },
-        {
-            "name": "INSERT_NEW_LINE",
-            "sequence": "L",
-            "no_of_arguments": 0,
-            "no_of_default_arguments": 0
-        },
-        {
-            "name": "REMOVE_CHARACTER",
-            "sequence": "P",
-            "no_of_arguments": 0,
-            "no_of_default_arguments": 0
-        },
-        {
-            "name": "REMOVE_LINE",
-            "sequence": "M",
-            "no_of_arguments": 0,
-            "no_of_default_arguments": 0
-        },
-        {
-            "name": "RESTORE_SAVED_CURRENT_CURSOR_POSITION",
-            "sequence": "u",
-            "no_of_arguments": 0,
-            "no_of_default_arguments": 0
-        },
-        {
-            "name": "SAVE_CURRENT_CURSOR_POSITION",
-            "sequence": "s",
-            "no_of_arguments": 0,
-            "no_of_default_arguments": 0
-        },
-        {
-            "name": "SCROLL_DOWN",
-            "sequence": "S",
-            "no_of_arguments": 1,
-            "no_of_default_arguments": 1
-        },
-        {
-            "name": "SCROLL_UP",
-            "sequence": "T",
-            "no_of_arguments": 1,
-            "no_of_default_arguments": 1
-        },
-        {
-            "name": "SELECT_CHARACTER_RENDITION",
-            "sequence": "m",
-            "no_of_arguments": 3,
-            "no_of_default_arguments": 3
-        },
-        {
-            "name": "SHOW_CURSOR",
-            "sequence": "?25h",
-            "no_of_arguments": 0,
-            "no_of_default_arguments": 0
-        }
-    ]
-}
+    "set": "Cs",
+    "has_intermediate_byte": false
+  },
+  {
+    "col": 4,
+    "row": 11,
+    "abbreviation": "EL",
+    "name": "ERASE IN LINE",
+    "argument_count": 1,
+    "default_arguments": [
+      0
+    ],
+    "description": "Erases some or all characters in the current line based on parameters (0: cursor to end, 1: start to cursor, 2: complete line).",
+    "set": "Cs",
+    "has_intermediate_byte": false
+  },
+  {
+    "col": 4,
+    "row": 12,
+    "abbreviation": "IL",
+    "name": "INSERT LINE",
+    "argument_count": 1,
+    "default_arguments": [
+      1
+    ],
+    "description": "Inserts one or more erased lines at the current line position, shifting down remaining lines.",
+    "set": "Cs",
+    "has_intermediate_byte": false
+  },
+  {
+    "col": 4,
+    "row": 13,
+    "abbreviation": "DL",
+    "name": "DELETE LINE",
+    "argument_count": 1,
+    "default_arguments": [
+      1
+    ],
+    "description": "Deletes one or more lines starting at the current line position, shifting up remaining lines.",
+    "set": "Cs",
+    "has_intermediate_byte": false
+  },
+  {
+    "col": 4,
+    "row": 14,
+    "abbreviation": "EF",
+    "name": "ERASE IN FIELD",
+    "argument_count": 1,
+    "default_arguments": [
+      0
+    ],
+    "description": "Erases some or all characters in the active protected/unprotected field.",
+    "constants": {
+      "DCSM_PRESENTATION_MODE_TO_END_OF_FIELD": 0,
+      "DCSM_PRESENTATION_MODE_FROM_BEGINNING_OF_FIELD": 1,
+      "DCSM_PRESENTATION_MODE_ALL": 2,
+      "DCSM_DATA_MODE_TO_END_OF_FIELD": 0,
+      "DCSM_DATA_MODE_FROM_BEGINNING_OF_FIELD": 1,
+      "DCSM_DATA_MODE_ALL": 2
+    },
+    "set": "Cs",
+    "has_intermediate_byte": false
+  },
+  {
+    "col": 4,
+    "row": 15,
+    "abbreviation": "EA",
+    "name": "ERASE IN AREA",
+    "argument_count": 1,
+    "default_arguments": [
+      0
+    ],
+    "description": "Erases some or all characters in the active qualified area.",
+    "constants": {
+      "DCSM_PRESENTATION_MODE_TO_END_OF_AREA": 0,
+      "DCSM_PRESENTATION_MODE_FROM_BEGINNING_OF_AREA": 1,
+      "DCSM_PRESENTATION_MODE_ALL": 2,
+      "DCSM_DATA_MODE_TO_END_OF_AREA": 0,
+      "DCSM_DATA_MODE_FROM_BEGINNING_OF_AREA": 1,
+      "DCSM_DATA_MODE_ALL": 2
+    },
+    "set": "Cs",
+    "has_intermediate_byte": false
+  },
+  {
+    "col": 5,
+    "row": 0,
+    "abbreviation": "DCH",
+    "name": "DELETE CHARACTER",
+    "argument_count": 1,
+    "default_arguments": [
+      1
+    ],
+    "description": "Deletes one or more characters at the active position, shifting left remaining characters.",
+    "set": "Cs",
+    "has_intermediate_byte": false
+  },
+  {
+    "col": 5,
+    "row": 1,
+    "abbreviation": "SEE",
+    "name": "SELECT EDITING EXTENT",
+    "argument_count": 1,
+    "default_arguments": [
+      0
+    ],
+    "description": "Defines whether editing operations affect the character, token, field, line, or whole area.",
+    "constants": {
+      "THE SHIFTED PART IS LIMITED TO THE ACTIVE PAGE IN THE PRESENTATION COMPONENT": 0,
+      "THE SHIFTED PART IS LIMITED TO THE ACTIVE LINE IN THE PRESENTATION COMPONENT": 1,
+      "THE SHIFTED PART IS LIMITED TO THE ACTIVE FIELD IN THE PRESENTATION COMPONENT": 2,
+      "THE SHIFTED PART IS LIMITED TO THE ACTIVE QUALIFIED AREA": 3,
+      "THE SHIFTED PART CONSISTS OF THE RELEVANT PART OF THE ENTIRE PRESENTATION COMPONENT": 4
+    },
+    "set": "Cs",
+    "has_intermediate_byte": false
+  },
+  {
+    "col": 5,
+    "row": 2,
+    "abbreviation": "CPR",
+    "name": "ACTIVE POSITION REPORT",
+    "argument_count": 2,
+    "default_arguments": [
+      1,
+      1
+    ],
+    "description": "Transmits the active position coordinates back to the host system as a response sequence.",
+    "set": "Cs",
+    "has_intermediate_byte": false
+  },
+  {
+    "col": 5,
+    "row": 3,
+    "abbreviation": "SU",
+    "name": "SCROLL UP",
+    "argument_count": 1,
+    "default_arguments": [
+      1
+    ],
+    "description": "Scrolls the contents of the display upwards by a specified number of lines.",
+    "set": "Cs",
+    "has_intermediate_byte": false
+  },
+  {
+    "col": 5,
+    "row": 4,
+    "abbreviation": "SD",
+    "name": "SCROLL DOWN",
+    "argument_count": 1,
+    "default_arguments": [
+      1
+    ],
+    "description": "Scrolls the contents of the display downwards by a specified number of lines.",
+    "set": "Cs",
+    "has_intermediate_byte": false
+  },
+  {
+    "col": 5,
+    "row": 5,
+    "abbreviation": "NP",
+    "name": "NEXT PAGE",
+    "argument_count": 1,
+    "default_arguments": [
+      1
+    ],
+    "description": "Advances the display view forward by a specified number of pages.",
+    "set": "Cs",
+    "has_intermediate_byte": false
+  },
+  {
+    "col": 5,
+    "row": 6,
+    "abbreviation": "PP",
+    "name": "PRECEDING PAGE",
+    "argument_count": 1,
+    "default_arguments": [
+      1
+    ],
+    "description": "Regresses the display view backward by a specified number of pages.",
+    "set": "Cs",
+    "has_intermediate_byte": false
+  },
+  {
+    "col": 5,
+    "row": 7,
+    "abbreviation": "CTC",
+    "name": "CURSOR TABULATION CONTROL",
+    "argument_count": -1,
+    "default_arguments": [
+      0
+    ],
+    "description": "Sets or clears tab stops at the active position or active line. Accepts a variable list of selective parameters.",
+    "constants": {
+      "A CHARACTER TABULATION STOP IS SET AT THE ACTIVE PRESENTATION POSITION": 0,
+      "A LINE TABULATION STOP IS SET AT THE ACTIVE LINE": 1,
+      "THE CHARACTER TABULATION STOP AT THE ACTIVE PRESENTATION POSITION IS CLEARED": 2,
+      "THE LINE TABULATION STOP AT THE ACTIVE LINE IS CLEARED": 3,
+      "ALL CHARACTER TABULATION STOPS IN THE ACTIVE LINE ARE CLEARED": 4,
+      "ALL CHARACTER TABULATION STOPS ARE CLEARED": 5,
+      "ALL LINE TABULATION STOPS ARE CLEARED": 6
+    },
+    "set": "Cs",
+    "has_intermediate_byte": false
+  },
+  {
+    "col": 5,
+    "row": 8,
+    "abbreviation": "ECH",
+    "name": "ERASE CHARACTER",
+    "argument_count": 1,
+    "default_arguments": [
+      1
+    ],
+    "description": "Erases a specified number of characters starting at the active position without moving the cursor.",
+    "set": "Cs",
+    "has_intermediate_byte": false
+  },
+  {
+    "col": 5,
+    "row": 9,
+    "abbreviation": "CVT",
+    "name": "CURSOR LINE TABULATION",
+    "argument_count": 1,
+    "default_arguments": [
+      1
+    ],
+    "description": "Advances the active position by a specified number of line tabulation stops.",
+    "set": "Cs",
+    "has_intermediate_byte": false
+  },
+  {
+    "col": 5,
+    "row": 10,
+    "abbreviation": "CBT",
+    "name": "CURSOR BACKWARD TABULATION",
+    "argument_count": 1,
+    "default_arguments": [
+      1
+    ],
+    "description": "Moves the active position backward by a specified number of character tabulation stops.",
+    "set": "Cs",
+    "has_intermediate_byte": false
+  },
+  {
+    "col": 5,
+    "row": 11,
+    "abbreviation": "SRS",
+    "name": "START REVERSED STRING",
+    "argument_count": 1,
+    "default_arguments": [
+      1
+    ],
+    "description": "SRS is used to establish in the data component the beginning and the end of a string of characters as well as the direction of the string. This direction is opposite to that currently established. The indicated string follows the preceding text. The established character progression is not affected. The beginning of a reversed string is indicated by SRS with a parameter value of 1. A reversed string may contain one or more nested strings. These nested strings may be reversed strings the beginnings of which are indicated by SRS with a parameter value of 1, or directed strings the beginnings of which are indicated by START DIRECTED STRING (SDS) with a parameter value not equal to 0. Every beginning of such a string invokes the next deeper level of nesting. This Standard does not define the location of the active data position within any such nested string. The end of a reversed string is indicated by SRS with a parameter value of 0. Every end of such a string re-establishes the next higher level of nesting (the one in effect prior to the string just ended). The direction is re-established to that in effect prior to the string just ended. The active data position is moved to the character position following the characters of the string just ended. The parameter values are: 0 end of a reversed string; re-establish the previous direction 1 beginning of a reversed string; reverse the direction. NOTE 1 The effect of receiving a CVT, HT, SCP, SPD or VT control function within an SRS string is not defined by this Standard. NOTE 2 The control functions for area definition (DAQ, EPA, ESA, SPA, SSA) should not be used within an SRS string.",
+    "constants": {
+      "START REVERSED": 0,
+      "END REVERSED": 1
+    },
+    "set": "Cs",
+    "has_intermediate_byte": false
+  },
+  {
+    "col": 5,
+    "row": 12,
+    "abbreviation": "PTX",
+    "name": "PARALLEL TEXTS",
+    "argument_count": 1,
+    "default_arguments": [
+      1
+    ],
+    "description": "PTX is used to delimit strings of graphic characters that are communicated one after another in the data stream but that are intended to be presented in parallel with one another, usually in adjacent lines. The parameter values are 0 end of parallel texts 1 2 3 beginning of a string of principal parallel text beginning of a string of supplementary parallel text beginning of a string of supplementary Japanese phonetic annotation 4 beginning of a string of supplementary Chinese phonetic annotation 5 end of a string of supplementary phonetic annotations PTX with a parameter value of 1 indicates the beginning of the string of principal text intended to be presented in parallel with one or more strings of supplementary text. PTX with a parameter value of 2, 3 or 4 indicates the beginning of a string of supplementary text that is intended to be presented in parallel with either a string of principal text or the immediately preceding string of supplementary text, if any; at the same time it indicates the end of the preceding string of principal text or of the immediately preceding string of supplementary text, if any. The end of a string of supplementary text is indicated by a subsequent occurrence of PTX with a parameter value other than 1. PTX with a parameter value of 0 indicates the end of the strings of text intended to be presented in parallel with one another.",
+    "constants": {
+      "end of parallel texts": 0,
+      "BEGINNING OF A STRING OF PRINCIPAL PARALLEL TEXT": 1,
+      "BEGINNING OF A STRING OF SUPPLEMENTARY PARALLEL TEXT": 2,
+      "BEGINNING OF A STRING OF SUPPLEMENTARY JAPANESE PHONETIC ANNOTATION": 3,
+      "BEGINNING OF A STRING OF SUPPLEMENTARY CHINESE PHONETIC ANNOTATION": 4,
+      "END OF A STRING OF SUPPLEMENTARY PHONETIC ANNOTATIONS": 5
+    },
+    "set": "Cs",
+    "has_intermediate_byte": false
+  },
+  {
+    "col": 5,
+    "row": 13,
+    "abbreviation": "SDS",
+    "name": "START DIRECTED STRING",
+    "argument_count": 1,
+    "default_arguments": [
+      0
+    ],
+    "description": "SDS is used to establish in the data component the beginning and the end of a string of characters as well as the direction of the string. This direction may be different from that currently established. The indicated string follows the preceding text. The established character progression is not affected. The beginning of a directed string is indicated by SDS with a parameter value not equal to 0. A directed string may contain one or more nested strings. These nested strings may be directed strings the beginnings of which are indicated by SDS with a parameter value not equal to 0, or reversed strings the beginnings of which are indicated by START REVERSED STRING (SRS) with a parameter value of 1. Every beginning of such a string invokes the next deeper level of nesting. This Standard does not define the location of the active data position within any such nested string. The end of a directed string is indicated by SDS with a parameter value of 0. Every end of such a string re-establishes the next higher level of nesting (the one in effect prior to the string just ended). The direction is re-established to that in effect prior to the string just ended. The active data position is moved to the character position following the characters of the string just ended.",
+    "constants": {
+      "END OF A DIRECTED STRING, RE-ESTABLISH THE PREVIOUS DIRECTION": 0,
+      "START OF A DIRECTED STRING, ESTABLISH THE DIRECTION LEFT-TO-RIGHT": 1,
+      "START OF A DIRECTED STRING, ESTABLISH THE DIRECTION RIGHT-TO-LEFT": 2
+    },
+    "set": "Cs",
+    "has_intermediate_byte": false
+  },
+  {
+    "col": 5,
+    "row": 14,
+    "abbreviation": "SIMD",
+    "name": "SELECT IMPLICIT MOVEMENT DIRECTION",
+    "argument_count": 1,
+    "default_arguments": [
+      0
+    ],
+    "description": "SL causes the data in the presentation component to be moved by n character positions if the line orientation is horizontal, or by n line positions if the line orientation is vertical, such that the data appear to move to the left; where n equals the value of Pn. The active presentation position is not affected by this control function.",
+    "constants": {
+      "THE DIRECTION OF IMPLICIT MOVEMENT IS THE SAME AS THAT OF THE CHARACTER PROGRESSION": 0,
+      "THE DIRECTION OF IMPLICIT MOVEMENT IS OPPOSITE TO THAT OF THE CHARACTER PROGRESSION": 1
+    },
+    "set": "Cs",
+    "has_intermediate_byte": false
+  },
+  {
+    "col": 6,
+    "row": 0,
+    "abbreviation": "HPA",
+    "name": "CHARACTER POSITION ABSOLUTE",
+    "argument_count": 1,
+    "default_arguments": [
+      1
+    ],
+    "description": "Moves the active position to a specified horizontal coordinate without affecting the vertical position.",
+    "set": "Cs",
+    "has_intermediate_byte": false
+  },
+  {
+    "col": 6,
+    "row": 1,
+    "abbreviation": "HPR",
+    "name": "CHARACTER POSITION RELATIVE",
+    "argument_count": 1,
+    "default_arguments": [
+      1
+    ],
+    "description": "Moves the active position forward by a specified number of character positions relative to its current spot.",
+    "set": "Cs",
+    "has_intermediate_byte": false
+  },
+  {
+    "col": 6,
+    "row": 2,
+    "abbreviation": "REP",
+    "name": "REPEAT",
+    "argument_count": 1,
+    "default_arguments": [
+      1
+    ],
+    "description": "If the DEVICE COMPONENT SELECT MODE (DCSM) is set to PRESENTATION, RI causes the active presentation position to be moved in the presentation component to the corresponding character position of the preceding line. If the DEVICE COMPONENT SELECT MODE (DCSM) is set to DATA, RI causes the active data position to be moved in the data component to the corresponding character position of the preceding line.",
+    "set": "Cs",
+    "has_intermediate_byte": false
+  },
+  {
+    "col": 6,
+    "row": 3,
+    "abbreviation": "DA",
+    "name": "DEVICE ATTRIBUTES",
+    "argument_count": -1,
+    "default_arguments": [],
+    "description": "DAQ is used to indicate that the active presentation position in the presentation component is the first\ncharacter position of a qualified area. The last character position of the qualified area is the character\nposition in the presentation component immediately preceding the first character position of the\nfollowing qualified area.\nThe parameter value designates the type of qualified area:\n0\n unprotected and unguarded\n1\n protected and guarded\n2\n graphic character input\n3\n numeric input\n4\n alphabetic input\n5\n input aligned on the last character position of the qualified area\n6\n fill with ZEROs\n7 set a character tabulation stop at the active presentation position (the first character position of the\nqualified area) to indicate the beginning of a field\n8\n protected and unguarded\n9\n fill with SPACEs\n10 input aligned on the first character position of the qualified area\n11 the order of the character positions in the input field is reversed, i.e. the last position in each line\nbecomes the first and vice versa; input begins at the new first position.\n\nThis control function operates independently of the setting of the TABULATION STOP MODE (TSM).\nThe character tabulation stop set by parameter value 7 applies to the active line only.\nNOTE\nThe control functions for area definition (DAQ, EPA, ESA, SPA, SSA) should not be used within an SRS\nstring or an SDS string.",
+    "set": "Cs",
+    "has_intermediate_byte": false
+  },
+  {
+    "col": 6,
+    "row": 4,
+    "abbreviation": "VPA",
+    "name": "LINE POSITION ABSOLUTE",
+    "argument_count": 1,
+    "default_arguments": [
+      1
+    ],
+    "description": "Moves the active position to a specified vertical line number without affecting the horizontal coordinate.",
+    "set": "Cs",
+    "has_intermediate_byte": false
+  },
+  {
+    "col": 6,
+    "row": 5,
+    "abbreviation": "VPR",
+    "name": "LINE POSITION RELATIVE",
+    "argument_count": 1,
+    "default_arguments": [
+      1
+    ],
+    "description": "Moves the active position downward by a specified number of lines relative to its current spot.",
+    "set": "Cs",
+    "has_intermediate_byte": false
+  },
+  {
+    "col": 6,
+    "row": 6,
+    "abbreviation": "HVP",
+    "name": "CHARACTER AND LINE POSITION",
+    "argument_count": 2,
+    "default_arguments": [
+      1,
+      1
+    ],
+    "description": "Moves the active position to a specific line and column coordinate (equivalent to CUP).",
+    "set": "Cs",
+    "has_intermediate_byte": false
+  },
+  {
+    "col": 6,
+    "row": 7,
+    "abbreviation": "TBC",
+    "name": "TABULATION CLEAR",
+    "argument_count": 1,
+    "default_arguments": [
+      0
+    ],
+    "description": "TBC causes one or more tabulation stops in the presentation component to be cleared, depending on the\nparameter value:\n0\n the character tabulation stop at the active presentation position is cleared\n1\n the line tabulation stop at the active line is cleared\n2\n all character tabulation stops in the active line are cleared\n3\n all character tabulation stops are cleared\n4\n all line tabulation stops are cleared\n5\n all tabulation stops are cleared\nIn the case of parameter value 0 or 2 the number of lines affected depends on the setting of the\nTABULATION STOP MODE (TSM)",
+    "constants": {
+      "THE CHARACTER TABULATION STOP AT THE ACTIVE PRESENTATION POSITION IS CLEARED": 0,
+      "THE LINE TABULATION STOP AT THE ACTIVE LINE IS CLEARED": 1,
+      "ALL CHARACTER TABULATION STOPS IN THE ACTIVE LINE ARE CLEARED": 2,
+      "ALL CHARACTER TABULATION STOPS ARE CLEARED": 3,
+      "ALL LINE TABULATION STOPS ARE CLEARED": 4,
+      "ALL TABULATION STOPS ARE CLEARED": 5
+    },
+    "set": "Cs",
+    "has_intermediate_byte": false
+  },
+  {
+    "col": 6,
+    "row": 8,
+    "abbreviation": "SM",
+    "name": "SET MODE",
+    "argument_count": -1,
+    "default_arguments": [],
+    "description": "SM causes the modes of the receiving device to be set as specified by the parameter values:\n1\n GUARDED AREA TRANSFER MODE (GATM)\n2\n KEYBOARD ACTION MODE (KAM)\n3\n CONTROL REPRESENTATION MODE (CRM)\n4\n INSERTION REPLACEMENT MODE (IRM)\n5\n STATUS REPORT TRANSFER MODE (SRTM)\n6\n ERASURE MODE (ERM)\n7\n LINE EDITING MODE (VEM)\n8\n BI-DIRECTIONAL SUPPORT MODE (BDSM)\n9\n DEVICE COMPONENT SELECT MODE (DCSM)\n10 CHARACTER EDITING MODE (HEM)\n11 POSITIONING UNIT MODE (PUM) (see F.4.1 in annex F)\n12 SEND/RECEIVE MODE (SRM)\n13 FORMAT EFFECTOR ACTION MODE (FEAM)\n14 FORMAT EFFECTOR TRANSFER MODE (FETM)\n15 MULTIPLE AREA TRANSFER MODE (MATM)\n16 TRANSFER TERMINATION MODE (TTM)\n17 SELECTED AREA TRANSFER MODE (SATM)\n18 TABULATION STOP MODE (TSM)\n19 (Shall not be used; see F.5.1 in annex F)\n20 (Shall not be used; see F.5.2 in annex F)\n21 GRAPHIC RENDITION COMBINATION (GRCM)\n22 ZERO DEFAULT MODE (ZDM) (see F.4.2 in annex F)",
+    "constants": {
+      "GUARDED AREA TRANSFER MODE": 1,
+      "KEYBOARD ACTION MODE": 2,
+      "CONTROL REPRESENTATION MODE": 3,
+      "INSERTION REPLACEMENT MODE": 4,
+      "STATUS REPORT TRANSFER MODE": 5,
+      "ERASURE MODE": 6,
+      "LINE EDITING MODE": 7,
+      "BI-DIRECTIONAL SUPPORT MODE": 8,
+      "DEVICE COMPONENT SELECT MODE": 9,
+      "CHARACTER EDITING MODE": 10,
+      "POSITIONING UNIT MODE": 11,
+      "SEND_OR_RECEIVE MODE": 12,
+      "FORMAT EFFECTOR ACTION MODE": 13,
+      "FORMAT EFFECTOR TRANSFER MODE": 14,
+      "MULTIPLE AREA TRANSFER MODE": 15,
+      "TRANSFER TERMINATION MODE": 16,
+      "SELECTED AREA TRANSFER MODE": 17,
+      "TABULATION STOP MODE": 18,
+      "GRAPHIC RENDITION COMBINATION": 21,
+      "ZERO DEFAULT MODE": 22
+    },
+    "set": "Cs",
+    "has_intermediate_byte": false
+  },
+  {
+    "col": 6,
+    "row": 9,
+    "abbreviation": "MC",
+    "name": "MEDIA COPY",
+    "argument_count": 1,
+    "default_arguments": [
+      0
+    ],
+    "description": "MC is used either to initiate a transfer of data from or to an auxiliary input/output device or to enable or\ndisable the relay of the received data stream to an auxiliary input/output device, depending on the\nparameter value:\n0\n initiate transfer to a primary auxiliary device\n1\n initiate transfer from a primary auxiliary device\n2\n initiate transfer to a secondary auxiliary device\n3\n initiate transfer from a secondary auxiliary device\n4\n stop relay to a primary auxiliary device\n5\n start relay to a primary auxiliary device\n6\n stop relay to a secondary auxiliary device\n7\n start relay to a secondary auxiliary device\nThis control function may not be used to switch on or off an auxiliary device.",
+    "constants": {
+      "INITIATE TRANSFER TO A PRIMARY AUXILIARY DEVICE": 0,
+      "INITIATE TRANSFER FROM A PRIMARY AUXILIARY DEVICE": 1,
+      "INITIATE TRANSFER TO A SECONDARY AUXILIARY DEVICE": 2,
+      "INITIATE TRANSFER FROM A SECONDARY AUXILIARY DEVICE": 3,
+      "STOP RELAY TO A PRIMARY AUXILIARY DEVICE": 4,
+      "START RELAY TO A PRIMARY AUXILIARY DEVICE": 5,
+      "STOP RELAY TO A SECONDARY AUXILIARY DEVICE": 6,
+      "START RELAY TO A SECONDARY AUXILIARY DEVICE": 7
+    },
+    "set": "Cs",
+    "has_intermediate_byte": false
+  },
+  {
+    "col": 6,
+    "row": 10,
+    "abbreviation": "HPB",
+    "name": "CHARACTER POSITION BACKWARD",
+    "argument_count": 1,
+    "default_arguments": [
+      1
+    ],
+    "description": "HPB causes the active data position to be moved by n character positions in the data component in the\ndirection opposite to that of the character progression, where n equals the value of Pn.",
+    "set": "Cs",
+    "has_intermediate_byte": false
+  },
+  {
+    "col": 6,
+    "row": 11,
+    "abbreviation": "VPB",
+    "name": "LINE POSITION BACKWARD",
+    "argument_count": 1,
+    "default_arguments": [
+      1
+    ],
+    "description": "VPB causes the active data position to be moved by n line positions in the data component in a direction\nopposite to that of the line progression, where n equals the value of Pn.",
+    "set": "Cs",
+    "has_intermediate_byte": false
+  },
+  {
+    "col": 6,
+    "row": 12,
+    "abbreviation": "RM",
+    "name": "RESET MODE",
+    "argument_count": -1,
+    "default_arguments": [],
+    "description": "RM causes the modes of the receiving device to be reset as specified by the parameter values:\n1\n GUARDED AREA TRANSFER MODE (GATM)\n2\n KEYBOARD ACTION MODE (KAM)\n3\n CONTROL REPRESENTATION MODE (CRM)\n4\n INSERTION REPLACEMENT MODE (IRM)\n5\n STATUS REPORT TRANSFER MODE (SRTM)\n6\n ERASURE MODE (ERM)\n7\n LINE EDITING MODE (VEM)\n8\n BI-DIRECTIONAL SUPPORT MODE (BDSM)\n9\n DEVICE COMPONENT SELECT MODE (DCSM)\n10 CHARACTER EDITING MODE (HEM)\n11 POSITIONING UNIT MODE (PUM) (see F.4.1 in annex F)\n12 SEND/RECEIVE MODE (SRM)\n13 FORMAT EFFECTOR ACTION MODE (FEAM)\n14 FORMAT EFFECTOR TRANSFER MODE (FETM)\n15 MULTIPLE AREA TRANSFER MODE (MATM)\n16 TRANSFER TERMINATION MODE (TTM)\n17 SELECTED AREA TRANSFER MODE (SATM)\n18 TABULATION STOP MODE (TSM)\n19 (Shall not be used; see F.5.1 in annex F)\n20 (Shall not be used; see F.5.2 in annex F)\n21 GRAPHIC RENDITION COMBINATION MODE (GRCM)\n22 ZERO DEFAULT MODE (ZDM) (see F.4.2 in annex F)",
+    "constants": {
+      "GUARDED AREA TRANSFER MODE": 1,
+      "KEYBOARD ACTION MODE": 2,
+      "CONTROL REPRESENTATION MODE": 3,
+      "INSERTION REPLACEMENT MODE": 4,
+      "STATUS REPORT TRANSFER MODE": 5,
+      "ERASURE MODE": 6,
+      "LINE EDITING MODE": 7,
+      "BI-DIRECTIONAL SUPPORT MODE": 8,
+      "DEVICE COMPONENT SELECT MODE": 9,
+      "CHARACTER EDITING MODE": 10,
+      "POSITIONING UNIT MODE": 11,
+      "SEND_OR_RECEIVE MODE": 12,
+      "FORMAT EFFECTOR ACTION MODE": 13,
+      "FORMAT EFFECTOR TRANSFER MODE": 14,
+      "MULTIPLE AREA TRANSFER MODE": 15,
+      "TRANSFER TERMINATION MODE": 16,
+      "SELECTED AREA TRANSFER MODE": 17,
+      "TABULATION STOP MODE": 18,
+      "GRAPHIC RENDITION COMBINATION": 21,
+      "ZERO DEFAULT MODE": 22
+    },
+    "set": "Cs",
+    "has_intermediate_byte": false
+  },
+  {
+    "col": 6,
+    "row": 13,
+    "abbreviation": "SGR",
+    "name": "SELECT GRAPHIC RENDITION",
+    "argument_count": -1,
+    "default_arguments": [],
+    "description": "Sets visual rendering styles for subsequent graphic characters. Defaults to 0 (Reset).",
+    "constants": {
+      "DEFAULT RENDITION": 0,
+      "BOLD OR INCREASED INTENSITY": 1,
+      "FAINT, DECREASED INTENSITY OR SECOND COLOUR": 2,
+      "ITALICIZED": 3,
+      "SINGLY UNDERLINED": 4,
+      "SLOWLY BLINKING": 5,
+      "RAPIDLY BLINKING": 6,
+      "NEGATIVE IMAGE": 7,
+      "CONCEALED CHARACTERS": 8,
+      "CROSSED-OUT": 9,
+      "PRIMARY FONT": 10,
+      "FIRST ALTERNATIVE FONT": 11,
+      "SECOND ALTERNATIVE FONT": 12,
+      "THIRD ALTERNATIVE FONT": 13,
+      "FOURTH ALTERNATIVE FONT": 14,
+      "FIFTH ALTERNATIVE FONT": 15,
+      "SIXTH ALTERNATIVE FONT": 16,
+      "SEVENTH ALTERNATIVE FONT": 17,
+      "EIGHTH ALTERNATIVE FONT": 18,
+      "NINTH ALTERNATIVE FONT": 19,
+      "FRAKTUR": 20,
+      "DOUBLY UNDERLINED": 21,
+      "NORMAL COLOUR OR NORMAL INTENSITY": 22,
+      "NOT ITALICIZED, NOT FRAKTUR": 23,
+      "NOT UNDERLINED": 24,
+      "STEADY": 25,
+      "POSITIVE IMAGE": 27,
+      "REVEALED CHARACTERS": 28,
+      "NOT CROSSED OUT": 29,
+      "BLACK DISPLAY": 30,
+      "RED DISPLAY": 31,
+      "GREEN DISPLAY": 32,
+      "YELLOW DISPLAY": 33,
+      "BLUE DISPLAY": 34,
+      "MAGENTA DISPLAY": 35,
+      "CYAN DISPLAY": 36,
+      "WHITE DISPLAY": 37,
+      "BLACK BACKGROUND": 40,
+      "RED BACKGROUND": 41,
+      "GREEN BACKGROUND": 42,
+      "YELLOW BACKGROUND": 43,
+      "BLUE BACKGROUND": 44,
+      "MAGENTA BACKGROUND": 45,
+      "CYAN BACKGROUND": 46,
+      "WHITE BACKGROUND": 47,
+      "DEFAULT BACKGROUND COLOUR": 49,
+      "FRAMED": 51,
+      "ENCIRCLED": 52,
+      "OVERLINED": 53,
+      "NOT FRAMED, NOT ENCIRCLED": 54,
+      "NOT OVERLINED": 55,
+      "IDEOGRAM UNDERLINE OR RIGHT SIDE LINE": 60,
+      "IDEOGRAM DOUBLE UNDERLINE OR DOUBLE LINE ON THE RIGHT SIDE": 61,
+      "IDEOGRAM OVERLINE OR LEFT SIDE LINE": 62,
+      "IDEOGRAM DOUBLE OVERLINE OR DOUBLE LINE ON THE LEFT SIDE": 63,
+      "IDEOGRAM STRESS MARKING": 64,
+      "CANCELS THE EFFECT OF THE RENDITION ASPECTS ESTABLISHED BY PARAMETER VALUES 60 TO 64": 65
+    },
+    "set": "Cs",
+    "has_intermediate_byte": false
+  },
+  {
+    "col": 6,
+    "row": 14,
+    "abbreviation": "DSR",
+    "name": "DEVICE STATUS REPORT",
+    "argument_count": 1,
+    "default_arguments": [
+      0
+    ],
+    "description": "Requests a status or state report from the device or presentation component.",
+    "constants": {
+      "READY, NO MALFUNCTION DETECTED": 0,
+      "BUSY, ANOTHER DSR MUST BE REQUESTED LATER": 1,
+      "BUSY, ANOTHER DSR WILL BE SENT LATER": 2,
+      "SOME MALFUNCTION DETECTED, ANOTHER DSR MUST BE REQUESTED LATER": 3,
+      "SOME MALFUNCTION DETECTED, ANOTHER DSR WILL BE SENT LATER": 4,
+      "A DSR IS REQUESTED": 5,
+      "A REPORT OF THE ACTIVE PRESENTATION POSITION OR OF THE ACTIVE DATA POSITION IN THE FORM OF ACTIVE POSITION REPORT IS REQUESTED": 6
+    },
+    "set": "Cs",
+    "has_intermediate_byte": false
+  },
+  {
+    "col": 6,
+    "row": 15,
+    "abbreviation": "DAQ",
+    "name": "DEFINE AREA QUALIFICATION",
+    "argument_count": -1,
+    "default_arguments": [],
+    "description": "Defines properties of the area starting at the active position.",
+    "constants": {
+      "UNPROTECTED AND UNGUARDED": 0,
+      "PROTECTED AND GUARDED": 1,
+      "GRAPHIC CHARACTER INPUT": 2,
+      "NUMERIC INPUT": 3,
+      "ALPHABETIC INPUT": 4,
+      "INPUT ALIGNED ON THE LAST CHARACTER POSITION OF THE QUALIFIED AREA": 5,
+      "FILL WITH ZEROS": 6,
+      "SET A CHARACTER TABULATION STOP AT THE ACTIVE PRESENTATION POSITION TO INDICATE THE BEGINNING OF A FIELD": 7,
+      "PROTECTED AND UNGUARDED": 8,
+      "FILL WITH SPACES": 9,
+      "INPUT ALIGNED ON THE FIRST CHARACTER POSITION OF THE QUALIFIED AREA": 10,
+      "THE ORDER OF THE CHARACTER POSITIONS IN THE INPUT FIELD IS REVERSED": 11
+    },
+    "set": "Cs",
+    "has_intermediate_byte": false
+  },
+  {
+    "col": 4,
+    "row": 0,
+    "abbreviation": "SL",
+    "name": "SCROLL LEFT",
+    "argument_count": 1,
+    "default_arguments": [
+      1
+    ],
+    "description": "SL causes the data in the presentation component to be moved by n character positions if the line\norientation is horizontal, or by n line positions if the line orientation is vertical, such that the data appear\nto move to the left; where n equals the value of Pn.\nThe active presentation position is not affected by this control function.",
+    "set": "Cs",
+    "has_intermediate_byte": true
+  },
+  {
+    "col": 4,
+    "row": 1,
+    "abbreviation": "SR",
+    "name": "SCROLL RIGHT",
+    "argument_count": 1,
+    "default_arguments": [
+      1
+    ],
+    "description": "SR causes the data in the presentation component to be moved by n character positions if the line\norientation is horizontal, or by n line positions if the line orientation is vertical, such that the data appear\nto move to the right; where n equals the value of Pn.\nThe active presentation position is not affected by this control function.",
+    "set": "Cs",
+    "has_intermediate_byte": true
+  },
+  {
+    "col": 4,
+    "row": 2,
+    "abbreviation": "GSM",
+    "name": "GRAPHIC SIZE MODIFICATION",
+    "argument_count": 2,
+    "default_arguments": [
+      100,
+      100
+    ],
+    "description": "GSM is used to modify for subsequent text the height and/or the width of all primary and alternative\nfonts identified by FONT SELECTION (FNT) and established by GRAPHIC SIZE SELECTION (GSS).\nThe established values remain in effect until the next occurrence of GSM or GSS in the data steam.\nPn1\nPn2\nspecifies the height as a percentage of the height established by GSS\nspecifies the width as a percentage of the width established by GSS",
+    "set": "Cs",
+    "has_intermediate_byte": true
+  },
+  {
+    "col": 4,
+    "row": 3,
+    "abbreviation": "GSS",
+    "name": "GRAPHIC SIZE SELECTION",
+    "argument_count": 1,
+    "default_arguments": [
+      null
+    ],
+    "description": "GSS is used to establish for subsequent text the height and the width of all primary and alternative fonts\nidentified by FONT SELECTION (FNT). The established values remain in effect until the next\noccurrence of GSS in the data stream.\nPn specifies the height, the width is implicitly defined by the height.\nThe unit in which the parameter value is expressed is that established by the parameter value of SELECT\nSIZE UNIT (SSU).",
+    "set": "Cs",
+    "has_intermediate_byte": true
+  },
+  {
+    "col": 4,
+    "row": 4,
+    "abbreviation": "FNT",
+    "name": "FONT SELECTION",
+    "argument_count": 2,
+    "default_arguments": [
+      0,
+      0
+    ],
+    "description": "FNT is used to identify the character font to be selected as primary or alternative font by subsequent\noccurrences of SELECT GRAPHIC RENDITION (SGR) in the data stream. Ps1 specifies the primary or\nalternative font concerned:\n0\n primary font\n1\n first alternative font\n2\n second alternative font\n3\n third alternative font\n4\n fourth alternative font\n5\n fifth alternative font\n6\n sixth alternative font\n7\n seventh alternative font\n8\n eighth alternative font\n9\n ninth alternative font\nPs2 identifies the character font according to a register which is to be established.",
+    "constants": {
+      "PRIMARY FONT": 0,
+      "FIRST ALTERNATIVE FONT": 1,
+      "SECOND ALTERNATIVE FONT": 2,
+      "THIRD ALTERNATIVE FONT": 3,
+      "FOURTH ALTERNATIVE FONT": 4,
+      "FIFTH ALTERNATIVE FONT": 5,
+      "SIXTH ALTERNATIVE FONT": 6,
+      "SEVENTH ALTERNATIVE FONT": 7,
+      "EIGTH ALTERNATIVE FONT": 8,
+      "NINTH ALTERNATIVE FONT": 9
+    },
+    "set": "Cs",
+    "has_intermediate_byte": true
+  },
+  {
+    "col": 4,
+    "row": 5,
+    "abbreviation": "TSS",
+    "name": "THIN SPACE SPECIFICATION",
+    "argument_count": 1,
+    "default_arguments": [
+      null
+    ],
+    "description": "TSS is used to establish the width of a thin space for subsequent text. The established width remains in\neffect until the next occurrence of TSS in the data stream, see annex C.\nPn specifies the width of the thin space.\nThe unit in which the parameter value is expressed is that established by the parameter value of SELECT\nSIZE UNIT (SSU).",
+    "set": "Cs",
+    "has_intermediate_byte": true
+  },
+  {
+    "col": 4,
+    "row": 6,
+    "abbreviation": "JFY",
+    "name": "JUSTIFY",
+    "argument_count": -1,
+    "default_arguments": [],
+    "description": "JFY is used to indicate the beginning of a string of graphic characters in the presentation component that\nare to be justified according to the layout specified by the parameter values, see annex C:\n0\n no justification, end of justification of preceding text\n1\n word fill\n2\n word space\n3\n letter space\n4\n hyphenation\n5\n flush to line home position margin\n6\n centre between line home position and line limit position margins\n7\n flush to line limit position margin\n8\n Italian hyphenation\nThe end of the string to be justified is indicated by the next occurrence of JFY in the data stream.\nThe line home position is established by the parameter value of SET LINE HOME (SLH). The line limit\nposition is established by the parameter value of SET LINE LIMIT (SLL).",
+    "constants": {
+      "NO JUSTIFICATION": 0,
+      "WORD FILL": 1,
+      "WORD SPACE": 2,
+      "LETTER SPACE": 3,
+      "HYPHENATION": 4,
+      "FLUSH TO LINE HOME POSITION MARGIN": 5,
+      "CENTRE BETWEEN LINE HOME POSITION AND LINE LIMIT POSITION MARGINS": 6,
+      "FLUSH TO LINE LIMIT POSITION MARGIN": 7,
+      "ITALIAN HYPHENATION": 8
+    },
+    "set": "Cs",
+    "has_intermediate_byte": true
+  },
+  {
+    "col": 4,
+    "row": 7,
+    "abbreviation": "SPI",
+    "name": "SPACING INCREMENT",
+    "argument_count": 2,
+    "default_arguments": [
+      null,
+      null
+    ],
+    "description": "SPI is used to establish the line spacing and the character spacing for subsequent text. The established\nline spacing remains in effect until the next occurrence of SPI or of SET LINE SPACING (SLS) or of\nSELECT LINE SPACING (SVS) in the data stream. The established character spacing remains in effect\nuntil the next occurrence of SET CHARACTER SPACING (SCS) or of SELECT CHARACTER\nSPACING (SHS) in the data stream, see annex C.\nPn1 specifies the line spacing\nPn2 specifies the character spacing\nThe unit in which the parameter values are expressed is that established by the parameter value of\nSELECT SIZE UNIT (SSU).",
+    "set": "Cs",
+    "has_intermediate_byte": true
+  },
+  {
+    "col": 4,
+    "row": 8,
+    "abbreviation": "QUAD",
+    "name": "QUAD",
+    "argument_count": -1,
+    "default_arguments": [],
+    "description": "QUAD is used to indicate the end of a string of graphic characters that are to be positioned on a single\nline according to the layout specified by the parameter values, see annex C:\n0\n flush to line home position margin\n1\n flush to line home position margin and fill with leader\n2\n centre between line home position and line limit position margins\n3\n centre between line home position and line limit position margins and fill with leader\n4\n flush to line limit position margin\n5\n flush to line limit position margin and fill with leader\n6\n flush to both margins\nThe beginning of the string to be positioned is indicated by the preceding occurrence in the data stream\nof either QUAD or one of the following formator functions: FORM FEED (FF), CHARACTER AND\nLINE POSITION (HVP), LINE FEED (LF), NEXT LINE (NEL), PAGE POSITION ABSOLUTE (PPA),\nPAGE POSITION BACKWARD (PPB), PAGE POSITION FORWARD (PPR), REVERSE LINE FEED\n(RI), LINE POSITION ABSOLUTE (VPA), LINE POSITION BACKWARD (VPB), LINE POSITION\nFORWARD (VPR), or LINE TABULATION (VT).\nThe line home position is established by the parameter value of SET LINE HOME (SLH). The line limit\nposition is established by the parameter value of SET LINE LIMIT (SLL).",
+    "constants": {
+      "FLUSH TO LINE HOME POSITION MARGIN": 0,
+      "FLUSH TO LINE HOME POSITION MARGIN AND FILL WITH LEADER": 1,
+      "CENTRE BETWEEN LINE HOME POSITION AND LINE LIMIT POSITION MARGINS": 2,
+      "CENTRE BETWEEN LINE HOME POSITION AND LINE LIMIT POSITION MARGINS AND FILL WITH LEADER": 3,
+      "FLUSH TO LINE LIMIT POSITION MARGIN": 4,
+      "FLUSH TO LINE LIMIT POSITION MARGIN AND FILL WITH LEADER": 5,
+      "FLUSH TO BOTH MARGINS": 6
+    },
+    "set": "Cs",
+    "has_intermediate_byte": true
+  },
+  {
+    "col": 4,
+    "row": 9,
+    "abbreviation": "SSU",
+    "name": "SELECT SIZE UNIT",
+    "argument_count": 1,
+    "default_arguments": [
+      0
+    ],
+    "description": "SSU is used to establish the unit in which the numeric parameters of certain control functions are\nexpressed. The established unit remains in effect until the next occurrence of SSU in the data stream.\nThe parameter values are\n0\n CHARACTER - The dimensions of this unit are device-dependent\n1\n MILLIMETRE\n2\n COMPUTER DECIPOINT - 0,035 28 mm (1/720 of 25,4 mm)\n3\n DECIDIDOT - 0,037 59 mm (10/266 mm)\n4\n MIL - 0,025 4 mm (1/1 000 of 25,4 mm)\n5\n BASIC MEASURING UNIT (BMU) - 0,021 17 mm (1/1 200 of 25,4 mm)\n6\n MICROMETRE - 0,001 mm\n7\n PIXEL - The smallest increment that can be specified in a device\n8\n DECIPOINT - 0,035 14 mm (35/996 mm)",
+    "constants": {
+      "CHARACTER - THE DIMENSIONS OF THIS UNIT ARE DEVICE-DEPENDENT": 0,
+      "MILLIMETRE": 1,
+      "COMPUTER DECIPOINT - 0,035 28 MM": 2,
+      "DECIDIDOT - 0,037 59 MM": 3,
+      "MIL - 0,025 4 MM": 4,
+      "BASIC MEASURING UNIT - 0,021 17 MM": 5,
+      "MICROMETRE - 0,001 MM": 6,
+      "PIXEL - THE SMALLEST INCREMENT THAT CAN BE SPECIFIED IN A DEVICE": 7,
+      "DECIPOINT - 0,035 14 MM": 8
+    },
+    "set": "Cs",
+    "has_intermediate_byte": true
+  },
+  {
+    "col": 4,
+    "row": 10,
+    "abbreviation": "PFS",
+    "name": "PAGE FORMAT SELECTION",
+    "argument_count": 1,
+    "default_arguments": [
+      0
+    ],
+    "description": "PFS is used to establish the available area for the imaging of pages of text based on paper size. The\npages are introduced by the subsequent occurrence of FORM FEED (FF) in the data stream.\nThe established image area remains in effect until the next occurrence of PFS in the data stream. The\nparameter values are (see also annex E):\n0\n tall basic text communication format\n1\n wide basic text communication format\n2\n tall basic A4 format\n3\n wide basic A4 format\n4\n tall North American letter format\n5\n wide North American letter format\n6\n tall extended A4 format\n7\n wide extended A4 format\n8\n tall North American legal format\n9\n wide North American legal format\n10 A4 short lines format\n11 A4 long lines format\n12 B5 short lines format\n13 B5 long lines format\n14 B4 short lines format\n15 B4 long lines format\nThe page home position is established by the parameter value of SET PAGE HOME (SPH), the page\nlimit position is established by the parameter value of SET PAGE LIMIT (SPL).",
+    "constants": {
+      "TALL BASIC TEXT COMMUNICATION FORMAT": 0,
+      "WIDE BASIC TEXT COMMUNICATION FORMAT": 1,
+      "TALL BASIC A4 FORMAT": 2,
+      "WIDE BASIC A4 FORMAT": 3,
+      "TALL NORTH AMERICAN LETTER FORMAT": 4,
+      "WIDE NORTH AMERICAN LETTER FORMAT": 5,
+      "TALL EXTENDED A4 FORMAT": 6,
+      "WIDE EXTENDED A4 FORMAT": 7,
+      "TALL NORTH AMERICAN LEGAL FORMAT": 8,
+      "WIDE NORTH AMERICAN LEGAL FORMAT": 9,
+      "A4 SHORT LINES FORMAT": 10,
+      "A4 LONG LINES FORMAT": 11,
+      "B5 SHORT LINES FORMAT": 12,
+      "B5 LONG LINES FORMAT": 13,
+      "B4 SHORT LINES FORMAT": 14,
+      "B4 LONG LINES FORMAT": 15
+    },
+    "set": "Cs",
+    "has_intermediate_byte": true
+  },
+  {
+    "col": 4,
+    "row": 11,
+    "abbreviation": "SHS",
+    "name": "SELECT CHARACTER SPACING",
+    "argument_count": 1,
+    "default_arguments": [
+      0
+    ],
+    "description": "SHS is used to establish the character spacing for subsequent text. The established spacing remains in\neffect until the next occurrence of SHS or of SET CHARACTER SPACING (SCS) or of SPACING\nINCREMENT (SPI) in the data stream. The parameter values are\n0\n 10 characters per 25,4 mm\n1\n 12 characters per 25,4 mm\n2\n 15 characters per 25,4 mm\n3\n 6 characters per 25,4 mm\n4\n 3 characters per 25,4 mm\n5\n 9 characters per 50,8 mm\n6\n 4 characters per 25,4 mm",
+    "constants": {
+      "CNT 10 CHARACTERS PER 25,4 MM": 0,
+      "CNT 12 CHARACTERS PER 25,4 MM": 1,
+      "CNT 15 CHARACTERS PER 25,4 MM": 2,
+      "CNT 6 CHARACTERS PER 25,4 MM": 3,
+      "CNT 3 CHARACTERS PER 25,4 MM": 4,
+      "CNT 9 CHARACTERS PER 50,8 MM": 5,
+      "CNT 4 CHARACTERS PER 25,4 MM": 6
+    },
+    "set": "Cs",
+    "has_intermediate_byte": true
+  },
+  {
+    "col": 4,
+    "row": 12,
+    "abbreviation": "SVS",
+    "name": "SELECT LINE SPACING",
+    "argument_count": 1,
+    "default_arguments": [
+      0
+    ],
+    "description": "SVS is used to establish the line spacing for subsequent text. The established spacing remains in effect\nuntil the next occurrence of SVS or of SET LINE SPACING (SLS) or of SPACING INCREMENT (SPI)\nin the data stream. The parameter values are:\n0\n 6 lines per 25,4 mm\n1\n 4 lines per 25,4 mm\n2\n 3 lines per 25,4 mm\n3\n 12 lines per 25,4 mm\n4\n 8 lines per 25,4 mm\n5\n 6 lines per 30,0 mm\n6\n 4 lines per 30,0 mm\n7\n 3 lines per 30,0 mm\n8\n 12 lines per 30,0 mm\n9\n 2 lines per 25,4 mm",
+    "constants": {
+      "CNT 6 LINES PER 25,4 MM": 0,
+      "CNT 4 LINES PER 25,4 MM": 1,
+      "CNT 3 LINES PER 25,4 MM": 2,
+      "CNT 12 LINES PER 25,4 MM": 3,
+      "CNT 8 LINES PER 25,4 MM": 4,
+      "CNT 6 LINES PER 30,0 MM": 5,
+      "CNT 4 LINES PER 30,0 MM": 6,
+      "CNT 3 LINES PER 30,0 MM": 7,
+      "CNT 12 LINES PER 30,0 MM": 8,
+      "CNT 2 LINES PER 25,4 MM": 9
+    },
+    "set": "Cs",
+    "has_intermediate_byte": true
+  },
+  {
+    "col": 4,
+    "row": 13,
+    "abbreviation": "IGS",
+    "name": "IDENTIFY GRAPHIC SUBREPERTOIRE",
+    "argument_count": 1,
+    "default_arguments": [
+      null
+    ],
+    "description": "IGS is used to indicate that a repertoire of the graphic characters of ISO/IEC 10367 is used in the\nsubsequent text.",
+    "set": "Cs",
+    "has_intermediate_byte": true
+  },
+  {
+    "col": 4,
+    "row": 15,
+    "abbreviation": "IDCS",
+    "name": "IDENTIFY DEVICE CONTROL STRING",
+    "argument_count": 1,
+    "default_arguments": [
+      null
+    ],
+    "description": "IDCS is used to specify the purpose and format of the command string of subsequent DEVICE\nCONTROL STRINGs (DCS). The specified purpose and format remain in effect until the next\noccurrence of IDCS in the data stream.\nThe parameter values are\n1 reserved for use with the DIAGNOSTIC state of the STATUS REPORT TRANSFER MODE (SRTM)\n2\n reserved for Dynamically Redefinable Character Sets (DRCS) according to Standard ECMA-35.\nThe format and interpretation of the command string corresponding to these parameter values are to be\ndefined in appropriate standards. If this control function is used to identify a private command string, a\nprivate parameter value shall be used.",
+    "constants": {
+      "RESERVED FOR USE WITH THE DIAGNOSTIC STATE OF THE STATUS REPORT TRANSFER MODE": 1,
+      "RESERVED FOR DYNAMICALLY REDEFINABLE CHARACTER SETS ACCORDING TO STANDARD ECMA-35": 2
+    },
+    "set": "Cs",
+    "has_intermediate_byte": true
+  },
+  {
+    "col": 5,
+    "row": 0,
+    "abbreviation": "PPA",
+    "name": "PAGE POSITION ABSOLUTE",
+    "argument_count": 1,
+    "default_arguments": [
+      1
+    ],
+    "description": "PPA causes the active data position to be moved in the data component to the corresponding character\nposition on the n-th page, where n equals the value of Pn.",
+    "set": "Cs",
+    "has_intermediate_byte": true
+  },
+  {
+    "col": 5,
+    "row": 1,
+    "abbreviation": "PPR",
+    "name": "PAGE POSITION FORWARD",
+    "argument_count": 1,
+    "default_arguments": [
+      1
+    ],
+    "description": "PPR causes the active data position to be moved in the data component to the corresponding character\nposition on the n-th following page, where n equals the value of Pn.",
+    "set": "Cs",
+    "has_intermediate_byte": true
+  },
+  {
+    "col": 5,
+    "row": 2,
+    "abbreviation": "PPB",
+    "name": "PAGE POSITION BACKWARD",
+    "argument_count": 1,
+    "default_arguments": [
+      1
+    ],
+    "description": "PPB causes the active data position to be moved in the data component to the corresponding character\nposition on the n-th preceding page, where n equals the value of Pn.",
+    "set": "Cs",
+    "has_intermediate_byte": true
+  },
+  {
+    "col": 5,
+    "row": 3,
+    "abbreviation": "SPD",
+    "name": "SELECT PRESENTATION DIRECTIONS",
+    "argument_count": 2,
+    "default_arguments": [
+      0,
+      0
+    ],
+    "description": "SPD is used to select the line orientation, the line progression, and the character path in the presentation\ncomponent. It is also used to update the content of the presentation component and the content of the\ndata component. This takes effect immediately.\nPs1 specifies the line orientation, the line progression and the character path\nPs2 specifies the effect on the content of the presentation component and the content of the data\ncomponent:",
+    "set": "Cs",
+    "has_intermediate_byte": true
+  },
+  {
+    "col": 5,
+    "row": 4,
+    "abbreviation": "DTA",
+    "name": "DIMENSION TEXT AREA",
+    "argument_count": 2,
+    "default_arguments": [
+      null,
+      null
+    ],
+    "description": "DTA is used to establish the dimensions of the text area for subsequent pages.\nThe established dimensions remain in effect until the next occurrence of DTA in the data stream.\nPn1\n specifies the dimension in the direction perpendicular to the line orientation\nPn2\n specifies the dimension in the direction parallel to the line orientation\nThe unit in which the parameter value is expressed is that established by the parameter value of SELECT\nSIZE UNIT (SSU).",
+    "set": "Cs",
+    "has_intermediate_byte": true
+  },
+  {
+    "col": 5,
+    "row": 5,
+    "abbreviation": "SLH",
+    "name": "SET LINE HOME",
+    "argument_count": 1,
+    "default_arguments": [
+      null
+    ],
+    "description": "If the DEVICE COMPONENT SELECT MODE is set to PRESENTATION, SLH is used to establish at\ncharacter position n in the active line (the line that contains the active presentation position) and lines of\nsubsequent text in the presentation component the position to which the active presentation position will\nbe moved by subsequent occurrences of CARRIAGE RETURN (CR), DELETE LINE (DL), INSERT\nLINE (IL) or NEXT LINE (NEL) in the data stream; where n equals the value of Pn. In the case of a\ndevice without data component, it is also the position ahead of which no implicit movement of the active\npresentation position shall occur.\nIf the DEVICE COMPONENT SELECT MODE is set to DATA, SLH is used to establish at character\nposition n in the active line (the line that contains the active data position) and lines of subsequent text\nin the data component the position to which the active data position will be moved by subsequent\noccurrences of CARRIAGE RETURN (CR), DELETE LINE (DL), INSERT LINE (IL) or NEXT LINE\n(NEL) in the data stream; where n equals the value of Pn. It is also the position ahead of which no\nimplicit movement of the active data position shall occur.\nThe established position is called the line home position and remains in effect until the next occurrence\nof SLH in the data stream.",
+    "set": "Cs",
+    "has_intermediate_byte": true
+  },
+  {
+    "col": 5,
+    "row": 6,
+    "abbreviation": "SLL",
+    "name": "SET LINE LIMIT",
+    "argument_count": 1,
+    "default_arguments": [
+      null
+    ],
+    "description": "If the DEVICE COMPONENT SELECT MODE is set to PRESENTATION, SLL is used to establish at\ncharacter position n in the active line (the line that contains the active presentation position) and lines of\nsubsequent text in the presentation component the position to which the active presentation position will\nbe moved by subsequent occurrences of CARRIAGE RETURN (CR), or NEXT LINE (NEL) in the data\nstream if the parameter value of SELECT IMPLICIT MOVEMENT DIRECTION (SIMD) is equal to 1;\nwhere n equals the value of Pn. In the case of a device without data component, it is also the position\nbeyond which no implicit movement of the active presentation position shall occur.\nIf the DEVICE COMPONENT SELECT MODE is set to DATA, SLL is used to establish at character\nposition n in the active line (the line that contains the active data position) and lines of subsequent text\nin the data component the position beyond which no implicit movement of the active data position shall\noccur. It is also the position in the data component to which the active data position will be moved by\nsubsequent occurrences of CR or NEL in the data stream, if the parameter value of SELECT IMPLICIT\nMOVEMENT DIRECTION (SIMD) is equal to 1.\nThe established position is called the line limit position and remains in effect until the next occurrence\nof SLL in the data stream.",
+    "set": "Cs",
+    "has_intermediate_byte": true
+  },
+  {
+    "col": 5,
+    "row": 7,
+    "abbreviation": "FNK",
+    "name": "FUNCTION KEY",
+    "argument_count": 1,
+    "default_arguments": [
+      null
+    ],
+    "description": "FNT is used to identify the character font to be selected as primary or alternative font by subsequent\noccurrences of SELECT GRAPHIC RENDITION (SGR) in the data stream. Ps1 specifies the primary or\nalternative font concerned:\n0\n primary font\n1\n first alternative font\n2\n second alternative font\n3\n third alternative font\n4\n fourth alternative font\n5\n fifth alternative font\n6\n sixth alternative font\n7\n seventh alternative font\n8\n eighth alternative font\n9\n ninth alternative font\nPs2 identifies the character font according to a register which is to be established.",
+    "set": "Cs",
+    "has_intermediate_byte": true
+  },
+  {
+    "col": 5,
+    "row": 8,
+    "abbreviation": "SPQR",
+    "name": "SELECT PRINT QUALITY AND RAPIDITY",
+    "argument_count": 1,
+    "default_arguments": [
+      0
+    ],
+    "description": "SPQR is used to select the relative print quality and the print speed for devices the output quality and\nspeed of which are inversely related. The selected values remain in effect until the next occurrence of\nSPQR in the data stream. The parameter values are\n0\n highest available print quality, low print speed\n1\n medium print quality, medium print speed\n2\n draft print quality, highest available print speed",
+    "constants": {
+      "HIGHEST AVAILABLE PRINT QUALITY, LOW PRINT SPEED": 0,
+      "MEDIUM PRINT QUALITY, MEDIUM PRINT SPEED": 1,
+      "DRAFT PRINT QUALITY, HIGHEST AVAILABLE PRINT SPEED": 2
+    },
+    "set": "Cs",
+    "has_intermediate_byte": true
+  },
+  {
+    "col": 5,
+    "row": 9,
+    "abbreviation": "SEF",
+    "name": "SHEET EJECT AND FEED",
+    "argument_count": 2,
+    "default_arguments": [
+      0,
+      0
+    ],
+    "description": "SEF causes a sheet of paper to be ejected from a printing device into a specified output stacker and\nanother sheet to be loaded into the printing device from a specified paper bin.\nParameter values of Ps1 are:\n0\n eject sheet, no new sheet loaded\n1\n eject sheet and load another from bin 1\n2\n eject sheet and load another from bin 2\n.\n.\n.\nn\n eject sheet and load another from bin n\nParameter values of Ps2 are:\n0\n eject sheet, no stacker specified\n1\n eject sheet into stacker 1\n2\n eject sheet into stacker 2\n.\n.\n.\nn\n eject sheet into stacker n\n",
+    "set": "Cs",
+    "has_intermediate_byte": true
+  },
+  {
+    "col": 5,
+    "row": 10,
+    "abbreviation": "PEC",
+    "name": "PRESENTATION EXPAND OR CONTRACT",
+    "argument_count": 1,
+    "default_arguments": [
+      0
+    ],
+    "description": "PEC is used to establish the spacing and the extent of the graphic characters for subsequent text. The\nspacing is specified in the line as multiples of the spacing established by the most recent occurrence of\nSET CHARACTER SPACING (SCS) or of SELECT CHARACTER SPACING (SHS) or of SPACING\nINCREMENT (SPI) in the data stream. The extent of the characters is implicitly established by these control functions. The established spacing and the extent remain in effect until the next occurrence of\nPEC, of SCS, of SHS or of SPI in the data stream. The parameter values are\n0\n normal (as specified by SCS, SHS or SPI)\n1\n expanded (multiplied by a factor not greater than 2)\n2\n condensed (multiplied by a factor not less than 0,5)",
+    "constants": {
+      "NORMAL": 0,
+      "EXPANDED": 1,
+      "CONDENSED": 2
+    },
+    "set": "Cs",
+    "has_intermediate_byte": true
+  },
+  {
+    "col": 5,
+    "row": 11,
+    "abbreviation": "SSW",
+    "name": "SET SPACE WIDTH",
+    "argument_count": 1,
+    "default_arguments": [
+      null
+    ],
+    "description": "SSW is used to establish for subsequent text the character escapement associated with the character\nSPACE. The established escapement remains in effect until the next occurrence of SSW in the data\nstream or until it is reset to the default value by a subsequent occurrence of CARRIAGE RETURN/LINE\nFEED (CR/LF), CARRIAGE RETURN/FORM FEED (CR/FF), or of NEXT LINE (NEL) in the data\nstream, see annex C.\nPn specifies the escapement.\nThe unit in which the parameter value is expressed is that established by the parameter value of SELECT\nSIZE UNIT (SSU).\nThe default character escapement of SPACE is specified by the most recent occurrence of SET\nCHARACTER SPACING (SCS) or of SELECT CHARACTER SPACING (SHS) or of SELECT\nSPACING INCREMENT (SPI) in the data stream if the current font has constant spacing, or is specified\nby the nominal width of the character SPACE in the current font if that font has proportional spacing.",
+    "set": "Cs",
+    "has_intermediate_byte": true
+  },
+  {
+    "col": 5,
+    "row": 12,
+    "abbreviation": "SACS",
+    "name": "SET ADDITIONAL CHARACTER SEPARATION",
+    "argument_count": 1,
+    "default_arguments": [
+      0
+    ],
+    "description": "SACS is used to establish extra inter-character escapement for subsequent text. The established extra\nescapement remains in effect until the next occurrence of SACS or of SET REDUCED CHARACTER\nSEPARATION (SRCS) in the data stream or until it is reset to the default value by a subsequent\noccurrence of CARRIAGE RETURN/LINE FEED (CR LF) or of NEXT LINE (NEL) in the data stream,\nsee annex C.\nPn specifies the number of units by which the inter-character escapement is enlarged.\nThe unit in which the parameter value is expressed is that established by the parameter value of SELECT\nSIZE UNIT (SSU).",
+    "set": "Cs",
+    "has_intermediate_byte": true
+  },
+  {
+    "col": 5,
+    "row": 13,
+    "abbreviation": "SAPV",
+    "name": "SELECT ALTERNATIVE PRESENTATION VARIANTS",
+    "argument_count": -1,
+    "default_arguments": [],
+    "description": "SAPV is used to specify one or more variants for the presentation of subsequent text. The parameter\nvalues are\n0 default presentation (implementation-defined); cancels the effect of any preceding occurrence of\nSAPV in the data stream\n1\n the decimal digits are presented by means of the graphic symbols used in the Latin script\n2 the decimal digits are presented by means of the graphic symbols used in the Arabic script, i.e. the\nHindi symbols\n3 when the direction of the character path is right-to-left, each of the graphic characters in the graphic\ncharacter set(s) in use which is one of a left/right-handed pair (parentheses, square brackets, curly\nbrackets, greater-than/less-than signs, etc.) is presented as \"mirrored\", i.e. as the other member of the\npair. For example, the coded graphic character given the name LEFT PARENTHESIS is presented as\nRIGHT PARENTHESIS, and vice versa\n4 when the direction of the character path is right-to-left, all graphic characters which represent\noperators and delimiters in mathematical formulae and which are not symmetrical about a vertical\naxis are presented as mirrored about that vertical axis\n5\n the following graphic character is presented in its isolated form\n6\n the following graphic character is presented in its initial form\n7\n the following graphic character is presented in its medial form\n8\n the following graphic character is presented in its final form\n9 where the bit combination 02/14 is intended to represent a decimal mark in a decimal number it shall\nbe presented by means of the graphic symbol FULL STOP\n10 where the bit combination 02/14 is intended to represent a decimal mark in a decimal number it shall\nbe presented by means of the graphic symbol COMMA\n11 vowels are presented above or below the preceding character\n12 vowels are presented after the preceding character\n13 contextual shape determination of Arabic scripts, including the LAM-ALEPH ligature but excluding\nall other Arabic ligatures\n14 contextual shape determination of Arabic scripts, excluding all Arabic ligatures\n15 cancels the effect of parameter values 3 and 4\n16 vowels are not presented\n17 when the string direction is right-to-left, the italicized characters are slanted to the left; when the\nstring direction is left-to-right, the italicized characters are slanted to the right\n18 contextual shape determination of Arabic scripts is not used, the graphic characters - including the\ndigits - are presented in the form they are stored (Pass-through)\n19 contextual shape determination of Arabic scripts is not used, the graphic characters- excluding the\ndigits - are presented in the form they are stored (Pass-through)\n20 the graphic symbols used to present the decimal digits are device dependent\n21 establishes the effect of parameter values 5, 6, 7, and 8 for the following graphic characters until\ncancelled\n22 cancels the effect of parameter value 21, i.e. re-establishes the effect of parameter values 5, 6, 7, and\n8 for the next single graphic character only.",
+    "constants": {
+      "default preSENTATION": 0,
+      "LATIN DIGIT PRESENTATION": 1,
+      "ARABIC DIGIT PRESENTATION": 2,
+      "MIRROR PAIRS_IN_RIGHT_TO_LEFT": 3,
+      "MIRROR_MATHEMATICAL_OBJECTS_IN_RIGHT_TO_LEFT": 4,
+      "ISOLATED FORM": 5,
+      "INITIAL FORM": 6,
+      "MEDIAL FORM": 7,
+      "FINAL FORM": 8,
+      "PERIOD IS DECIMAL POINT": 9,
+      "COMMA IS DECIMAL POINT": 10,
+      "PRESENT VOWELS ABOVE OR BELOW THE PRECEEDING CHARACTER": 11,
+      "VOWELS ARE PRESENTED AFTER THE PRECEDING CHARACTER": 12,
+      "CONTEXTUAL SHAPE DETERMINATION OF ARABIC SCRIPTS": 13,
+      "CONTEXTUAL SHAPE DETERMINATION OF ARABIC SCRIPTS, EXCLUDING ALL ARABIC LIGATURES": 14,
+      "CANCELS THE EFFECT OF PARAMETER VALUES 3 AND 4": 15,
+      "VOWELS ARE NOT PRESENTED": 16,
+      "ITALIC_SLANT_LEFT_IN_RIGHT_TO_LEFT": 17,
+      "CONTEXTUAL SHAPE DETERMINATION OF ARABIC SCRIPTS IS NOT USED,": 18,
+      "CONTEXTUAL SHAPE DETERMINATION OF ARABIC SCRIPTS IS NOT USED EXCLUDING DIGITS": 19,
+      "THE GRAPHIC SYMBOLS USED TO PRESENT THE DECIMAL DIGITS ARE DEVICE DEPENDENT": 20,
+      "ESTABLISH CHARACTER PRESENTATION FORM": 21,
+      "DE-ESTABLISH CHARACTER PRESENTATION FORM": 22
+    },
+    "set": "Cs",
+    "has_intermediate_byte": true
+  },
+  {
+    "col": 5,
+    "row": 14,
+    "abbreviation": "STAB",
+    "name": "SELECTIVE TABULATION",
+    "argument_count": 1,
+    "default_arguments": [
+      null
+    ],
+    "description": "STAB causes subsequent text in the presentation component to be aligned according to the position and\nthe properties of a tabulation stop which is selected from a list according to the value of the parameter\nPs.\nThe use of this control function and means of specifying a list of tabulation stops to be referenced by the\ncontrol function are specified in other standards, for example ISO 8613-6.",
+    "set": "Cs",
+    "has_intermediate_byte": true
+  },
+  {
+    "col": 5,
+    "row": 15,
+    "abbreviation": "GCC",
+    "name": "GRAPHIC CHARACTER COMBINATION",
+    "argument_count": 1,
+    "default_arguments": [
+      0
+    ],
+    "description": "GCC is used to indicate that two or more graphic characters are to be imaged as one single graphic\nsymbol. GCC with a parameter value of 0 indicates that the following two graphic characters are to be\nimaged as one single graphic symbol; GCC with a parameter value of 1 and GCC with a parameter value\nof 2 indicate respectively the beginning and the end of a string of graphic characters which are to be\nimaged as one single graphic symbol.",
+    "set": "Cs",
+    "has_intermediate_byte": true
+  },
+  {
+    "col": 6,
+    "row": 0,
+    "abbreviation": "TATE",
+    "name": "TABULATION ALIGNED TRAILING EDGE",
+    "argument_count": 1,
+    "default_arguments": [
+      null
+    ],
+    "description": "TATE causes a character tabulation stop calling for trailing edge alignment to be set at character\nposition n in the active line (the line that contains the active presentation position) and lines of\nsubsequent text in the presentation component, where n equals the value of Pn. TATE causes the\nreplacement of any tabulation stop previously set at that character position, but does not affect other\ntabulation stops. A text string aligned with a tabulation stop set by TATE will be positioned so that the (trailing edge of\nthe) first graphic character of the string is placed at the tabulation stop.",
+    "set": "Cs",
+    "has_intermediate_byte": true
+  },
+  {
+    "col": 6,
+    "row": 1,
+    "abbreviation": "TALE",
+    "name": "TABULATION ALIGNED LEADING EDGE",
+    "argument_count": 1,
+    "default_arguments": [
+      null
+    ],
+    "description": "TALE causes a character tabulation stop calling for leading edge alignment to be set at character\nposition n in the active line (the line that contains the active presentation position) and lines of\nsubsequent text in the presentation component, where n equals the value of Pn. TALE causes the\nreplacement of any tabulation stop previously set at that character position, but does not affect other\ntabulation stops.\nA text string aligned with a tabulation stop set by TALE will be positioned so that the (leading edge of\nthe) last graphic character of the string is placed at the tabulation stop.",
+    "set": "Cs",
+    "has_intermediate_byte": true
+  },
+  {
+    "col": 6,
+    "row": 2,
+    "abbreviation": "TAC",
+    "name": "TABULATION ALIGNED CENTRED",
+    "argument_count": 1,
+    "default_arguments": [
+      null
+    ],
+    "description": "TAC causes a character tabulation stop calling for centring to be set at character position n in the active\nline (the line that contains the active presentation position) and lines of subsequent text in the\npresentation component, where n equals the value of Pn. TAC causes the replacement of any tabulation\nstop previously set at that character position, but does not affect other tabulation stops.\nA text string centred upon a tabulation stop set by TAC will be positioned so that the (trailing edge of\nthe) first graphic character and the (leading edge of the) last graphic character are at approximately equal\ndistances from the tabulation stop.",
+    "set": "Cs",
+    "has_intermediate_byte": true
+  },
+  {
+    "col": 6,
+    "row": 3,
+    "abbreviation": "TCC",
+    "name": "TABULATION CENTRED ON CHARACTER",
+    "argument_count": 2,
+    "default_arguments": [
+      null,
+      32
+    ],
+    "description": "TCC causes a character tabulation stop calling for alignment of a target graphic character to be set at\ncharacter position n in the active line (the line that contains the active presentation position) and lines of\nsubsequent text in the presentation component, where n equals the value of Pn1, and the target character\nabout which centring is to be performed is specified by Pn2. TCC causes the replacement of any\ntabulation stop previously set at that character position, but does not affect other tabulation stops.\nThe positioning of a text string aligned with a tabulation stop set by TCC will be determined by the first\noccurrence in the string of the target graphic character; that character will be centred upon the tabulation\nstop. If the target character does not occur within the string, then the trailing edge of the first character\nof the string will be positioned at the tabulation stop.\nThe value of Pn2 indicates the code table position (binary value) of the target character in the currently\ninvoked code. For a 7-bit code, the permissible range of values is 32 to 127; for an 8-bit code, the\npermissible range of values is 32 to 127 and 160 to 255.",
+    "set": "Cs",
+    "has_intermediate_byte": true
+  },
+  {
+    "col": 6,
+    "row": 4,
+    "abbreviation": "TSR",
+    "name": "TABULATION STOP REMOVE",
+    "argument_count": 1,
+    "default_arguments": [
+      null
+    ],
+    "description": "TSR causes any character tabulation stop at character position n in the active line (the line that contains\nthe active presentation position) and lines of subsequent text in the presentation component to be\ncleared, but does not affect other tabulation stops. n equals the value of Pn.",
+    "set": "Cs",
+    "has_intermediate_byte": true
+  },
+  {
+    "col": 6,
+    "row": 5,
+    "abbreviation": "SCO",
+    "name": "SELECT CHARACTER ORIENTATION",
+    "argument_count": 1,
+    "default_arguments": [
+      0
+    ],
+    "description": "SCO is used to establish the amount of rotation of the graphic characters following in the data stream.\nThe established value remains in effect until the next occurrence of SCO in the data stream.\nThe parameter values are\n0\n 0\u00c2\u00b0\n1\n 45\u00c2\u00b0\n2\n 90\u00c2\u00b0\n3\n 135\u00c2\u00b0\n4\n 180\u00c2\u00b0\n5\n 225\u00c2\u00b0\n6\n 270\u00c2\u00b0\n7\n 315\u00c2\u00b0\nRotation is positive, i.e. counter-clockwise and applies to the normal presentation of the graphic\ncharacters along the character path. The centre of rotation of the affected graphic characters is not\ndefined by this Standard.",
+    "constants": {
+      "degrees_0": 0,
+      "degrees_45": 1,
+      "degrees_90": 2,
+      "degrees_135": 3,
+      "degrees_180": 4,
+      "degrees_225": 5,
+      "degrees_270": 6,
+      "degrees_315": 7
+    },
+    "set": "Cs",
+    "has_intermediate_byte": true
+  },
+  {
+    "col": 6,
+    "row": 6,
+    "abbreviation": "SRCS",
+    "name": "SET REDUCED CHARACTER SEPARATION",
+    "argument_count": 1,
+    "default_arguments": [
+      0
+    ],
+    "description": "SRCS is used to establish reduced inter-character escapement for subsequent text. The established\nreduced escapement remains in effect until the next occurrence of SRCS or of SET ADDITIONAL\nCHARACTER SEPARATION (SACS) in the data stream or until it is reset to the default value by a\nsubsequent occurrence of CARRIAGE RETURN/LINE FEED (CR/LF) or of NEXT LINE (NEL) in the\ndata stream, see annex C.\nPn specifies the number of units by which the intercharacter escapement is reduced.\nThe unit in which the parameter values are expressed is that established by the parameter value of\nSELECT SIZE UNIT (SSU).",
+    "set": "Cs",
+    "has_intermediate_byte": true
+  },
+  {
+    "col": 6,
+    "row": 7,
+    "abbreviation": "SCS",
+    "name": "SET CHARACTER SPACING",
+    "argument_count": 1,
+    "default_arguments": [
+      null
+    ],
+    "description": "SCS is used to establish the character spacing for subsequent text. The established spacing remains in\neffect until the next occurrence of SCS, or of SELECT CHARACTER SPACING (SHS) or of SPACING\nINCREMENT (SPI) in the data stream, see annex C.\nPn specifies the character spacing.\nThe unit in which the parameter value is expressed is that established by the parameter value of SELECT\nSIZE UNIT (SSU).",
+    "set": "Cs",
+    "has_intermediate_byte": true
+  },
+  {
+    "col": 6,
+    "row": 8,
+    "abbreviation": "SLS",
+    "name": "SET LINE SPACING",
+    "argument_count": 1,
+    "default_arguments": [
+      null
+    ],
+    "description": "SLS is used to establish the line spacing for subsequent text. The established spacing remains in effect\nuntil the next occurrence of SLS or of SELECT LINE SPACING (SVS) or of SPACING INCREMENT\n(SPI) in the data stream.\nPn specifies the line spacing.\nThe unit in which the parameter value is expressed is that established by the parameter value of SELECT\nSIZE UNIT (SSU).",
+    "set": "Cs",
+    "has_intermediate_byte": true
+  },
+  {
+    "col": 6,
+    "row": 9,
+    "abbreviation": "SPH",
+    "name": "SET PAGE HOME",
+    "argument_count": 1,
+    "default_arguments": [
+      null
+    ],
+    "description": "If the DEVICE COMPONENT SELECT MODE is set to PRESENTATION, SPH is used to establish at\nline position n in the active page (the page that contains the active presentation position) and subsequent\npages in the presentation component the position to which the active presentation position will be moved\nby subsequent occurrences of FORM FEED (FF) in the data stream; where n equals the value of Pn. In\nthe case of a device without data component, it is also the position ahead of which no implicit movement\nof the active presentation position shall occur.\nIf the DEVICE COMPONENT SELECT MODE is set to DATA, SPH is used to establish at line position\nn in the active page (the page that contains the active data position) and subsequent pages in the data\ncomponent the position to which the active data position will be moved by subsequent occurrences of\nFORM FEED (FF) in the data stream; where n equals the value of Pn. It is also the position ahead of\nwhich no implicit movement of the active presentation position shall occur.\nThe established position is called the page home position and remains in effect until the next occurrence\nof SPH in the data stream.",
+    "set": "Cs",
+    "has_intermediate_byte": true
+  },
+  {
+    "col": 6,
+    "row": 10,
+    "abbreviation": "SPL",
+    "name": "SET PAGE LIMIT",
+    "argument_count": 1,
+    "default_arguments": [
+      null
+    ],
+    "description": "If the DEVICE COMPONENT SELECT MODE is set to PRESENTATION, SPL is used to establish at\nline position n in the active page (the page that contains the active presentation position) and pages of\nsubsequent text in the presentation component the position beyond which the active presentation position\ncan normally not be moved; where n equals the value of Pn. In the case of a device without data\ncomponent, it is also the position beyond which no implicit movement of the active presentation position\nshall occur.\nIf the DEVICE COMPONENT SELECT MODE is set to DATA, SPL is used to establish at line position\nn in the active page (the page that contains the active data position) and pages of subsequent text in the\ndata component the position beyond which no implicit movement of the active data position shall occur.\nThe established position is called the page limit position and remains in effect until the next occurrence\nof SPL in the data stream.",
+    "set": "Cs",
+    "has_intermediate_byte": true
+  },
+  {
+    "col": 6,
+    "row": 11,
+    "abbreviation": "SCP",
+    "name": "SELECT CHARACTER PATH",
+    "argument_count": 2,
+    "default_arguments": [
+      null,
+      null
+    ],
+    "description": "SCP is used to select the character path, relative to the line orientation, for the active line (the line that\ncontains the active presentation position) and subsequent lines in the presentation component. It is also\nused to update the content of the active line in the presentation component and the content of the active\nline (the line that contains the active data position) in the data component. This takes effect immediately.\nPs1 specifies the character path:\n1 left-to-right (in the case of horizontal line orientation), or top-to-bottom (in the case of vertical line\norientation)\n2 right-to-left (in the case of horizontal line orientation), or bottom-to-top (in the case of vertical line\norientation)\nPs2 specifies the effect on the content of the presentation component and the content of the data\ncomponent:\n0\n undefined (implementation-dependent)",
+    "constants": {
+      "left-to-right": 1,
+      "right-to-left": 2
+    },
+    "set": "Cs",
+    "has_intermediate_byte": true
+  }
+]
