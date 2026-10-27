@@ -18,7 +18,7 @@ SETS: tuple[str, ...] = (
     "C0",
     "C1",
     "Fs",
-    "Cs"
+    "Fe"
 )
 
 
@@ -82,12 +82,12 @@ class ANSISequenceData:
         if unsafe_set not in SETS:
             raise ValueError(f"The set '{set}' is invalid.")
 
-        if unsafe_set == "Cs":
+        if unsafe_set == "Fe":
             if unsafe_has_intermediate_byte is None:
-                raise TypeError("For the Cs set, 'has_intermediate_byte is not None' is required")
+                raise TypeError("For the Fe set, 'has_intermediate_byte is not None' is required")
         else:
             if unsafe_has_intermediate_byte is not None:
-                raise TypeError("For any set which is not the Cs set, 'has_intermediate_byte is None' is required")
+                raise TypeError("For any set which is not the Fe set, 'has_intermediate_byte is None' is required")
 
         if unsafe_ansi_repr.column < 0 or unsafe_ansi_repr.column > MAX_ANSI_REPRESENTATION_COLUMN:
             raise ValueError(f"Column must be between 0 and {MAX_ANSI_REPRESENTATION_COLUMN}")

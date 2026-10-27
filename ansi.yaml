@@ -637,7 +637,7 @@
   has_intermediate_byte: false
   name: INSERT CHARACTER
   row: 0
-  set: Cs
+  set: Fe
 - abbreviation: CUU
   argument_count: 1
   col: 4
@@ -647,7 +647,7 @@
   has_intermediate_byte: false
   name: CURSOR UP
   row: 1
-  set: Cs
+  set: Fe
 - abbreviation: CUD
   argument_count: 1
   col: 4
@@ -657,7 +657,7 @@
   has_intermediate_byte: false
   name: CURSOR DOWN
   row: 2
-  set: Cs
+  set: Fe
 - abbreviation: CUF
   argument_count: 1
   col: 4
@@ -668,7 +668,7 @@
   has_intermediate_byte: false
   name: CURSOR FORWARD
   row: 3
-  set: Cs
+  set: Fe
 - abbreviation: CUB
   argument_count: 1
   col: 4
@@ -679,7 +679,7 @@
   has_intermediate_byte: false
   name: CURSOR BACKWARD
   row: 4
-  set: Cs
+  set: Fe
 - abbreviation: CNL
   argument_count: 1
   col: 4
@@ -690,7 +690,7 @@
   has_intermediate_byte: false
   name: CURSOR NEXT LINE
   row: 5
-  set: Cs
+  set: Fe
 - abbreviation: CPL
   argument_count: 1
   col: 4
@@ -701,7 +701,7 @@
   has_intermediate_byte: false
   name: CURSOR PRECEDING LINE
   row: 6
-  set: Cs
+  set: Fe
 - abbreviation: CHA
   argument_count: 1
   col: 4
@@ -712,7 +712,7 @@
   has_intermediate_byte: false
   name: CURSOR CHARACTER ABSOLUTE
   row: 7
-  set: Cs
+  set: Fe
 - abbreviation: CUP
   argument_count: 2
   col: 4
@@ -723,7 +723,7 @@
   has_intermediate_byte: false
   name: CURSOR POSITION
   row: 8
-  set: Cs
+  set: Fe
 - abbreviation: CHT
   argument_count: 1
   col: 4
@@ -734,7 +734,7 @@
   has_intermediate_byte: false
   name: CURSOR FORWARD TABULATION
   row: 9
-  set: Cs
+  set: Fe
 - abbreviation: ED
   argument_count: 1
   col: 4
@@ -752,7 +752,7 @@
   has_intermediate_byte: false
   name: ERASE IN PAGE
   row: 10
-  set: Cs
+  set: Fe
 - abbreviation: EL
   argument_count: 1
   col: 4
@@ -763,7 +763,7 @@
   has_intermediate_byte: false
   name: ERASE IN LINE
   row: 11
-  set: Cs
+  set: Fe
 - abbreviation: IL
   argument_count: 1
   col: 4
@@ -774,7 +774,7 @@
   has_intermediate_byte: false
   name: INSERT LINE
   row: 12
-  set: Cs
+  set: Fe
 - abbreviation: DL
   argument_count: 1
   col: 4
@@ -785,7 +785,7 @@
   has_intermediate_byte: false
   name: DELETE LINE
   row: 13
-  set: Cs
+  set: Fe
 - abbreviation: EF
   argument_count: 1
   col: 4
@@ -802,7 +802,7 @@
   has_intermediate_byte: false
   name: ERASE IN FIELD
   row: 14
-  set: Cs
+  set: Fe
 - abbreviation: EA
   argument_count: 1
   col: 4
@@ -819,7 +819,7 @@
   has_intermediate_byte: false
   name: ERASE IN AREA
   row: 15
-  set: Cs
+  set: Fe
 - abbreviation: DCH
   argument_count: 1
   col: 5
@@ -830,7 +830,7 @@
   has_intermediate_byte: false
   name: DELETE CHARACTER
   row: 0
-  set: Cs
+  set: Fe
 - abbreviation: SEE
   argument_count: 1
   col: 5
@@ -847,7 +847,7 @@
   has_intermediate_byte: false
   name: SELECT EDITING EXTENT
   row: 1
-  set: Cs
+  set: Fe
 - abbreviation: CPR
   argument_count: 2
   col: 5
@@ -859,7 +859,7 @@
   has_intermediate_byte: false
   name: ACTIVE POSITION REPORT
   row: 2
-  set: Cs
+  set: Fe
 - abbreviation: SU
   argument_count: 1
   col: 5
@@ -870,7 +870,7 @@
   has_intermediate_byte: false
   name: SCROLL UP
   row: 3
-  set: Cs
+  set: Fe
 - abbreviation: SD
   argument_count: 1
   col: 5
@@ -881,7 +881,7 @@
   has_intermediate_byte: false
   name: SCROLL DOWN
   row: 4
-  set: Cs
+  set: Fe
 - abbreviation: NP
   argument_count: 1
   col: 5
@@ -891,7 +891,7 @@
   has_intermediate_byte: false
   name: NEXT PAGE
   row: 5
-  set: Cs
+  set: Fe
 - abbreviation: PP
   argument_count: 1
   col: 5
@@ -901,7 +901,7 @@
   has_intermediate_byte: false
   name: PRECEDING PAGE
   row: 6
-  set: Cs
+  set: Fe
 - abbreviation: CTC
   argument_count: -1
   col: 5
@@ -920,7 +920,7 @@
   has_intermediate_byte: false
   name: CURSOR TABULATION CONTROL
   row: 7
-  set: Cs
+  set: Fe
 - abbreviation: ECH
   argument_count: 1
   col: 5
@@ -931,7 +931,7 @@
   has_intermediate_byte: false
   name: ERASE CHARACTER
   row: 8
-  set: Cs
+  set: Fe
 - abbreviation: CVT
   argument_count: 1
   col: 5
@@ -942,7 +942,7 @@
   has_intermediate_byte: false
   name: CURSOR LINE TABULATION
   row: 9
-  set: Cs
+  set: Fe
 - abbreviation: CBT
   argument_count: 1
   col: 5
@@ -953,7 +953,7 @@
   has_intermediate_byte: false
   name: CURSOR BACKWARD TABULATION
   row: 10
-  set: Cs
+  set: Fe
 - abbreviation: SRS
   argument_count: 1
   col: 5
@@ -986,7 +986,7 @@
   has_intermediate_byte: false
   name: START REVERSED STRING
   row: 11
-  set: Cs
+  set: Fe
 - abbreviation: PTX
   argument_count: 1
   col: 5
@@ -1019,7 +1019,7 @@
   has_intermediate_byte: false
   name: PARALLEL TEXTS
   row: 12
-  set: Cs
+  set: Fe
 - abbreviation: SDS
   argument_count: 1
   col: 5
@@ -1048,7 +1048,7 @@
   has_intermediate_byte: false
   name: START DIRECTED STRING
   row: 13
-  set: Cs
+  set: Fe
 - abbreviation: SIMD
   argument_count: 1
   col: 5
@@ -1057,15 +1057,15 @@
     THE DIRECTION OF IMPLICIT MOVEMENT IS THE SAME AS THAT OF THE CHARACTER PROGRESSION: 0
   default_arguments:
   - 0
-  description: SL causes the data in the presentation component to be moved by n character
-    positions if the line orientation is horizontal, or by n line positions if the
-    line orientation is vertical, such that the data appear to move to the left; where
-    n equals the value of Pn. The active presentation position is not affected by
-    this control function.
+  description: 'SIMD is used to select the direction of implicit movement of the data
+    position relative to the character
+
+    progression. The direction selected remains in effect until the next occurrence
+    of SIMD.'
   has_intermediate_byte: false
   name: SELECT IMPLICIT MOVEMENT DIRECTION
   row: 14
-  set: Cs
+  set: Fe
 - abbreviation: HPA
   argument_count: 1
   col: 6
@@ -1076,7 +1076,7 @@
   has_intermediate_byte: false
   name: CHARACTER POSITION ABSOLUTE
   row: 0
-  set: Cs
+  set: Fe
 - abbreviation: HPR
   argument_count: 1
   col: 6
@@ -1087,22 +1087,26 @@
   has_intermediate_byte: false
   name: CHARACTER POSITION RELATIVE
   row: 1
-  set: Cs
+  set: Fe
 - abbreviation: REP
   argument_count: 1
   col: 6
   default_arguments:
   - 1
-  description: If the DEVICE COMPONENT SELECT MODE (DCSM) is set to PRESENTATION,
-    RI causes the active presentation position to be moved in the presentation component
-    to the corresponding character position of the preceding line. If the DEVICE COMPONENT
-    SELECT MODE (DCSM) is set to DATA, RI causes the active data position to be moved
-    in the data component to the corresponding character position of the preceding
-    line.
+  description: 'REP is used to indicate that the preceding character in the data stream,
+    if it is a graphic character
+
+    (represented by one or more bit combinations) including SPACE, is to be repeated
+    n times, where n
+
+    equals the value of Pn. If the character preceding REP is a control function or
+    part of a control function,
+
+    the effect of REP is not defined by this Standard.'
   has_intermediate_byte: false
   name: REPEAT
   row: 2
-  set: Cs
+  set: Fe
 - abbreviation: DA
   argument_count: -1
   col: 6
@@ -1128,7 +1132,7 @@
   has_intermediate_byte: false
   name: DEVICE ATTRIBUTES
   row: 3
-  set: Cs
+  set: Fe
 - abbreviation: VPA
   argument_count: 1
   col: 6
@@ -1139,7 +1143,7 @@
   has_intermediate_byte: false
   name: LINE POSITION ABSOLUTE
   row: 4
-  set: Cs
+  set: Fe
 - abbreviation: VPR
   argument_count: 1
   col: 6
@@ -1150,7 +1154,7 @@
   has_intermediate_byte: false
   name: LINE POSITION RELATIVE
   row: 5
-  set: Cs
+  set: Fe
 - abbreviation: HVP
   argument_count: 2
   col: 6
@@ -1162,7 +1166,7 @@
   has_intermediate_byte: false
   name: CHARACTER AND LINE POSITION
   row: 6
-  set: Cs
+  set: Fe
 - abbreviation: TBC
   argument_count: 1
   col: 6
@@ -1186,7 +1190,7 @@
   has_intermediate_byte: false
   name: TABULATION CLEAR
   row: 7
-  set: Cs
+  set: Fe
 - abbreviation: SM
   argument_count: -1
   col: 6
@@ -1228,7 +1232,7 @@
   has_intermediate_byte: false
   name: SET MODE
   row: 8
-  set: Cs
+  set: Fe
 - abbreviation: MC
   argument_count: 1
   col: 6
@@ -1255,7 +1259,7 @@
   has_intermediate_byte: false
   name: MEDIA COPY
   row: 9
-  set: Cs
+  set: Fe
 - abbreviation: HPB
   argument_count: 1
   col: 6
@@ -1269,7 +1273,7 @@
   has_intermediate_byte: false
   name: CHARACTER POSITION BACKWARD
   row: 10
-  set: Cs
+  set: Fe
 - abbreviation: VPB
   argument_count: 1
   col: 6
@@ -1282,7 +1286,7 @@
   has_intermediate_byte: false
   name: LINE POSITION BACKWARD
   row: 11
-  set: Cs
+  set: Fe
 - abbreviation: RM
   argument_count: -1
   col: 6
@@ -1324,7 +1328,7 @@
   has_intermediate_byte: false
   name: RESET MODE
   row: 12
-  set: Cs
+  set: Fe
 - abbreviation: SGR
   argument_count: -1
   col: 6
@@ -1392,7 +1396,7 @@
   has_intermediate_byte: false
   name: SELECT GRAPHIC RENDITION
   row: 13
-  set: Cs
+  set: Fe
 - abbreviation: DSR
   argument_count: 1
   col: 6
@@ -1412,7 +1416,7 @@
   has_intermediate_byte: false
   name: DEVICE STATUS REPORT
   row: 14
-  set: Cs
+  set: Fe
 - abbreviation: DAQ
   argument_count: -1
   col: 6
@@ -1434,7 +1438,7 @@
   has_intermediate_byte: false
   name: DEFINE AREA QUALIFICATION
   row: 15
-  set: Cs
+  set: Fe
 - abbreviation: SL
   argument_count: 1
   col: 4
@@ -1452,7 +1456,7 @@
   has_intermediate_byte: true
   name: SCROLL LEFT
   row: 0
-  set: Cs
+  set: Fe
 - abbreviation: SR
   argument_count: 1
   col: 4
@@ -1470,7 +1474,7 @@
   has_intermediate_byte: true
   name: SCROLL RIGHT
   row: 1
-  set: Cs
+  set: Fe
 - abbreviation: GSM
   argument_count: 2
   col: 4
@@ -1496,7 +1500,7 @@
   has_intermediate_byte: true
   name: GRAPHIC SIZE MODIFICATION
   row: 2
-  set: Cs
+  set: Fe
 - abbreviation: GSS
   argument_count: 1
   col: 4
@@ -1519,7 +1523,7 @@
   has_intermediate_byte: true
   name: GRAPHIC SIZE SELECTION
   row: 3
-  set: Cs
+  set: Fe
 - abbreviation: FNT
   argument_count: 2
   col: 4
@@ -1548,7 +1552,7 @@
   has_intermediate_byte: true
   name: FONT SELECTION
   row: 4
-  set: Cs
+  set: Fe
 - abbreviation: TSS
   argument_count: 1
   col: 4
@@ -1568,7 +1572,7 @@
   has_intermediate_byte: true
   name: THIN SPACE SPECIFICATION
   row: 5
-  set: Cs
+  set: Fe
 - abbreviation: JFY
   argument_count: -1
   col: 4
@@ -1596,7 +1600,7 @@
   has_intermediate_byte: true
   name: JUSTIFY
   row: 6
-  set: Cs
+  set: Fe
 - abbreviation: SPI
   argument_count: 2
   col: 4
@@ -1627,7 +1631,7 @@
   has_intermediate_byte: true
   name: SPACING INCREMENT
   row: 7
-  set: Cs
+  set: Fe
 - abbreviation: QUAD
   argument_count: -1
   col: 4
@@ -1659,7 +1663,7 @@
   has_intermediate_byte: true
   name: QUAD
   row: 8
-  set: Cs
+  set: Fe
 - abbreviation: SSU
   argument_count: 1
   col: 4
@@ -1687,7 +1691,7 @@
   has_intermediate_byte: true
   name: SELECT SIZE UNIT
   row: 9
-  set: Cs
+  set: Fe
 - abbreviation: PFS
   argument_count: 1
   col: 4
@@ -1726,18 +1730,18 @@
   has_intermediate_byte: true
   name: PAGE FORMAT SELECTION
   row: 10
-  set: Cs
+  set: Fe
 - abbreviation: SHS
   argument_count: 1
   col: 4
   constants:
-    CNT 10 CHARACTERS PER 25,4 MM: 0
-    CNT 12 CHARACTERS PER 25,4 MM: 1
-    CNT 15 CHARACTERS PER 25,4 MM: 2
-    CNT 3 CHARACTERS PER 25,4 MM: 4
-    CNT 4 CHARACTERS PER 25,4 MM: 6
-    CNT 6 CHARACTERS PER 25,4 MM: 3
-    CNT 9 CHARACTERS PER 50,8 MM: 5
+    CONST 10 CHARACTERS PER 25,4 MM: 0
+    CONST 12 CHARACTERS PER 25,4 MM: 1
+    CONST 15 CHARACTERS PER 25,4 MM: 2
+    CONST 3 CHARACTERS PER 25,4 MM: 4
+    CONST 4 CHARACTERS PER 25,4 MM: 6
+    CONST 6 CHARACTERS PER 25,4 MM: 3
+    CONST 9 CHARACTERS PER 50,8 MM: 5
   default_arguments:
   - 0
   description: "SHS is used to establish the character spacing for subsequent text.\
@@ -1750,21 +1754,21 @@
   has_intermediate_byte: true
   name: SELECT CHARACTER SPACING
   row: 11
-  set: Cs
+  set: Fe
 - abbreviation: SVS
   argument_count: 1
   col: 4
   constants:
-    CNT 12 LINES PER 25,4 MM: 3
-    CNT 12 LINES PER 30,0 MM: 8
-    CNT 2 LINES PER 25,4 MM: 9
-    CNT 3 LINES PER 25,4 MM: 2
-    CNT 3 LINES PER 30,0 MM: 7
-    CNT 4 LINES PER 25,4 MM: 1
-    CNT 4 LINES PER 30,0 MM: 6
-    CNT 6 LINES PER 25,4 MM: 0
-    CNT 6 LINES PER 30,0 MM: 5
-    CNT 8 LINES PER 25,4 MM: 4
+    CONST 12 LINES PER 25,4 MM: 3
+    CONST 12 LINES PER 30,0 MM: 8
+    CONST 2 LINES PER 25,4 MM: 9
+    CONST 3 LINES PER 25,4 MM: 2
+    CONST 3 LINES PER 30,0 MM: 7
+    CONST 4 LINES PER 25,4 MM: 1
+    CONST 4 LINES PER 30,0 MM: 6
+    CONST 6 LINES PER 30,0 MM: 5
+    CONST 7 LINES PER 25,4 MM: 0
+    CONST 8 LINES PER 25,4 MM: 4
   default_arguments:
   - 0
   description: "SVS is used to establish the line spacing for subsequent text. The\
@@ -1777,7 +1781,7 @@
   has_intermediate_byte: true
   name: SELECT LINE SPACING
   row: 12
-  set: Cs
+  set: Fe
 - abbreviation: IGS
   argument_count: 1
   col: 4
@@ -1790,7 +1794,7 @@
   has_intermediate_byte: true
   name: IDENTIFY GRAPHIC SUBREPERTOIRE
   row: 13
-  set: Cs
+  set: Fe
 - abbreviation: IDCS
   argument_count: 1
   col: 4
@@ -1811,7 +1815,7 @@
   has_intermediate_byte: true
   name: IDENTIFY DEVICE CONTROL STRING
   row: 15
-  set: Cs
+  set: Fe
 - abbreviation: PPA
   argument_count: 1
   col: 5
@@ -1824,7 +1828,7 @@
   has_intermediate_byte: true
   name: PAGE POSITION ABSOLUTE
   row: 0
-  set: Cs
+  set: Fe
 - abbreviation: PPR
   argument_count: 1
   col: 5
@@ -1837,7 +1841,7 @@
   has_intermediate_byte: true
   name: PAGE POSITION FORWARD
   row: 1
-  set: Cs
+  set: Fe
 - abbreviation: PPB
   argument_count: 1
   col: 5
@@ -1850,7 +1854,7 @@
   has_intermediate_byte: true
   name: PAGE POSITION BACKWARD
   row: 2
-  set: Cs
+  set: Fe
 - abbreviation: SPD
   argument_count: 2
   col: 5
@@ -1874,7 +1878,7 @@
   has_intermediate_byte: true
   name: SELECT PRESENTATION DIRECTIONS
   row: 3
-  set: Cs
+  set: Fe
 - abbreviation: DTA
   argument_count: 2
   col: 5
@@ -1890,7 +1894,7 @@
   has_intermediate_byte: true
   name: DIMENSION TEXT AREA
   row: 4
-  set: Cs
+  set: Fe
 - abbreviation: SLH
   argument_count: 1
   col: 5
@@ -1940,7 +1944,7 @@
   has_intermediate_byte: true
   name: SET LINE HOME
   row: 5
-  set: Cs
+  set: Fe
 - abbreviation: SLL
   argument_count: 1
   col: 5
@@ -1990,24 +1994,18 @@
   has_intermediate_byte: true
   name: SET LINE LIMIT
   row: 6
-  set: Cs
+  set: Fe
 - abbreviation: FNK
   argument_count: 1
   col: 5
   default_arguments:
   - null
-  description: "FNT is used to identify the character font to be selected as primary\
-    \ or alternative font by subsequent\noccurrences of SELECT GRAPHIC RENDITION (SGR)\
-    \ in the data stream. Ps1 specifies the primary or\nalternative font concerned:\n\
-    0\n primary font\n1\n first alternative font\n2\n second alternative font\n3\n\
-    \ third alternative font\n4\n fourth alternative font\n5\n fifth alternative font\n\
-    6\n sixth alternative font\n7\n seventh alternative font\n8\n eighth alternative\
-    \ font\n9\n ninth alternative font\nPs2 identifies the character font according\
-    \ to a register which is to be established."
+  description: FNK is a control function in which the parameter value identifies the
+    function key which has been operated.
   has_intermediate_byte: true
   name: FUNCTION KEY
   row: 7
-  set: Cs
+  set: Fe
 - abbreviation: SPQR
   argument_count: 1
   col: 5
@@ -2026,7 +2024,7 @@
   has_intermediate_byte: true
   name: SELECT PRINT QUALITY AND RAPIDITY
   row: 8
-  set: Cs
+  set: Fe
 - abbreviation: SEF
   argument_count: 2
   col: 5
@@ -2044,7 +2042,7 @@
   has_intermediate_byte: true
   name: SHEET EJECT AND FEED
   row: 9
-  set: Cs
+  set: Fe
 - abbreviation: PEC
   argument_count: 1
   col: 5
@@ -2067,7 +2065,7 @@
   has_intermediate_byte: true
   name: PRESENTATION EXPAND OR CONTRACT
   row: 10
-  set: Cs
+  set: Fe
 - abbreviation: SSW
   argument_count: 1
   col: 5
@@ -2107,7 +2105,7 @@
   has_intermediate_byte: true
   name: SET SPACE WIDTH
   row: 11
-  set: Cs
+  set: Fe
 - abbreviation: SACS
   argument_count: 1
   col: 5
@@ -2136,7 +2134,7 @@
   has_intermediate_byte: true
   name: SET ADDITIONAL CHARACTER SEPARATION
   row: 12
-  set: Cs
+  set: Fe
 - abbreviation: SAPV
   argument_count: -1
   col: 5
@@ -2207,7 +2205,7 @@
   has_intermediate_byte: true
   name: SELECT ALTERNATIVE PRESENTATION VARIANTS
   row: 13
-  set: Cs
+  set: Fe
 - abbreviation: STAB
   argument_count: 1
   col: 5
@@ -2228,7 +2226,7 @@
   has_intermediate_byte: true
   name: SELECTIVE TABULATION
   row: 14
-  set: Cs
+  set: Fe
 - abbreviation: GCC
   argument_count: 1
   col: 5
@@ -2250,7 +2248,7 @@
   has_intermediate_byte: true
   name: GRAPHIC CHARACTER COMBINATION
   row: 15
-  set: Cs
+  set: Fe
 - abbreviation: TATE
   argument_count: 1
   col: 6
@@ -2275,7 +2273,7 @@
   has_intermediate_byte: true
   name: TABULATION ALIGNED TRAILING EDGE
   row: 0
-  set: Cs
+  set: Fe
 - abbreviation: TALE
   argument_count: 1
   col: 6
@@ -2302,7 +2300,7 @@
   has_intermediate_byte: true
   name: TABULATION ALIGNED LEADING EDGE
   row: 1
-  set: Cs
+  set: Fe
 - abbreviation: TAC
   argument_count: 1
   col: 6
@@ -2330,7 +2328,7 @@
   has_intermediate_byte: true
   name: TABULATION ALIGNED CENTRED
   row: 2
-  set: Cs
+  set: Fe
 - abbreviation: TCC
   argument_count: 2
   col: 6
@@ -2373,7 +2371,7 @@
   has_intermediate_byte: true
   name: TABULATION CENTRED ON CHARACTER
   row: 3
-  set: Cs
+  set: Fe
 - abbreviation: TSR
   argument_count: 1
   col: 6
@@ -2389,7 +2387,7 @@
   has_intermediate_byte: true
   name: TABULATION STOP REMOVE
   row: 4
-  set: Cs
+  set: Fe
 - abbreviation: SCO
   argument_count: 1
   col: 6
@@ -2407,15 +2405,15 @@
   description: "SCO is used to establish the amount of rotation of the graphic characters\
     \ following in the data stream.\nThe established value remains in effect until\
     \ the next occurrence of SCO in the data stream.\nThe parameter values are\n0\n\
-    \ 0\xC2\xB0\n1\n 45\xC2\xB0\n2\n 90\xC2\xB0\n3\n 135\xC2\xB0\n4\n 180\xC2\xB0\n\
-    5\n 225\xC2\xB0\n6\n 270\xC2\xB0\n7\n 315\xC2\xB0\nRotation is positive, i.e.\
-    \ counter-clockwise and applies to the normal presentation of the graphic\ncharacters\
-    \ along the character path. The centre of rotation of the affected graphic characters\
-    \ is not\ndefined by this Standard."
+    \ 0\xB0\n1\n 45\xB0\n2\n 90\xB0\n3\n 135\xB0\n4\n 180\xB0\n5\n 225\xB0\n6\n 270\xB0\
+    \n7\n 315\xB0\nRotation is positive, i.e. counter-clockwise and applies to the\
+    \ normal presentation of the graphic\ncharacters along the character path. The\
+    \ centre of rotation of the affected graphic characters is not\ndefined by this\
+    \ Standard."
   has_intermediate_byte: true
   name: SELECT CHARACTER ORIENTATION
   row: 5
-  set: Cs
+  set: Fe
 - abbreviation: SRCS
   argument_count: 1
   col: 6
@@ -2444,7 +2442,7 @@
   has_intermediate_byte: true
   name: SET REDUCED CHARACTER SEPARATION
   row: 6
-  set: Cs
+  set: Fe
 - abbreviation: SCS
   argument_count: 1
   col: 6
@@ -2467,7 +2465,7 @@
   has_intermediate_byte: true
   name: SET CHARACTER SPACING
   row: 7
-  set: Cs
+  set: Fe
 - abbreviation: SLS
   argument_count: 1
   col: 6
@@ -2490,7 +2488,7 @@
   has_intermediate_byte: true
   name: SET LINE SPACING
   row: 8
-  set: Cs
+  set: Fe
 - abbreviation: SPH
   argument_count: 1
   col: 6
@@ -2534,7 +2532,7 @@
   has_intermediate_byte: true
   name: SET PAGE HOME
   row: 9
-  set: Cs
+  set: Fe
 - abbreviation: SPL
   argument_count: 1
   col: 6
@@ -2573,7 +2571,7 @@
   has_intermediate_byte: true
   name: SET PAGE LIMIT
   row: 10
-  set: Cs
+  set: Fe
 - abbreviation: SCP
   argument_count: 2
   col: 6
@@ -2597,4 +2595,4 @@
   has_intermediate_byte: true
   name: SELECT CHARACTER PATH
   row: 11
-  set: Cs
+  set: Fe
