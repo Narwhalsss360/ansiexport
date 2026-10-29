@@ -2278,7 +2278,7 @@
   },
   {
     "col": 7,
-    "row": 11,
+    "row": 5,
     "abbreviation": "RCP",
     "name": "RESTORE CURSOR POSITION",
     "argument_count": 0,

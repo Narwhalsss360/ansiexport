@@ -2650,7 +2650,7 @@
   description: Restores the cursor position to what was previously saved.
   has_intermediate_byte: false
   name: RESTORE CURSOR POSITION
-  row: 11
+  row: 5
   set: control_sequences
 - abbreviation: P_SM
   argument_count: -1
