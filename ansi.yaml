@@ -2596,3 +2596,103 @@
   name: SELECT CHARACTER PATH
   row: 11
   set: control_sequences
+- abbreviation: DECLL
+  argument_count: 1
+  col: 7
+  constants:
+    BLINKING BLOCK: 1
+    BLINKING UNDERLINE: 3
+    BLINKING VERTICAL BAR: 5
+    STEADY BLOCK: 2
+    STEADY UNDERLINE: 4
+    STEADY VERTICAL BAR: 6
+  default_arguments:
+  - 0
+  description: Change shape of cursor.
+  has_intermediate_byte: false
+  name: SET CURSOR
+  row: 1
+  set: control_sequences
+- abbreviation: DECSTBM
+  argument_count: 2
+  col: 7
+  default_arguments:
+  - null
+  - null
+  description: Set the top/bottom boundaries of the scrolling margin, arguments are
+    provided in order of top; bottom.
+  has_intermediate_byte: false
+  name: SET LINE BOUNDARIES
+  row: 2
+  set: control_sequences
+- abbreviation: SCCP
+  argument_count: 0
+  col: 7
+  default_arguments: null
+  description: Save the current cursor position.
+  has_intermediate_byte: false
+  name: SAVE CURRENT CURSOR POSITION
+  row: 3
+  set: control_sequences
+- abbreviation: WNDMAN
+  argument_count: -1
+  col: 7
+  default_arguments: []
+  description: 'XTERM: Manipulate the window using the window manager.'
+  has_intermediate_byte: false
+  name: WINDOW MANIPULATION
+  row: 4
+  set: control_sequences
+- abbreviation: RCP
+  argument_count: 0
+  col: 7
+  default_arguments: null
+  description: Restores the cursor position to what was previously saved.
+  has_intermediate_byte: false
+  name: RESTORE CURSOR POSITION
+  row: 11
+  set: control_sequences
+- abbreviation: P_SM
+  argument_count: -1
+  col: 6
+  constants:
+    SET_APPLICATION_CURSOR_KEYS: 1
+    SET_AUTO_WRAP: 7
+    SET_BRACKETED_PASTE_MODE: 2004
+    SET_FOCUS_REPORTING: 1004
+    SET_MOUSE_BUTTON_TRAKCING: 1000
+    SET_REVERSE_VIDEO_MODE: 5
+    SHOW_CURSOR: 25
+    USE_ALTERNATE_SCREEN_BUFFER: 1049
+    WIDE_COLUMN_MODE: 3
+  default_arguments: []
+  description: The private set mode function
+  has_intermediate_byte: false
+  name: PRIVATE SET MODE
+  private_marker:
+    col: 3
+    row: 15
+  row: 8
+  set: control_sequences
+- abbreviation: P_RM
+  argument_count: -1
+  col: 6
+  constants:
+    HIDE_CURSOR: 25
+    NARROW_COLUMN_MODE: 3
+    RESET_APPLICATION_CURSOR_KEYS: 1
+    RESET_AUTO_WRAP: 7
+    RESET_BRACKETED_PASTE_MODE: 2004
+    RESET_FOCUS_REPORTING: 1004
+    RESET_MOUSE_BUTTON_TRAKCING: 1000
+    RESET_REVERSE_VIDEO_MODE: 5
+    USE_MAIN_SCREEN_BUFFER: 1049
+  default_arguments: []
+  description: The private set mode function
+  has_intermediate_byte: false
+  name: PRIVATE RESET MODE
+  private_marker:
+    col: 3
+    row: 15
+  row: 12
+  set: control_sequences

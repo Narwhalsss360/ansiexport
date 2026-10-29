@@ -31,8 +31,8 @@ class ANSISequenceData:
     default_arguments: list[int | None] | None
     description: str
     has_intermediate_byte: bool | None
+    private_marker: ANSIRepresentation | None
     constants: dict[str, int]
-
 
     _invalid_sentinel = None
 
@@ -48,6 +48,7 @@ class ANSISequenceData:
                 None,
                 "",
                 None,
+                None,
                 {}
             )
         return ANSISequenceData._invalid_sentinel
@@ -56,7 +57,7 @@ class ANSISequenceData:
     def from_dict(data: dict[str, Any]) -> ANSISequenceData:
         def get_required_key(key: str) -> Any:
             if (value := data.get(key, None)) is None:
-                raise ValueError(f"'{key}' key required")
+                raise KeyError(f"'{key}' key required")
             return value
 
         unsafe_set: str = get_required_key("set")
@@ -67,6 +68,7 @@ class ANSISequenceData:
         unsafe_default_arguments: list[int | None] | None = data.get("default_arguments", None)
         unsafe_description: str = get_required_key("description")
         unsafe_has_intermediate_byte: bool | None = data.get("has_intermediate_byte")
+        unsafe_private_marker: dict[str, int] | None = data.get("private_marker")
         unsafe_constants: dict[str, int] | None = data.get("constants")
 
         def require_type(name: str, obj: Any, t: type) -> None:
@@ -124,6 +126,19 @@ class ANSISequenceData:
         require_type("description", unsafe_description, str)
         require_non_empty("description", unsafe_description)
 
+        private_marker: ANSIRepresentation | None = None
+        if unsafe_private_marker is not None:
+            require_type("private_marker", unsafe_constants, dict)
+            for key in unsafe_private_marker:
+                require_type(f"private_marker key '{key}'", key, str)
+            if "row" not in unsafe_private_marker:
+                raise KeyError("Required key 'row' for private_marker")
+            if "col" not in unsafe_private_marker:
+                raise KeyError("Required key 'col' for private_marker")
+            for key, value in unsafe_private_marker.items():
+                require_type(f"constants[{key}]", value, int)
+            private_marker = ANSIRepresentation(unsafe_private_marker["col"], unsafe_private_marker["row"])
+
         if unsafe_constants is not None:
             require_type("constants", unsafe_constants, dict)
             for key in unsafe_constants:
@@ -143,6 +158,7 @@ class ANSISequenceData:
             unsafe_default_arguments,
             unsafe_description,
             unsafe_has_intermediate_byte,
+            private_marker,
             unsafe_constants or {},
         )
 

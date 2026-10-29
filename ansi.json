@@ -2223,5 +2223,120 @@
     },
     "set": "control_sequences",
     "has_intermediate_byte": true
+  },
+  {
+    "col": 7,
+    "row": 1,
+    "abbreviation": "DECLL",
+    "name": "SET CURSOR",
+    "argument_count": 1,
+    "default_arguments": [0],
+    "description": "Change shape of cursor.",
+    "constants": {
+      "BLINKING BLOCK": 1,
+      "STEADY BLOCK": 2,
+      "BLINKING UNDERLINE": 3,
+      "STEADY UNDERLINE": 4,
+      "BLINKING VERTICAL BAR": 5,
+      "STEADY VERTICAL BAR": 6
+    },
+    "set": "control_sequences",
+    "has_intermediate_byte": false
+  },
+  {
+    "col": 7,
+    "row": 2,
+    "abbreviation": "DECSTBM",
+    "name": "SET LINE BOUNDARIES",
+    "argument_count": 2,
+    "default_arguments": [null, null],
+    "description": "Set the top/bottom boundaries of the scrolling margin, arguments are provided in order of top; bottom.",
+    "set": "control_sequences",
+    "has_intermediate_byte": false
+  },
+  {
+    "col": 7,
+    "row": 3,
+    "abbreviation": "SCCP",
+    "name": "SAVE CURRENT CURSOR POSITION",
+    "argument_count": 0,
+    "default_arguments": null,
+    "description": "Save the current cursor position.",
+    "set": "control_sequences",
+    "has_intermediate_byte": false
+  },
+  {
+    "col": 7,
+    "row": 4,
+    "abbreviation": "WNDMAN",
+    "name": "WINDOW MANIPULATION",
+    "argument_count": -1,
+    "default_arguments": [],
+    "description": "XTERM: Manipulate the window using the window manager.",
+    "set": "control_sequences",
+    "has_intermediate_byte": false
+  },
+  {
+    "col": 7,
+    "row": 11,
+    "abbreviation": "RCP",
+    "name": "RESTORE CURSOR POSITION",
+    "argument_count": 0,
+    "default_arguments": null,
+    "description": "Restores the cursor position to what was previously saved.",
+    "set": "control_sequences",
+    "has_intermediate_byte": false
+  },
+  {
+    "col": 6,
+    "row": 8,
+    "abbreviation": "P_SM",
+    "name": "PRIVATE SET MODE",
+    "argument_count": -1,
+    "default_arguments": [],
+    "private_marker": {
+      "col": 3,
+      "row": 15
+    },
+    "description": "The private set mode function",
+    "constants": {
+      "SET_APPLICATION_CURSOR_KEYS": 1,
+      "WIDE_COLUMN_MODE": 3,
+      "SET_REVERSE_VIDEO_MODE": 5,
+      "SET_AUTO_WRAP": 7,
+      "SHOW_CURSOR": 25,
+      "SET_MOUSE_BUTTON_TRAKCING": 1000,
+      "SET_FOCUS_REPORTING": 1004,
+      "USE_ALTERNATE_SCREEN_BUFFER": 1049,
+      "SET_BRACKETED_PASTE_MODE": 2004
+    },
+    "set": "control_sequences",
+    "has_intermediate_byte": false
+  },
+  {
+    "col": 6,
+    "row": 12,
+    "abbreviation": "P_RM",
+    "name": "PRIVATE RESET MODE",
+    "argument_count": -1,
+    "default_arguments": [],
+    "private_marker": {
+      "col": 3,
+      "row": 15
+    },
+    "description": "The private set mode function",
+    "constants": {
+      "RESET_APPLICATION_CURSOR_KEYS": 1,
+      "NARROW_COLUMN_MODE": 3,
+      "RESET_REVERSE_VIDEO_MODE": 5,
+      "RESET_AUTO_WRAP": 7,
+      "HIDE_CURSOR": 25,
+      "RESET_MOUSE_BUTTON_TRAKCING": 1000,
+      "RESET_FOCUS_REPORTING": 1004,
+      "USE_MAIN_SCREEN_BUFFER": 1049,
+      "RESET_BRACKETED_PASTE_MODE": 2004
+    },
+    "set": "control_sequences",
+    "has_intermediate_byte": false
   }
 ]
