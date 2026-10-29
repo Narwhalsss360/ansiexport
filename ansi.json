@@ -729,7 +729,7 @@
       1
     ],
     "description": "Inserts one or more erased characters at the active position, shifting remaining characters right.",
-    "set": "Fe",
+    "set": "control_sequences",
     "has_intermediate_byte": false
   },
   {
@@ -742,7 +742,7 @@
       1
     ],
     "description": "Moves the active position upwards by a specified number of lines.",
-    "set": "Fe",
+    "set": "control_sequences",
     "has_intermediate_byte": false
   },
   {
@@ -755,7 +755,7 @@
       1
     ],
     "description": "Moves the active position downwards by a specified number of lines.",
-    "set": "Fe",
+    "set": "control_sequences",
     "has_intermediate_byte": false
   },
   {
@@ -768,7 +768,7 @@
       1
     ],
     "description": "Moves the active position forward (right) along the line by a specified number of character positions.",
-    "set": "Fe",
+    "set": "control_sequences",
     "has_intermediate_byte": false
   },
   {
@@ -781,7 +781,7 @@
       1
     ],
     "description": "Moves the active position backward (left) along the line by a specified number of character positions.",
-    "set": "Fe",
+    "set": "control_sequences",
     "has_intermediate_byte": false
   },
   {
@@ -794,7 +794,7 @@
       1
     ],
     "description": "Moves the active position to the first position of a specified number of lines downward.",
-    "set": "Fe",
+    "set": "control_sequences",
     "has_intermediate_byte": false
   },
   {
@@ -807,7 +807,7 @@
       1
     ],
     "description": "Moves the active position to the first position of a specified number of lines upward.",
-    "set": "Fe",
+    "set": "control_sequences",
     "has_intermediate_byte": false
   },
   {
@@ -820,7 +820,7 @@
       1
     ],
     "description": "Moves the active position to a specified character position within the current line.",
-    "set": "Fe",
+    "set": "control_sequences",
     "has_intermediate_byte": false
   },
   {
@@ -834,7 +834,7 @@
       1
     ],
     "description": "Moves the active position to a specific line and column coordinate.",
-    "set": "Fe",
+    "set": "control_sequences",
     "has_intermediate_byte": false
   },
   {
@@ -847,7 +847,7 @@
       1
     ],
     "description": "Advances the active position by a specified number of character tabulation stops.",
-    "set": "Fe",
+    "set": "control_sequences",
     "has_intermediate_byte": false
   },
   {
@@ -868,7 +868,7 @@
       "DCSM_DATA_MODE_FROM_BEGINNING_OF_PAGE": 1,
       "DCSM_DATA_MODE_ALL": 2
     },
-    "set": "Fe",
+    "set": "control_sequences",
     "has_intermediate_byte": false
   },
   {
@@ -881,7 +881,7 @@
       0
     ],
     "description": "Erases some or all characters in the current line based on parameters (0: cursor to end, 1: start to cursor, 2: complete line).",
-    "set": "Fe",
+    "set": "control_sequences",
     "has_intermediate_byte": false
   },
   {
@@ -894,7 +894,7 @@
       1
     ],
     "description": "Inserts one or more erased lines at the current line position, shifting down remaining lines.",
-    "set": "Fe",
+    "set": "control_sequences",
     "has_intermediate_byte": false
   },
   {
@@ -907,7 +907,7 @@
       1
     ],
     "description": "Deletes one or more lines starting at the current line position, shifting up remaining lines.",
-    "set": "Fe",
+    "set": "control_sequences",
     "has_intermediate_byte": false
   },
   {
@@ -928,7 +928,7 @@
       "DCSM_DATA_MODE_FROM_BEGINNING_OF_FIELD": 1,
       "DCSM_DATA_MODE_ALL": 2
     },
-    "set": "Fe",
+    "set": "control_sequences",
     "has_intermediate_byte": false
   },
   {
@@ -949,7 +949,7 @@
       "DCSM_DATA_MODE_FROM_BEGINNING_OF_AREA": 1,
       "DCSM_DATA_MODE_ALL": 2
     },
-    "set": "Fe",
+    "set": "control_sequences",
     "has_intermediate_byte": false
   },
   {
@@ -962,7 +962,7 @@
       1
     ],
     "description": "Deletes one or more characters at the active position, shifting left remaining characters.",
-    "set": "Fe",
+    "set": "control_sequences",
     "has_intermediate_byte": false
   },
   {
@@ -982,7 +982,7 @@
       "THE SHIFTED PART IS LIMITED TO THE ACTIVE QUALIFIED AREA": 3,
       "THE SHIFTED PART CONSISTS OF THE RELEVANT PART OF THE ENTIRE PRESENTATION COMPONENT": 4
     },
-    "set": "Fe",
+    "set": "control_sequences",
     "has_intermediate_byte": false
   },
   {
@@ -996,7 +996,7 @@
       1
     ],
     "description": "Transmits the active position coordinates back to the host system as a response sequence.",
-    "set": "Fe",
+    "set": "control_sequences",
     "has_intermediate_byte": false
   },
   {
@@ -1009,7 +1009,7 @@
       1
     ],
     "description": "Scrolls the contents of the display upwards by a specified number of lines.",
-    "set": "Fe",
+    "set": "control_sequences",
     "has_intermediate_byte": false
   },
   {
@@ -1022,7 +1022,7 @@
       1
     ],
     "description": "Scrolls the contents of the display downwards by a specified number of lines.",
-    "set": "Fe",
+    "set": "control_sequences",
     "has_intermediate_byte": false
   },
   {
@@ -1035,7 +1035,7 @@
       1
     ],
     "description": "Advances the display view forward by a specified number of pages.",
-    "set": "Fe",
+    "set": "control_sequences",
     "has_intermediate_byte": false
   },
   {
@@ -1048,7 +1048,7 @@
       1
     ],
     "description": "Regresses the display view backward by a specified number of pages.",
-    "set": "Fe",
+    "set": "control_sequences",
     "has_intermediate_byte": false
   },
   {
@@ -1070,7 +1070,7 @@
       "ALL CHARACTER TABULATION STOPS ARE CLEARED": 5,
       "ALL LINE TABULATION STOPS ARE CLEARED": 6
     },
-    "set": "Fe",
+    "set": "control_sequences",
     "has_intermediate_byte": false
   },
   {
@@ -1083,7 +1083,7 @@
       1
     ],
     "description": "Erases a specified number of characters starting at the active position without moving the cursor.",
-    "set": "Fe",
+    "set": "control_sequences",
     "has_intermediate_byte": false
   },
   {
@@ -1096,7 +1096,7 @@
       1
     ],
     "description": "Advances the active position by a specified number of line tabulation stops.",
-    "set": "Fe",
+    "set": "control_sequences",
     "has_intermediate_byte": false
   },
   {
@@ -1109,7 +1109,7 @@
       1
     ],
     "description": "Moves the active position backward by a specified number of character tabulation stops.",
-    "set": "Fe",
+    "set": "control_sequences",
     "has_intermediate_byte": false
   },
   {
@@ -1126,7 +1126,7 @@
       "START REVERSED": 0,
       "END REVERSED": 1
     },
-    "set": "Fe",
+    "set": "control_sequences",
     "has_intermediate_byte": false
   },
   {
@@ -1147,7 +1147,7 @@
       "BEGINNING OF A STRING OF SUPPLEMENTARY CHINESE PHONETIC ANNOTATION": 4,
       "END OF A STRING OF SUPPLEMENTARY PHONETIC ANNOTATIONS": 5
     },
-    "set": "Fe",
+    "set": "control_sequences",
     "has_intermediate_byte": false
   },
   {
@@ -1165,7 +1165,7 @@
       "START OF A DIRECTED STRING, ESTABLISH THE DIRECTION LEFT-TO-RIGHT": 1,
       "START OF A DIRECTED STRING, ESTABLISH THE DIRECTION RIGHT-TO-LEFT": 2
     },
-    "set": "Fe",
+    "set": "control_sequences",
     "has_intermediate_byte": false
   },
   {
@@ -1182,7 +1182,7 @@
       "THE DIRECTION OF IMPLICIT MOVEMENT IS THE SAME AS THAT OF THE CHARACTER PROGRESSION": 0,
       "THE DIRECTION OF IMPLICIT MOVEMENT IS OPPOSITE TO THAT OF THE CHARACTER PROGRESSION": 1
     },
-    "set": "Fe",
+    "set": "control_sequences",
     "has_intermediate_byte": false
   },
   {
@@ -1195,7 +1195,7 @@
       1
     ],
     "description": "Moves the active position to a specified horizontal coordinate without affecting the vertical position.",
-    "set": "Fe",
+    "set": "control_sequences",
     "has_intermediate_byte": false
   },
   {
@@ -1208,7 +1208,7 @@
       1
     ],
     "description": "Moves the active position forward by a specified number of character positions relative to its current spot.",
-    "set": "Fe",
+    "set": "control_sequences",
     "has_intermediate_byte": false
   },
   {
@@ -1221,7 +1221,7 @@
       1
     ],
     "description": "REP is used to indicate that the preceding character in the data stream, if it is a graphic character\n(represented by one or more bit combinations) including SPACE, is to be repeated n times, where n\nequals the value of Pn. If the character preceding REP is a control function or part of a control function,\nthe effect of REP is not defined by this Standard.",
-    "set": "Fe",
+    "set": "control_sequences",
     "has_intermediate_byte": false
   },
   {
@@ -1232,7 +1232,7 @@
     "argument_count": -1,
     "default_arguments": [],
     "description": "DAQ is used to indicate that the active presentation position in the presentation component is the first\ncharacter position of a qualified area. The last character position of the qualified area is the character\nposition in the presentation component immediately preceding the first character position of the\nfollowing qualified area.\nThe parameter value designates the type of qualified area:\n0\n unprotected and unguarded\n1\n protected and guarded\n2\n graphic character input\n3\n numeric input\n4\n alphabetic input\n5\n input aligned on the last character position of the qualified area\n6\n fill with ZEROs\n7 set a character tabulation stop at the active presentation position (the first character position of the\nqualified area) to indicate the beginning of a field\n8\n protected and unguarded\n9\n fill with SPACEs\n10 input aligned on the first character position of the qualified area\n11 the order of the character positions in the input field is reversed, i.e. the last position in each line\nbecomes the first and vice versa; input begins at the new first position.\n\nThis control function operates independently of the setting of the TABULATION STOP MODE (TSM).\nThe character tabulation stop set by parameter value 7 applies to the active line only.\nNOTE\nThe control functions for area definition (DAQ, EPA, ESA, SPA, SSA) should not be used within an SRS\nstring or an SDS string.",
-    "set": "Fe",
+    "set": "control_sequences",
     "has_intermediate_byte": false
   },
   {
@@ -1245,7 +1245,7 @@
       1
     ],
     "description": "Moves the active position to a specified vertical line number without affecting the horizontal coordinate.",
-    "set": "Fe",
+    "set": "control_sequences",
     "has_intermediate_byte": false
   },
   {
@@ -1258,7 +1258,7 @@
       1
     ],
     "description": "Moves the active position downward by a specified number of lines relative to its current spot.",
-    "set": "Fe",
+    "set": "control_sequences",
     "has_intermediate_byte": false
   },
   {
@@ -1272,7 +1272,7 @@
       1
     ],
     "description": "Moves the active position to a specific line and column coordinate (equivalent to CUP).",
-    "set": "Fe",
+    "set": "control_sequences",
     "has_intermediate_byte": false
   },
   {
@@ -1293,7 +1293,7 @@
       "ALL LINE TABULATION STOPS ARE CLEARED": 4,
       "ALL TABULATION STOPS ARE CLEARED": 5
     },
-    "set": "Fe",
+    "set": "control_sequences",
     "has_intermediate_byte": false
   },
   {
@@ -1326,7 +1326,7 @@
       "GRAPHIC RENDITION COMBINATION": 21,
       "ZERO DEFAULT MODE": 22
     },
-    "set": "Fe",
+    "set": "control_sequences",
     "has_intermediate_byte": false
   },
   {
@@ -1349,7 +1349,7 @@
       "STOP RELAY TO A SECONDARY AUXILIARY DEVICE": 6,
       "START RELAY TO A SECONDARY AUXILIARY DEVICE": 7
     },
-    "set": "Fe",
+    "set": "control_sequences",
     "has_intermediate_byte": false
   },
   {
@@ -1362,7 +1362,7 @@
       1
     ],
     "description": "HPB causes the active data position to be moved by n character positions in the data component in the\ndirection opposite to that of the character progression, where n equals the value of Pn.",
-    "set": "Fe",
+    "set": "control_sequences",
     "has_intermediate_byte": false
   },
   {
@@ -1375,7 +1375,7 @@
       1
     ],
     "description": "VPB causes the active data position to be moved by n line positions in the data component in a direction\nopposite to that of the line progression, where n equals the value of Pn.",
-    "set": "Fe",
+    "set": "control_sequences",
     "has_intermediate_byte": false
   },
   {
@@ -1408,7 +1408,7 @@
       "GRAPHIC RENDITION COMBINATION": 21,
       "ZERO DEFAULT MODE": 22
     },
-    "set": "Fe",
+    "set": "control_sequences",
     "has_intermediate_byte": false
   },
   {
@@ -1478,7 +1478,7 @@
       "IDEOGRAM STRESS MARKING": 64,
       "CANCELS THE EFFECT OF THE RENDITION ASPECTS ESTABLISHED BY PARAMETER VALUES 60 TO 64": 65
     },
-    "set": "Fe",
+    "set": "control_sequences",
     "has_intermediate_byte": false
   },
   {
@@ -1500,7 +1500,7 @@
       "A DSR IS REQUESTED": 5,
       "A REPORT OF THE ACTIVE PRESENTATION POSITION OR OF THE ACTIVE DATA POSITION IN THE FORM OF ACTIVE POSITION REPORT IS REQUESTED": 6
     },
-    "set": "Fe",
+    "set": "control_sequences",
     "has_intermediate_byte": false
   },
   {
@@ -1525,7 +1525,7 @@
       "INPUT ALIGNED ON THE FIRST CHARACTER POSITION OF THE QUALIFIED AREA": 10,
       "THE ORDER OF THE CHARACTER POSITIONS IN THE INPUT FIELD IS REVERSED": 11
     },
-    "set": "Fe",
+    "set": "control_sequences",
     "has_intermediate_byte": false
   },
   {
@@ -1538,7 +1538,7 @@
       1
     ],
     "description": "SL causes the data in the presentation component to be moved by n character positions if the line\norientation is horizontal, or by n line positions if the line orientation is vertical, such that the data appear\nto move to the left; where n equals the value of Pn.\nThe active presentation position is not affected by this control function.",
-    "set": "Fe",
+    "set": "control_sequences",
     "has_intermediate_byte": true
   },
   {
@@ -1551,7 +1551,7 @@
       1
     ],
     "description": "SR causes the data in the presentation component to be moved by n character positions if the line\norientation is horizontal, or by n line positions if the line orientation is vertical, such that the data appear\nto move to the right; where n equals the value of Pn.\nThe active presentation position is not affected by this control function.",
-    "set": "Fe",
+    "set": "control_sequences",
     "has_intermediate_byte": true
   },
   {
@@ -1565,7 +1565,7 @@
       100
     ],
     "description": "GSM is used to modify for subsequent text the height and/or the width of all primary and alternative\nfonts identified by FONT SELECTION (FNT) and established by GRAPHIC SIZE SELECTION (GSS).\nThe established values remain in effect until the next occurrence of GSM or GSS in the data steam.\nPn1\nPn2\nspecifies the height as a percentage of the height established by GSS\nspecifies the width as a percentage of the width established by GSS",
-    "set": "Fe",
+    "set": "control_sequences",
     "has_intermediate_byte": true
   },
   {
@@ -1578,7 +1578,7 @@
       null
     ],
     "description": "GSS is used to establish for subsequent text the height and the width of all primary and alternative fonts\nidentified by FONT SELECTION (FNT). The established values remain in effect until the next\noccurrence of GSS in the data stream.\nPn specifies the height, the width is implicitly defined by the height.\nThe unit in which the parameter value is expressed is that established by the parameter value of SELECT\nSIZE UNIT (SSU).",
-    "set": "Fe",
+    "set": "control_sequences",
     "has_intermediate_byte": true
   },
   {
@@ -1604,7 +1604,7 @@
       "EIGTH ALTERNATIVE FONT": 8,
       "NINTH ALTERNATIVE FONT": 9
     },
-    "set": "Fe",
+    "set": "control_sequences",
     "has_intermediate_byte": true
   },
   {
@@ -1617,7 +1617,7 @@
       null
     ],
     "description": "TSS is used to establish the width of a thin space for subsequent text. The established width remains in\neffect until the next occurrence of TSS in the data stream, see annex C.\nPn specifies the width of the thin space.\nThe unit in which the parameter value is expressed is that established by the parameter value of SELECT\nSIZE UNIT (SSU).",
-    "set": "Fe",
+    "set": "control_sequences",
     "has_intermediate_byte": true
   },
   {
@@ -1639,7 +1639,7 @@
       "FLUSH TO LINE LIMIT POSITION MARGIN": 7,
       "ITALIAN HYPHENATION": 8
     },
-    "set": "Fe",
+    "set": "control_sequences",
     "has_intermediate_byte": true
   },
   {
@@ -1653,7 +1653,7 @@
       null
     ],
     "description": "SPI is used to establish the line spacing and the character spacing for subsequent text. The established\nline spacing remains in effect until the next occurrence of SPI or of SET LINE SPACING (SLS) or of\nSELECT LINE SPACING (SVS) in the data stream. The established character spacing remains in effect\nuntil the next occurrence of SET CHARACTER SPACING (SCS) or of SELECT CHARACTER\nSPACING (SHS) in the data stream, see annex C.\nPn1 specifies the line spacing\nPn2 specifies the character spacing\nThe unit in which the parameter values are expressed is that established by the parameter value of\nSELECT SIZE UNIT (SSU).",
-    "set": "Fe",
+    "set": "control_sequences",
     "has_intermediate_byte": true
   },
   {
@@ -1673,7 +1673,7 @@
       "FLUSH TO LINE LIMIT POSITION MARGIN AND FILL WITH LEADER": 5,
       "FLUSH TO BOTH MARGINS": 6
     },
-    "set": "Fe",
+    "set": "control_sequences",
     "has_intermediate_byte": true
   },
   {
@@ -1697,7 +1697,7 @@
       "PIXEL - THE SMALLEST INCREMENT THAT CAN BE SPECIFIED IN A DEVICE": 7,
       "DECIPOINT - 0,035 14 MM": 8
     },
-    "set": "Fe",
+    "set": "control_sequences",
     "has_intermediate_byte": true
   },
   {
@@ -1728,7 +1728,7 @@
       "B4 SHORT LINES FORMAT": 14,
       "B4 LONG LINES FORMAT": 15
     },
-    "set": "Fe",
+    "set": "control_sequences",
     "has_intermediate_byte": true
   },
   {
@@ -1750,7 +1750,7 @@
       "CONST 9 CHARACTERS PER 50,8 MM": 5,
       "CONST 4 CHARACTERS PER 25,4 MM": 6
     },
-    "set": "Fe",
+    "set": "control_sequences",
     "has_intermediate_byte": true
   },
   {
@@ -1775,7 +1775,7 @@
       "CONST 12 LINES PER 30,0 MM": 8,
       "CONST 2 LINES PER 25,4 MM": 9
     },
-    "set": "Fe",
+    "set": "control_sequences",
     "has_intermediate_byte": true
   },
   {
@@ -1788,7 +1788,7 @@
       null
     ],
     "description": "IGS is used to indicate that a repertoire of the graphic characters of ISO/IEC 10367 is used in the\nsubsequent text.",
-    "set": "Fe",
+    "set": "control_sequences",
     "has_intermediate_byte": true
   },
   {
@@ -1805,7 +1805,7 @@
       "RESERVED FOR USE WITH THE DIAGNOSTIC STATE OF THE STATUS REPORT TRANSFER MODE": 1,
       "RESERVED FOR DYNAMICALLY REDEFINABLE CHARACTER SETS ACCORDING TO STANDARD ECMA-35": 2
     },
-    "set": "Fe",
+    "set": "control_sequences",
     "has_intermediate_byte": true
   },
   {
@@ -1818,7 +1818,7 @@
       1
     ],
     "description": "PPA causes the active data position to be moved in the data component to the corresponding character\nposition on the n-th page, where n equals the value of Pn.",
-    "set": "Fe",
+    "set": "control_sequences",
     "has_intermediate_byte": true
   },
   {
@@ -1831,7 +1831,7 @@
       1
     ],
     "description": "PPR causes the active data position to be moved in the data component to the corresponding character\nposition on the n-th following page, where n equals the value of Pn.",
-    "set": "Fe",
+    "set": "control_sequences",
     "has_intermediate_byte": true
   },
   {
@@ -1844,7 +1844,7 @@
       1
     ],
     "description": "PPB causes the active data position to be moved in the data component to the corresponding character\nposition on the n-th preceding page, where n equals the value of Pn.",
-    "set": "Fe",
+    "set": "control_sequences",
     "has_intermediate_byte": true
   },
   {
@@ -1858,7 +1858,7 @@
       0
     ],
     "description": "SPD is used to select the line orientation, the line progression, and the character path in the presentation\ncomponent. It is also used to update the content of the presentation component and the content of the\ndata component. This takes effect immediately.\nPs1 specifies the line orientation, the line progression and the character path\nPs2 specifies the effect on the content of the presentation component and the content of the data\ncomponent:",
-    "set": "Fe",
+    "set": "control_sequences",
     "has_intermediate_byte": true
   },
   {
@@ -1872,7 +1872,7 @@
       null
     ],
     "description": "DTA is used to establish the dimensions of the text area for subsequent pages.\nThe established dimensions remain in effect until the next occurrence of DTA in the data stream.\nPn1\n specifies the dimension in the direction perpendicular to the line orientation\nPn2\n specifies the dimension in the direction parallel to the line orientation\nThe unit in which the parameter value is expressed is that established by the parameter value of SELECT\nSIZE UNIT (SSU).",
-    "set": "Fe",
+    "set": "control_sequences",
     "has_intermediate_byte": true
   },
   {
@@ -1885,7 +1885,7 @@
       null
     ],
     "description": "If the DEVICE COMPONENT SELECT MODE is set to PRESENTATION, SLH is used to establish at\ncharacter position n in the active line (the line that contains the active presentation position) and lines of\nsubsequent text in the presentation component the position to which the active presentation position will\nbe moved by subsequent occurrences of CARRIAGE RETURN (CR), DELETE LINE (DL), INSERT\nLINE (IL) or NEXT LINE (NEL) in the data stream; where n equals the value of Pn. In the case of a\ndevice without data component, it is also the position ahead of which no implicit movement of the active\npresentation position shall occur.\nIf the DEVICE COMPONENT SELECT MODE is set to DATA, SLH is used to establish at character\nposition n in the active line (the line that contains the active data position) and lines of subsequent text\nin the data component the position to which the active data position will be moved by subsequent\noccurrences of CARRIAGE RETURN (CR), DELETE LINE (DL), INSERT LINE (IL) or NEXT LINE\n(NEL) in the data stream; where n equals the value of Pn. It is also the position ahead of which no\nimplicit movement of the active data position shall occur.\nThe established position is called the line home position and remains in effect until the next occurrence\nof SLH in the data stream.",
-    "set": "Fe",
+    "set": "control_sequences",
     "has_intermediate_byte": true
   },
   {
@@ -1898,7 +1898,7 @@
       null
     ],
     "description": "If the DEVICE COMPONENT SELECT MODE is set to PRESENTATION, SLL is used to establish at\ncharacter position n in the active line (the line that contains the active presentation position) and lines of\nsubsequent text in the presentation component the position to which the active presentation position will\nbe moved by subsequent occurrences of CARRIAGE RETURN (CR), or NEXT LINE (NEL) in the data\nstream if the parameter value of SELECT IMPLICIT MOVEMENT DIRECTION (SIMD) is equal to 1;\nwhere n equals the value of Pn. In the case of a device without data component, it is also the position\nbeyond which no implicit movement of the active presentation position shall occur.\nIf the DEVICE COMPONENT SELECT MODE is set to DATA, SLL is used to establish at character\nposition n in the active line (the line that contains the active data position) and lines of subsequent text\nin the data component the position beyond which no implicit movement of the active data position shall\noccur. It is also the position in the data component to which the active data position will be moved by\nsubsequent occurrences of CR or NEL in the data stream, if the parameter value of SELECT IMPLICIT\nMOVEMENT DIRECTION (SIMD) is equal to 1.\nThe established position is called the line limit position and remains in effect until the next occurrence\nof SLL in the data stream.",
-    "set": "Fe",
+    "set": "control_sequences",
     "has_intermediate_byte": true
   },
   {
@@ -1911,7 +1911,7 @@
       null
     ],
     "description": "FNK is a control function in which the parameter value identifies the function key which has been operated.",
-    "set": "Fe",
+    "set": "control_sequences",
     "has_intermediate_byte": true
   },
   {
@@ -1929,7 +1929,7 @@
       "MEDIUM PRINT QUALITY, MEDIUM PRINT SPEED": 1,
       "DRAFT PRINT QUALITY, HIGHEST AVAILABLE PRINT SPEED": 2
     },
-    "set": "Fe",
+    "set": "control_sequences",
     "has_intermediate_byte": true
   },
   {
@@ -1943,7 +1943,7 @@
       0
     ],
     "description": "SEF causes a sheet of paper to be ejected from a printing device into a specified output stacker and\nanother sheet to be loaded into the printing device from a specified paper bin.\nParameter values of Ps1 are:\n0\n eject sheet, no new sheet loaded\n1\n eject sheet and load another from bin 1\n2\n eject sheet and load another from bin 2\n.\n.\n.\nn\n eject sheet and load another from bin n\nParameter values of Ps2 are:\n0\n eject sheet, no stacker specified\n1\n eject sheet into stacker 1\n2\n eject sheet into stacker 2\n.\n.\n.\nn\n eject sheet into stacker n\n",
-    "set": "Fe",
+    "set": "control_sequences",
     "has_intermediate_byte": true
   },
   {
@@ -1961,7 +1961,7 @@
       "EXPANDED": 1,
       "CONDENSED": 2
     },
-    "set": "Fe",
+    "set": "control_sequences",
     "has_intermediate_byte": true
   },
   {
@@ -1974,7 +1974,7 @@
       null
     ],
     "description": "SSW is used to establish for subsequent text the character escapement associated with the character\nSPACE. The established escapement remains in effect until the next occurrence of SSW in the data\nstream or until it is reset to the default value by a subsequent occurrence of CARRIAGE RETURN/LINE\nFEED (CR/LF), CARRIAGE RETURN/FORM FEED (CR/FF), or of NEXT LINE (NEL) in the data\nstream, see annex C.\nPn specifies the escapement.\nThe unit in which the parameter value is expressed is that established by the parameter value of SELECT\nSIZE UNIT (SSU).\nThe default character escapement of SPACE is specified by the most recent occurrence of SET\nCHARACTER SPACING (SCS) or of SELECT CHARACTER SPACING (SHS) or of SELECT\nSPACING INCREMENT (SPI) in the data stream if the current font has constant spacing, or is specified\nby the nominal width of the character SPACE in the current font if that font has proportional spacing.",
-    "set": "Fe",
+    "set": "control_sequences",
     "has_intermediate_byte": true
   },
   {
@@ -1987,7 +1987,7 @@
       0
     ],
     "description": "SACS is used to establish extra inter-character escapement for subsequent text. The established extra\nescapement remains in effect until the next occurrence of SACS or of SET REDUCED CHARACTER\nSEPARATION (SRCS) in the data stream or until it is reset to the default value by a subsequent\noccurrence of CARRIAGE RETURN/LINE FEED (CR LF) or of NEXT LINE (NEL) in the data stream,\nsee annex C.\nPn specifies the number of units by which the inter-character escapement is enlarged.\nThe unit in which the parameter value is expressed is that established by the parameter value of SELECT\nSIZE UNIT (SSU).",
-    "set": "Fe",
+    "set": "control_sequences",
     "has_intermediate_byte": true
   },
   {
@@ -2023,7 +2023,7 @@
       "ESTABLISH CHARACTER PRESENTATION FORM": 21,
       "DE-ESTABLISH CHARACTER PRESENTATION FORM": 22
     },
-    "set": "Fe",
+    "set": "control_sequences",
     "has_intermediate_byte": true
   },
   {
@@ -2036,7 +2036,7 @@
       null
     ],
     "description": "STAB causes subsequent text in the presentation component to be aligned according to the position and\nthe properties of a tabulation stop which is selected from a list according to the value of the parameter\nPs.\nThe use of this control function and means of specifying a list of tabulation stops to be referenced by the\ncontrol function are specified in other standards, for example ISO 8613-6.",
-    "set": "Fe",
+    "set": "control_sequences",
     "has_intermediate_byte": true
   },
   {
@@ -2049,7 +2049,7 @@
       0
     ],
     "description": "GCC is used to indicate that two or more graphic characters are to be imaged as one single graphic\nsymbol. GCC with a parameter value of 0 indicates that the following two graphic characters are to be\nimaged as one single graphic symbol; GCC with a parameter value of 1 and GCC with a parameter value\nof 2 indicate respectively the beginning and the end of a string of graphic characters which are to be\nimaged as one single graphic symbol.",
-    "set": "Fe",
+    "set": "control_sequences",
     "has_intermediate_byte": true
   },
   {
@@ -2062,7 +2062,7 @@
       null
     ],
     "description": "TATE causes a character tabulation stop calling for trailing edge alignment to be set at character\nposition n in the active line (the line that contains the active presentation position) and lines of\nsubsequent text in the presentation component, where n equals the value of Pn. TATE causes the\nreplacement of any tabulation stop previously set at that character position, but does not affect other\ntabulation stops. A text string aligned with a tabulation stop set by TATE will be positioned so that the (trailing edge of\nthe) first graphic character of the string is placed at the tabulation stop.",
-    "set": "Fe",
+    "set": "control_sequences",
     "has_intermediate_byte": true
   },
   {
@@ -2075,7 +2075,7 @@
       null
     ],
     "description": "TALE causes a character tabulation stop calling for leading edge alignment to be set at character\nposition n in the active line (the line that contains the active presentation position) and lines of\nsubsequent text in the presentation component, where n equals the value of Pn. TALE causes the\nreplacement of any tabulation stop previously set at that character position, but does not affect other\ntabulation stops.\nA text string aligned with a tabulation stop set by TALE will be positioned so that the (leading edge of\nthe) last graphic character of the string is placed at the tabulation stop.",
-    "set": "Fe",
+    "set": "control_sequences",
     "has_intermediate_byte": true
   },
   {
@@ -2088,7 +2088,7 @@
       null
     ],
     "description": "TAC causes a character tabulation stop calling for centring to be set at character position n in the active\nline (the line that contains the active presentation position) and lines of subsequent text in the\npresentation component, where n equals the value of Pn. TAC causes the replacement of any tabulation\nstop previously set at that character position, but does not affect other tabulation stops.\nA text string centred upon a tabulation stop set by TAC will be positioned so that the (trailing edge of\nthe) first graphic character and the (leading edge of the) last graphic character are at approximately equal\ndistances from the tabulation stop.",
-    "set": "Fe",
+    "set": "control_sequences",
     "has_intermediate_byte": true
   },
   {
@@ -2102,7 +2102,7 @@
       32
     ],
     "description": "TCC causes a character tabulation stop calling for alignment of a target graphic character to be set at\ncharacter position n in the active line (the line that contains the active presentation position) and lines of\nsubsequent text in the presentation component, where n equals the value of Pn1, and the target character\nabout which centring is to be performed is specified by Pn2. TCC causes the replacement of any\ntabulation stop previously set at that character position, but does not affect other tabulation stops.\nThe positioning of a text string aligned with a tabulation stop set by TCC will be determined by the first\noccurrence in the string of the target graphic character; that character will be centred upon the tabulation\nstop. If the target character does not occur within the string, then the trailing edge of the first character\nof the string will be positioned at the tabulation stop.\nThe value of Pn2 indicates the code table position (binary value) of the target character in the currently\ninvoked code. For a 7-bit code, the permissible range of values is 32 to 127; for an 8-bit code, the\npermissible range of values is 32 to 127 and 160 to 255.",
-    "set": "Fe",
+    "set": "control_sequences",
     "has_intermediate_byte": true
   },
   {
@@ -2115,7 +2115,7 @@
       null
     ],
     "description": "TSR causes any character tabulation stop at character position n in the active line (the line that contains\nthe active presentation position) and lines of subsequent text in the presentation component to be\ncleared, but does not affect other tabulation stops. n equals the value of Pn.",
-    "set": "Fe",
+    "set": "control_sequences",
     "has_intermediate_byte": true
   },
   {
@@ -2138,7 +2138,7 @@
       "degrees_270": 6,
       "degrees_315": 7
     },
-    "set": "Fe",
+    "set": "control_sequences",
     "has_intermediate_byte": true
   },
   {
@@ -2151,7 +2151,7 @@
       0
     ],
     "description": "SRCS is used to establish reduced inter-character escapement for subsequent text. The established\nreduced escapement remains in effect until the next occurrence of SRCS or of SET ADDITIONAL\nCHARACTER SEPARATION (SACS) in the data stream or until it is reset to the default value by a\nsubsequent occurrence of CARRIAGE RETURN/LINE FEED (CR/LF) or of NEXT LINE (NEL) in the\ndata stream, see annex C.\nPn specifies the number of units by which the intercharacter escapement is reduced.\nThe unit in which the parameter values are expressed is that established by the parameter value of\nSELECT SIZE UNIT (SSU).",
-    "set": "Fe",
+    "set": "control_sequences",
     "has_intermediate_byte": true
   },
   {
@@ -2164,7 +2164,7 @@
       null
     ],
     "description": "SCS is used to establish the character spacing for subsequent text. The established spacing remains in\neffect until the next occurrence of SCS, or of SELECT CHARACTER SPACING (SHS) or of SPACING\nINCREMENT (SPI) in the data stream, see annex C.\nPn specifies the character spacing.\nThe unit in which the parameter value is expressed is that established by the parameter value of SELECT\nSIZE UNIT (SSU).",
-    "set": "Fe",
+    "set": "control_sequences",
     "has_intermediate_byte": true
   },
   {
@@ -2177,7 +2177,7 @@
       null
     ],
     "description": "SLS is used to establish the line spacing for subsequent text. The established spacing remains in effect\nuntil the next occurrence of SLS or of SELECT LINE SPACING (SVS) or of SPACING INCREMENT\n(SPI) in the data stream.\nPn specifies the line spacing.\nThe unit in which the parameter value is expressed is that established by the parameter value of SELECT\nSIZE UNIT (SSU).",
-    "set": "Fe",
+    "set": "control_sequences",
     "has_intermediate_byte": true
   },
   {
@@ -2190,7 +2190,7 @@
       null
     ],
     "description": "If the DEVICE COMPONENT SELECT MODE is set to PRESENTATION, SPH is used to establish at\nline position n in the active page (the page that contains the active presentation position) and subsequent\npages in the presentation component the position to which the active presentation position will be moved\nby subsequent occurrences of FORM FEED (FF) in the data stream; where n equals the value of Pn. In\nthe case of a device without data component, it is also the position ahead of which no implicit movement\nof the active presentation position shall occur.\nIf the DEVICE COMPONENT SELECT MODE is set to DATA, SPH is used to establish at line position\nn in the active page (the page that contains the active data position) and subsequent pages in the data\ncomponent the position to which the active data position will be moved by subsequent occurrences of\nFORM FEED (FF) in the data stream; where n equals the value of Pn. It is also the position ahead of\nwhich no implicit movement of the active presentation position shall occur.\nThe established position is called the page home position and remains in effect until the next occurrence\nof SPH in the data stream.",
-    "set": "Fe",
+    "set": "control_sequences",
     "has_intermediate_byte": true
   },
   {
@@ -2203,7 +2203,7 @@
       null
     ],
     "description": "If the DEVICE COMPONENT SELECT MODE is set to PRESENTATION, SPL is used to establish at\nline position n in the active page (the page that contains the active presentation position) and pages of\nsubsequent text in the presentation component the position beyond which the active presentation position\ncan normally not be moved; where n equals the value of Pn. In the case of a device without data\ncomponent, it is also the position beyond which no implicit movement of the active presentation position\nshall occur.\nIf the DEVICE COMPONENT SELECT MODE is set to DATA, SPL is used to establish at line position\nn in the active page (the page that contains the active data position) and pages of subsequent text in the\ndata component the position beyond which no implicit movement of the active data position shall occur.\nThe established position is called the page limit position and remains in effect until the next occurrence\nof SPL in the data stream.",
-    "set": "Fe",
+    "set": "control_sequences",
     "has_intermediate_byte": true
   },
   {
@@ -2221,7 +2221,7 @@
       "left-to-right": 1,
       "right-to-left": 2
     },
-    "set": "Fe",
+    "set": "control_sequences",
     "has_intermediate_byte": true
   }
 ]

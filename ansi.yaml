@@ -637,7 +637,7 @@
   has_intermediate_byte: false
   name: INSERT CHARACTER
   row: 0
-  set: Fe
+  set: control_sequences
 - abbreviation: CUU
   argument_count: 1
   col: 4
@@ -647,7 +647,7 @@
   has_intermediate_byte: false
   name: CURSOR UP
   row: 1
-  set: Fe
+  set: control_sequences
 - abbreviation: CUD
   argument_count: 1
   col: 4
@@ -657,7 +657,7 @@
   has_intermediate_byte: false
   name: CURSOR DOWN
   row: 2
-  set: Fe
+  set: control_sequences
 - abbreviation: CUF
   argument_count: 1
   col: 4
@@ -668,7 +668,7 @@
   has_intermediate_byte: false
   name: CURSOR FORWARD
   row: 3
-  set: Fe
+  set: control_sequences
 - abbreviation: CUB
   argument_count: 1
   col: 4
@@ -679,7 +679,7 @@
   has_intermediate_byte: false
   name: CURSOR BACKWARD
   row: 4
-  set: Fe
+  set: control_sequences
 - abbreviation: CNL
   argument_count: 1
   col: 4
@@ -690,7 +690,7 @@
   has_intermediate_byte: false
   name: CURSOR NEXT LINE
   row: 5
-  set: Fe
+  set: control_sequences
 - abbreviation: CPL
   argument_count: 1
   col: 4
@@ -701,7 +701,7 @@
   has_intermediate_byte: false
   name: CURSOR PRECEDING LINE
   row: 6
-  set: Fe
+  set: control_sequences
 - abbreviation: CHA
   argument_count: 1
   col: 4
@@ -712,7 +712,7 @@
   has_intermediate_byte: false
   name: CURSOR CHARACTER ABSOLUTE
   row: 7
-  set: Fe
+  set: control_sequences
 - abbreviation: CUP
   argument_count: 2
   col: 4
@@ -723,7 +723,7 @@
   has_intermediate_byte: false
   name: CURSOR POSITION
   row: 8
-  set: Fe
+  set: control_sequences
 - abbreviation: CHT
   argument_count: 1
   col: 4
@@ -734,7 +734,7 @@
   has_intermediate_byte: false
   name: CURSOR FORWARD TABULATION
   row: 9
-  set: Fe
+  set: control_sequences
 - abbreviation: ED
   argument_count: 1
   col: 4
@@ -752,7 +752,7 @@
   has_intermediate_byte: false
   name: ERASE IN PAGE
   row: 10
-  set: Fe
+  set: control_sequences
 - abbreviation: EL
   argument_count: 1
   col: 4
@@ -763,7 +763,7 @@
   has_intermediate_byte: false
   name: ERASE IN LINE
   row: 11
-  set: Fe
+  set: control_sequences
 - abbreviation: IL
   argument_count: 1
   col: 4
@@ -774,7 +774,7 @@
   has_intermediate_byte: false
   name: INSERT LINE
   row: 12
-  set: Fe
+  set: control_sequences
 - abbreviation: DL
   argument_count: 1
   col: 4
@@ -785,7 +785,7 @@
   has_intermediate_byte: false
   name: DELETE LINE
   row: 13
-  set: Fe
+  set: control_sequences
 - abbreviation: EF
   argument_count: 1
   col: 4
@@ -802,7 +802,7 @@
   has_intermediate_byte: false
   name: ERASE IN FIELD
   row: 14
-  set: Fe
+  set: control_sequences
 - abbreviation: EA
   argument_count: 1
   col: 4
@@ -819,7 +819,7 @@
   has_intermediate_byte: false
   name: ERASE IN AREA
   row: 15
-  set: Fe
+  set: control_sequences
 - abbreviation: DCH
   argument_count: 1
   col: 5
@@ -830,7 +830,7 @@
   has_intermediate_byte: false
   name: DELETE CHARACTER
   row: 0
-  set: Fe
+  set: control_sequences
 - abbreviation: SEE
   argument_count: 1
   col: 5
@@ -847,7 +847,7 @@
   has_intermediate_byte: false
   name: SELECT EDITING EXTENT
   row: 1
-  set: Fe
+  set: control_sequences
 - abbreviation: CPR
   argument_count: 2
   col: 5
@@ -859,7 +859,7 @@
   has_intermediate_byte: false
   name: ACTIVE POSITION REPORT
   row: 2
-  set: Fe
+  set: control_sequences
 - abbreviation: SU
   argument_count: 1
   col: 5
@@ -870,7 +870,7 @@
   has_intermediate_byte: false
   name: SCROLL UP
   row: 3
-  set: Fe
+  set: control_sequences
 - abbreviation: SD
   argument_count: 1
   col: 5
@@ -881,7 +881,7 @@
   has_intermediate_byte: false
   name: SCROLL DOWN
   row: 4
-  set: Fe
+  set: control_sequences
 - abbreviation: NP
   argument_count: 1
   col: 5
@@ -891,7 +891,7 @@
   has_intermediate_byte: false
   name: NEXT PAGE
   row: 5
-  set: Fe
+  set: control_sequences
 - abbreviation: PP
   argument_count: 1
   col: 5
@@ -901,7 +901,7 @@
   has_intermediate_byte: false
   name: PRECEDING PAGE
   row: 6
-  set: Fe
+  set: control_sequences
 - abbreviation: CTC
   argument_count: -1
   col: 5
@@ -920,7 +920,7 @@
   has_intermediate_byte: false
   name: CURSOR TABULATION CONTROL
   row: 7
-  set: Fe
+  set: control_sequences
 - abbreviation: ECH
   argument_count: 1
   col: 5
@@ -931,7 +931,7 @@
   has_intermediate_byte: false
   name: ERASE CHARACTER
   row: 8
-  set: Fe
+  set: control_sequences
 - abbreviation: CVT
   argument_count: 1
   col: 5
@@ -942,7 +942,7 @@
   has_intermediate_byte: false
   name: CURSOR LINE TABULATION
   row: 9
-  set: Fe
+  set: control_sequences
 - abbreviation: CBT
   argument_count: 1
   col: 5
@@ -953,7 +953,7 @@
   has_intermediate_byte: false
   name: CURSOR BACKWARD TABULATION
   row: 10
-  set: Fe
+  set: control_sequences
 - abbreviation: SRS
   argument_count: 1
   col: 5
@@ -986,7 +986,7 @@
   has_intermediate_byte: false
   name: START REVERSED STRING
   row: 11
-  set: Fe
+  set: control_sequences
 - abbreviation: PTX
   argument_count: 1
   col: 5
@@ -1019,7 +1019,7 @@
   has_intermediate_byte: false
   name: PARALLEL TEXTS
   row: 12
-  set: Fe
+  set: control_sequences
 - abbreviation: SDS
   argument_count: 1
   col: 5
@@ -1048,7 +1048,7 @@
   has_intermediate_byte: false
   name: START DIRECTED STRING
   row: 13
-  set: Fe
+  set: control_sequences
 - abbreviation: SIMD
   argument_count: 1
   col: 5
@@ -1065,7 +1065,7 @@
   has_intermediate_byte: false
   name: SELECT IMPLICIT MOVEMENT DIRECTION
   row: 14
-  set: Fe
+  set: control_sequences
 - abbreviation: HPA
   argument_count: 1
   col: 6
@@ -1076,7 +1076,7 @@
   has_intermediate_byte: false
   name: CHARACTER POSITION ABSOLUTE
   row: 0
-  set: Fe
+  set: control_sequences
 - abbreviation: HPR
   argument_count: 1
   col: 6
@@ -1087,7 +1087,7 @@
   has_intermediate_byte: false
   name: CHARACTER POSITION RELATIVE
   row: 1
-  set: Fe
+  set: control_sequences
 - abbreviation: REP
   argument_count: 1
   col: 6
@@ -1106,7 +1106,7 @@
   has_intermediate_byte: false
   name: REPEAT
   row: 2
-  set: Fe
+  set: control_sequences
 - abbreviation: DA
   argument_count: -1
   col: 6
@@ -1132,7 +1132,7 @@
   has_intermediate_byte: false
   name: DEVICE ATTRIBUTES
   row: 3
-  set: Fe
+  set: control_sequences
 - abbreviation: VPA
   argument_count: 1
   col: 6
@@ -1143,7 +1143,7 @@
   has_intermediate_byte: false
   name: LINE POSITION ABSOLUTE
   row: 4
-  set: Fe
+  set: control_sequences
 - abbreviation: VPR
   argument_count: 1
   col: 6
@@ -1154,7 +1154,7 @@
   has_intermediate_byte: false
   name: LINE POSITION RELATIVE
   row: 5
-  set: Fe
+  set: control_sequences
 - abbreviation: HVP
   argument_count: 2
   col: 6
@@ -1166,7 +1166,7 @@
   has_intermediate_byte: false
   name: CHARACTER AND LINE POSITION
   row: 6
-  set: Fe
+  set: control_sequences
 - abbreviation: TBC
   argument_count: 1
   col: 6
@@ -1190,7 +1190,7 @@
   has_intermediate_byte: false
   name: TABULATION CLEAR
   row: 7
-  set: Fe
+  set: control_sequences
 - abbreviation: SM
   argument_count: -1
   col: 6
@@ -1232,7 +1232,7 @@
   has_intermediate_byte: false
   name: SET MODE
   row: 8
-  set: Fe
+  set: control_sequences
 - abbreviation: MC
   argument_count: 1
   col: 6
@@ -1259,7 +1259,7 @@
   has_intermediate_byte: false
   name: MEDIA COPY
   row: 9
-  set: Fe
+  set: control_sequences
 - abbreviation: HPB
   argument_count: 1
   col: 6
@@ -1273,7 +1273,7 @@
   has_intermediate_byte: false
   name: CHARACTER POSITION BACKWARD
   row: 10
-  set: Fe
+  set: control_sequences
 - abbreviation: VPB
   argument_count: 1
   col: 6
@@ -1286,7 +1286,7 @@
   has_intermediate_byte: false
   name: LINE POSITION BACKWARD
   row: 11
-  set: Fe
+  set: control_sequences
 - abbreviation: RM
   argument_count: -1
   col: 6
@@ -1328,7 +1328,7 @@
   has_intermediate_byte: false
   name: RESET MODE
   row: 12
-  set: Fe
+  set: control_sequences
 - abbreviation: SGR
   argument_count: -1
   col: 6
@@ -1396,7 +1396,7 @@
   has_intermediate_byte: false
   name: SELECT GRAPHIC RENDITION
   row: 13
-  set: Fe
+  set: control_sequences
 - abbreviation: DSR
   argument_count: 1
   col: 6
@@ -1416,7 +1416,7 @@
   has_intermediate_byte: false
   name: DEVICE STATUS REPORT
   row: 14
-  set: Fe
+  set: control_sequences
 - abbreviation: DAQ
   argument_count: -1
   col: 6
@@ -1438,7 +1438,7 @@
   has_intermediate_byte: false
   name: DEFINE AREA QUALIFICATION
   row: 15
-  set: Fe
+  set: control_sequences
 - abbreviation: SL
   argument_count: 1
   col: 4
@@ -1456,7 +1456,7 @@
   has_intermediate_byte: true
   name: SCROLL LEFT
   row: 0
-  set: Fe
+  set: control_sequences
 - abbreviation: SR
   argument_count: 1
   col: 4
@@ -1474,7 +1474,7 @@
   has_intermediate_byte: true
   name: SCROLL RIGHT
   row: 1
-  set: Fe
+  set: control_sequences
 - abbreviation: GSM
   argument_count: 2
   col: 4
@@ -1500,7 +1500,7 @@
   has_intermediate_byte: true
   name: GRAPHIC SIZE MODIFICATION
   row: 2
-  set: Fe
+  set: control_sequences
 - abbreviation: GSS
   argument_count: 1
   col: 4
@@ -1523,7 +1523,7 @@
   has_intermediate_byte: true
   name: GRAPHIC SIZE SELECTION
   row: 3
-  set: Fe
+  set: control_sequences
 - abbreviation: FNT
   argument_count: 2
   col: 4
@@ -1552,7 +1552,7 @@
   has_intermediate_byte: true
   name: FONT SELECTION
   row: 4
-  set: Fe
+  set: control_sequences
 - abbreviation: TSS
   argument_count: 1
   col: 4
@@ -1572,7 +1572,7 @@
   has_intermediate_byte: true
   name: THIN SPACE SPECIFICATION
   row: 5
-  set: Fe
+  set: control_sequences
 - abbreviation: JFY
   argument_count: -1
   col: 4
@@ -1600,7 +1600,7 @@
   has_intermediate_byte: true
   name: JUSTIFY
   row: 6
-  set: Fe
+  set: control_sequences
 - abbreviation: SPI
   argument_count: 2
   col: 4
@@ -1631,7 +1631,7 @@
   has_intermediate_byte: true
   name: SPACING INCREMENT
   row: 7
-  set: Fe
+  set: control_sequences
 - abbreviation: QUAD
   argument_count: -1
   col: 4
@@ -1663,7 +1663,7 @@
   has_intermediate_byte: true
   name: QUAD
   row: 8
-  set: Fe
+  set: control_sequences
 - abbreviation: SSU
   argument_count: 1
   col: 4
@@ -1691,7 +1691,7 @@
   has_intermediate_byte: true
   name: SELECT SIZE UNIT
   row: 9
-  set: Fe
+  set: control_sequences
 - abbreviation: PFS
   argument_count: 1
   col: 4
@@ -1730,7 +1730,7 @@
   has_intermediate_byte: true
   name: PAGE FORMAT SELECTION
   row: 10
-  set: Fe
+  set: control_sequences
 - abbreviation: SHS
   argument_count: 1
   col: 4
@@ -1754,7 +1754,7 @@
   has_intermediate_byte: true
   name: SELECT CHARACTER SPACING
   row: 11
-  set: Fe
+  set: control_sequences
 - abbreviation: SVS
   argument_count: 1
   col: 4
@@ -1781,7 +1781,7 @@
   has_intermediate_byte: true
   name: SELECT LINE SPACING
   row: 12
-  set: Fe
+  set: control_sequences
 - abbreviation: IGS
   argument_count: 1
   col: 4
@@ -1794,7 +1794,7 @@
   has_intermediate_byte: true
   name: IDENTIFY GRAPHIC SUBREPERTOIRE
   row: 13
-  set: Fe
+  set: control_sequences
 - abbreviation: IDCS
   argument_count: 1
   col: 4
@@ -1815,7 +1815,7 @@
   has_intermediate_byte: true
   name: IDENTIFY DEVICE CONTROL STRING
   row: 15
-  set: Fe
+  set: control_sequences
 - abbreviation: PPA
   argument_count: 1
   col: 5
@@ -1828,7 +1828,7 @@
   has_intermediate_byte: true
   name: PAGE POSITION ABSOLUTE
   row: 0
-  set: Fe
+  set: control_sequences
 - abbreviation: PPR
   argument_count: 1
   col: 5
@@ -1841,7 +1841,7 @@
   has_intermediate_byte: true
   name: PAGE POSITION FORWARD
   row: 1
-  set: Fe
+  set: control_sequences
 - abbreviation: PPB
   argument_count: 1
   col: 5
@@ -1854,7 +1854,7 @@
   has_intermediate_byte: true
   name: PAGE POSITION BACKWARD
   row: 2
-  set: Fe
+  set: control_sequences
 - abbreviation: SPD
   argument_count: 2
   col: 5
@@ -1878,7 +1878,7 @@
   has_intermediate_byte: true
   name: SELECT PRESENTATION DIRECTIONS
   row: 3
-  set: Fe
+  set: control_sequences
 - abbreviation: DTA
   argument_count: 2
   col: 5
@@ -1894,7 +1894,7 @@
   has_intermediate_byte: true
   name: DIMENSION TEXT AREA
   row: 4
-  set: Fe
+  set: control_sequences
 - abbreviation: SLH
   argument_count: 1
   col: 5
@@ -1944,7 +1944,7 @@
   has_intermediate_byte: true
   name: SET LINE HOME
   row: 5
-  set: Fe
+  set: control_sequences
 - abbreviation: SLL
   argument_count: 1
   col: 5
@@ -1994,7 +1994,7 @@
   has_intermediate_byte: true
   name: SET LINE LIMIT
   row: 6
-  set: Fe
+  set: control_sequences
 - abbreviation: FNK
   argument_count: 1
   col: 5
@@ -2005,7 +2005,7 @@
   has_intermediate_byte: true
   name: FUNCTION KEY
   row: 7
-  set: Fe
+  set: control_sequences
 - abbreviation: SPQR
   argument_count: 1
   col: 5
@@ -2024,7 +2024,7 @@
   has_intermediate_byte: true
   name: SELECT PRINT QUALITY AND RAPIDITY
   row: 8
-  set: Fe
+  set: control_sequences
 - abbreviation: SEF
   argument_count: 2
   col: 5
@@ -2042,7 +2042,7 @@
   has_intermediate_byte: true
   name: SHEET EJECT AND FEED
   row: 9
-  set: Fe
+  set: control_sequences
 - abbreviation: PEC
   argument_count: 1
   col: 5
@@ -2065,7 +2065,7 @@
   has_intermediate_byte: true
   name: PRESENTATION EXPAND OR CONTRACT
   row: 10
-  set: Fe
+  set: control_sequences
 - abbreviation: SSW
   argument_count: 1
   col: 5
@@ -2105,7 +2105,7 @@
   has_intermediate_byte: true
   name: SET SPACE WIDTH
   row: 11
-  set: Fe
+  set: control_sequences
 - abbreviation: SACS
   argument_count: 1
   col: 5
@@ -2134,7 +2134,7 @@
   has_intermediate_byte: true
   name: SET ADDITIONAL CHARACTER SEPARATION
   row: 12
-  set: Fe
+  set: control_sequences
 - abbreviation: SAPV
   argument_count: -1
   col: 5
@@ -2205,7 +2205,7 @@
   has_intermediate_byte: true
   name: SELECT ALTERNATIVE PRESENTATION VARIANTS
   row: 13
-  set: Fe
+  set: control_sequences
 - abbreviation: STAB
   argument_count: 1
   col: 5
@@ -2226,7 +2226,7 @@
   has_intermediate_byte: true
   name: SELECTIVE TABULATION
   row: 14
-  set: Fe
+  set: control_sequences
 - abbreviation: GCC
   argument_count: 1
   col: 5
@@ -2248,7 +2248,7 @@
   has_intermediate_byte: true
   name: GRAPHIC CHARACTER COMBINATION
   row: 15
-  set: Fe
+  set: control_sequences
 - abbreviation: TATE
   argument_count: 1
   col: 6
@@ -2273,7 +2273,7 @@
   has_intermediate_byte: true
   name: TABULATION ALIGNED TRAILING EDGE
   row: 0
-  set: Fe
+  set: control_sequences
 - abbreviation: TALE
   argument_count: 1
   col: 6
@@ -2300,7 +2300,7 @@
   has_intermediate_byte: true
   name: TABULATION ALIGNED LEADING EDGE
   row: 1
-  set: Fe
+  set: control_sequences
 - abbreviation: TAC
   argument_count: 1
   col: 6
@@ -2328,7 +2328,7 @@
   has_intermediate_byte: true
   name: TABULATION ALIGNED CENTRED
   row: 2
-  set: Fe
+  set: control_sequences
 - abbreviation: TCC
   argument_count: 2
   col: 6
@@ -2371,7 +2371,7 @@
   has_intermediate_byte: true
   name: TABULATION CENTRED ON CHARACTER
   row: 3
-  set: Fe
+  set: control_sequences
 - abbreviation: TSR
   argument_count: 1
   col: 6
@@ -2387,7 +2387,7 @@
   has_intermediate_byte: true
   name: TABULATION STOP REMOVE
   row: 4
-  set: Fe
+  set: control_sequences
 - abbreviation: SCO
   argument_count: 1
   col: 6
@@ -2413,7 +2413,7 @@
   has_intermediate_byte: true
   name: SELECT CHARACTER ORIENTATION
   row: 5
-  set: Fe
+  set: control_sequences
 - abbreviation: SRCS
   argument_count: 1
   col: 6
@@ -2442,7 +2442,7 @@
   has_intermediate_byte: true
   name: SET REDUCED CHARACTER SEPARATION
   row: 6
-  set: Fe
+  set: control_sequences
 - abbreviation: SCS
   argument_count: 1
   col: 6
@@ -2465,7 +2465,7 @@
   has_intermediate_byte: true
   name: SET CHARACTER SPACING
   row: 7
-  set: Fe
+  set: control_sequences
 - abbreviation: SLS
   argument_count: 1
   col: 6
@@ -2488,7 +2488,7 @@
   has_intermediate_byte: true
   name: SET LINE SPACING
   row: 8
-  set: Fe
+  set: control_sequences
 - abbreviation: SPH
   argument_count: 1
   col: 6
@@ -2532,7 +2532,7 @@
   has_intermediate_byte: true
   name: SET PAGE HOME
   row: 9
-  set: Fe
+  set: control_sequences
 - abbreviation: SPL
   argument_count: 1
   col: 6
@@ -2571,7 +2571,7 @@
   has_intermediate_byte: true
   name: SET PAGE LIMIT
   row: 10
-  set: Fe
+  set: control_sequences
 - abbreviation: SCP
   argument_count: 2
   col: 6
@@ -2595,4 +2595,4 @@
   has_intermediate_byte: true
   name: SELECT CHARACTER PATH
   row: 11
-  set: Fe
+  set: control_sequences
